@@ -144,11 +144,11 @@ rss:
 
 # lazyload
 lazyload:
-  enable: false
+  enable: true
 
 # cdn
 cdn:
-  enable: false
+  enable: true
 
 # pjax
 pjax:
@@ -161,3 +161,8 @@ footer:
 
 # 资源压缩
 all_minifier: true
+
+# ---------------------------------------------------------------------------------------
+# Keep version (Please don't modify) 用于解决CDN加速失败的问题
+# ---------------------------------------------------------------------------------------
+version: 3.4.3
