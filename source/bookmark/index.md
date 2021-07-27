@@ -102,6 +102,7 @@ date: 2021-07-26 10:41:52
 - [PanJiaChen/vue-element-admin: A magical vue admin https://panjiachen.github.io/vue-element-admin](https://github.com/PanJiaChen/vue-element-admin?utm_source=gold_browser_extension)
 - [ehang-io/nps: 一款轻量级、高性能、功能强大的内网穿透代理服务器。支持tcp、udp、socks5、http等几乎所有流量转发，可用来访问内网网站、本地支付接口调试、ssh访问、远程桌面，内网dns解析、内网socks5代理等等……，并带有功能强大的web管理端。a lightweight, high-performance, powerful intranet penetration proxy server, with a powerful web management terminal.](https://github.com/ehang-io/nps)
 - [88250/solo: 🎸 B3log 分布式社区的 Java 博客端节点系统，欢迎加入下一代社区网络。B3log distributed community blog-end node system, welcome to join the next generation community network.](https://github.com/88250/solo)
+- [core-lib/xjar: Spring Boot JAR 安全加密运行工具，支持的原生JAR。](https://github.com/core-lib/xjar)
 
 ## Hexo
 
