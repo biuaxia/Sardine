@@ -23,6 +23,7 @@ date: 2021-07-26 10:41:52
 - [迅雷小站](https://zhan.xunlei.com/)
 - [考试酷(examcoo)-永久免费的电子作业与在线考试系统云平台](https://www.examcoo.com/index/ku)
 - [OREOOO | 生成奥利奥](https://ljl.li/oreooo/)
+- [The free text converter for all your documents. – Alldocs](https://alldocs.app/)
 
 ## Developers
 
@@ -36,6 +37,7 @@ date: 2021-07-26 10:41:52
 - [全栈直通车-王世彪的博客](https://www.sofineday.com/)
 - [如何在win10 64位IE浏览器的基础上用上32位IE浏览器? - 知乎](https://www.zhihu.com/question/39074499)
 - [Choose an open source license | Choose a License](https://choosealicense.com/)
+- [map | 微信开放文档](https://developers.weixin.qq.com/miniprogram/dev/component/map.html)
 
 ### Golang
 
@@ -50,6 +52,7 @@ date: 2021-07-26 10:41:52
 - [聊聊-Java-的类加载机制二](https://nicksxs.me/2021/06/13/%E8%81%8A%E8%81%8A-Java-%E7%9A%84%E7%B1%BB%E5%8A%A0%E8%BD%BD%E6%9C%BA%E5%88%B6%E4%BA%8C/)
 - [云原生时代，Java的危与机-InfoQ](https://www.infoq.cn/article/rqfww2r2zpyqiolc1wbe)
 - [从零开始，手写 Spring IOC - 链滴](https://ld246.com/article/1624354513057)
+- [Spring Boot 2 实战：使用 Flyway 管理你数据库的版本变更 - SegmentFault 思否](https://segmentfault.com/a/1190000020850220)
 
 #### 开发工具
 
