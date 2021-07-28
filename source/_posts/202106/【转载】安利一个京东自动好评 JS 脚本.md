@@ -5,6 +5,7 @@ category:
  - 转载
 tags: [转载, 京东, Javascript]
 permalink: /articles/2021/06/18/1624031189077.html
+toc: true
 ---
 本文转载自：[安利一个京东自动好评 JS 脚本 – 目前可用 - 大鸟博客](https://www.daniao.org/4776.html)
 

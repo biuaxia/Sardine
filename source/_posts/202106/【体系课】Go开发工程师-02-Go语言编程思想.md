@@ -5,6 +5,7 @@ category:
  - Go
 tags: [慕课, imooc, 体系课, Go]
 permalink: /articles/2021/06/18/1626002681827.html
+toc: true
 ---
 ## 面向接口
 

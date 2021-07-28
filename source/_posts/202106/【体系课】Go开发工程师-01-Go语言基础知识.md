@@ -5,6 +5,7 @@ category:
  - Go
 tags: [慕课, imooc, 体系课, Go]
 permalink: /articles/2021/06/18/1624005800995.html
+toc: true
 ---
 ![](https://b3logfile.com/bing/20190830.jpg?imageView2/1/w/960/h/540/interlace/1/q/100)
 
