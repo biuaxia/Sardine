@@ -234,6 +234,7 @@ widgets:
       慕课网: "https://www.imooc.com/u/index/allcourses?utm_source=biuaxia.cn"
       Picx: "https://picx.xpoet.cn/#/upload?utm_source=biuaxia.cn"
       IconFont: "https://www.iconfont.cn?utm_source=biuaxia.cn"
+      jwt解析: "https://jwt.io?utm_source=biuaxia.cn"
   # Categories widget configurations
   - # Where should the widget be placed, left sidebar or right sidebar
     position: left
