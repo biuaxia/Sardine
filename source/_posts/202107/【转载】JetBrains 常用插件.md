@@ -16,6 +16,10 @@ permalink: /articles/2021/07/06/1625541308816.html
 
 上来先整点没用的吧，主题配色这个东西根据个人喜好；我比较喜欢花花绿绿的感觉，在防止眼疲劳的同时还有点 RMB 的感觉(RMB 也花花绿绿的)，毕竟 Coding 的时候要 “酷一点”，然后才能心情愉悦的写 BUG(代码和我只要有一个能跑就行)。
 
+
+<!-- more -->
+
+
 ![](https://b3logfile.com/file/2021/06/solo-fetchupload-7956068400462631881-4f1dd197.jpeg)
 
 ## Gopher
