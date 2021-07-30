@@ -22,6 +22,10 @@ cp /usr/share/applications/org.fcitx.Fcitx5.desktop ~/.config/autostart/
 
 重启电脑后就会正常启动。
 
+
+<!-- more -->
+
+
 fcitx5皮肤制作（无法实现动态基于搜狗皮肤）
 对，你没看错，这次是 fcitx5 是用搜狗皮肤！
 
