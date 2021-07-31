@@ -12,15 +12,13 @@ permalink: /articles/2021/07/26/1627276281592.html
 
 ---
 
-![](https://www.nbmao.com/wp-content/uploads/2021/07/62c03-1382341861.png)
-
 软件世界貌似有一些非常长寿的东西，vi算是一个。本篇文章聚焦的是研发线上最常用的一些功能。至于安装插件，写一些脚本，那一般是在开发机上玩的，生产环境没有条件、也没有时间忍受你做这些增强。希望看完本文，能够对这款神器有一个大体印象。当然，熟练的使用还需要日常有意识的培养。
 
 > vim是vi的增强版，一般现代linux都不缺那几兆空间，所以预装的都是增强版，本文默认使用vim。
 
-
 <!-- more -->
 
+![](https://b3logfile.com/file/2021/07/solo-fetchupload-6504974704771757212-6f728c6c.png)
 
 ## 养成习惯
 
@@ -90,11 +88,11 @@ vim最大的贡献就是它的按键系统。这也是为什么chrome、idea、a
 
 例子，选中一部分想要的内容，并删除。
 
-![](https://www.nbmao.com/wp-content/uploads/2021/07/4e72e-3777600350.gif)
+![](https://b3logfile.com/file/2021/07/solo-fetchupload-362442739740492398-4296fbb2.gif)
 
 ## ctrl+v 块模式
 
-![](https://www.nbmao.com/wp-content/uploads/2021/07/51459-1975096714.gif)
+![](https://b3logfile.com/file/2021/07/solo-fetchupload-3568388854781998829-aec89283.gif)
 
 演示：将文件中的每一行添加到ArrayList中：
 
@@ -106,7 +104,7 @@ vim最大的贡献就是它的按键系统。这也是为什么chrome、idea、a
 
 块模式还可以完成列的呼唤，貌似在UE里见过此神技。
 
-![](https://www.nbmao.com/wp-content/uploads/2021/07/dd6a2-2657902141.gif)
+![](https://b3logfile.com/file/2021/07/solo-fetchupload-4780889735066613713-35dcfa4a.gif)
 
 ## 命令模式
 
@@ -137,7 +135,7 @@ vim最大的贡献就是它的按键系统。这也是为什么chrome、idea、a
 这可以说是vim的一个杀手锏了。拿上面的例子来说。
 将文件中的每一行添加到ArrayList中
 
-![](https://www.nbmao.com/wp-content/uploads/2021/07/2a9da-3873867938.gif)
+![](https://b3logfile.com/file/2021/07/solo-fetchupload-2330669023976418547-6876811b.gif)
 
 * 1) 按下`gg`到行首
 * 2) 按下`qa`进行宏录制，a是我们起的一个标记名称
