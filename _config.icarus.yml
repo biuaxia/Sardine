@@ -236,6 +236,8 @@ widgets:
       IconFont: "https://www.iconfont.cn?utm_source=biuaxia.cn"
       jwt解析: "https://jwt.io?utm_source=biuaxia.cn"
       微信开发平台: "https://mp.weixin.qq.com?utm_source=biuaxia.cn"
+      字幕库: "http://zimuku.org?utm_source=biuaxia.cn"
+      字幕-SubHD: "https://subhd.tv?utm_source=biuaxia.cn"
   # Categories widget configurations
   - # Where should the widget be placed, left sidebar or right sidebar
     position: left
