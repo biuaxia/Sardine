@@ -7,6 +7,8 @@ tags: [SwitchyOmega, proxy, 备份]
 permalink: /articles/2021/06/22/1624365595584.html
 ---
 
+文件路径：<https://www.biuaxia.cn/OmegaOptions.bak>
+
 编辑源代码：
 
 ```javascript
