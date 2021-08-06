@@ -163,7 +163,7 @@ ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/app.jar"]
 
 ### (3) 在resource目录下创建application.properties文件
 
-```
+```properties文件
 logging.config=classpath:logback.xml
 logging.path=/home/developer/app/logs/
 server.port=8990
@@ -171,7 +171,7 @@ server.port=8990
 
 ### (4) 创建DockerApplication文件
 
-```
+```java
 @SpringBootApplication
 public class DockerApplication {
     public static void main(String[] args) {
@@ -182,7 +182,7 @@ public class DockerApplication {
 
 ### (5) 创建DockerController文件
 
-```
+```java
 @RestController
 public class DockerController {
     static Log log = LogFactory.getLog(DockerController.class);
