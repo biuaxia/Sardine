@@ -46,6 +46,7 @@ date: 2021-07-26 10:41:52
 - [The Go Playground](https://play.golang.org/)
 - [Elastic: An Elasticsearch client for Go](https://olivere.github.io/elastic/#getting-started)
 - [xxjwxc/uber_go_guide_cn: Uber Go 语言编码规范中文版. The Uber Go Style Guide .](https://github.com/xxjwxc/uber_go_guide_cn)
+- [GORM 指南 | GORM - The fantastic ORM library for Golang, aims to be developer friendly.](https://gorm.io/zh_CN/docs/)
 
 ### Java
 
