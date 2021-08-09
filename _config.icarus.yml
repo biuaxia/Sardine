@@ -238,7 +238,8 @@ widgets:
       微信开发平台: "https://mp.weixin.qq.com?utm_source=biuaxia.cn"
       字幕库: "http://zimuku.org?utm_source=biuaxia.cn"
       字幕-SubHD: "https://subhd.tv?utm_source=biuaxia.cn"
-  # Categories widget configurations
+      蜀ICP备19024339号-1: "http://www.beian.miit.gov.cn"
+  # Calolitegories widget configurations
   - # Where should the widget be placed, left sidebar or right sidebar
     position: left
     type: categories
