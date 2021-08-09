@@ -1,6 +1,6 @@
 title: Landray SVN整理
 date: '2021-06-18 23:30:48'
-updated: '2021-06-18 23:36:08'
+updated: '2021-08-09 14:36:08'
 category: 
  - Landray
 tags: [Landray, SVN]
@@ -37,4 +37,5 @@ permalink: /articles/2021/06/18/1624030248478.html
 | 7    | 西南民族大学           | http://svnproject.landray.com.cn/SPRJ20210331_XNMZDX  | [项目产品信息](http://product.landray.com.cn/prod/scm/prod_scm_project_product/prodScmProjectProduct.do?method=view&fdId=178531cc2aaeb051b5eb68e441893fcd&s_css=default) |
 | 8    | 四川省教育厅           | 暂无                                                  | [项目产品信息](http://product.landray.com.cn/prod/scm/prod_scm_project_product/prodScmProjectProduct.do?method=view&fdId=17853210d9f470ab4ac4e3d4668a663c&s_css=default) |
 | 9    | 四川省发展和改革委员会 | http://svnproject.landray.com.cn/SPRJ20210407_CFZWYH  | [项目产品信息](http://product.landray.com.cn/prod/scm/prod_scm_project_product/prodScmProjectProduct.do?method=view&fdId=1789254388abdc70603e7404b618629f&s_css=default) |
+| 10   | 四川省自然资源厅       | http://svnproject.landray.com.cn/SPRJ20210725_LZSWZZB | [项目产品信息](http://product.landray.com.cn/prod/scm/prod_scm_project_product/prodScmProjectProduct.do?method=view&fdId=17a2d8b4d21133dc595d3dd4050bf9aa&s_css=default) |
 
