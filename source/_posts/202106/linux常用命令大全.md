@@ -1,9 +1,10 @@
 title: linux常用命令大全
 date: '2021-06-18 22:25:13'
-updated: '2021-06-18 22:25:13'
+updated: '2021-08-09 14:25:13'
 category: 
  - Linux
 tags: [linux, 命令]
+toc: true
 permalink: /articles/2021/06/18/1624026313392.html
 ---
 
