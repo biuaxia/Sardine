@@ -38,6 +38,7 @@ date: 2021-07-26 10:41:52
 - [如何在win10 64位IE浏览器的基础上用上32位IE浏览器? - 知乎](https://www.zhihu.com/question/39074499)
 - [Choose an open source license | Choose a License](https://choosealicense.com/)
 - [map | 微信开放文档](https://developers.weixin.qq.com/miniprogram/dev/component/map.html)
+- [CSNet（Computer Science Network）](https://csnet.aite.xyz/)，代理配置为: `localhost:54321`
 
 ### Golang
 
