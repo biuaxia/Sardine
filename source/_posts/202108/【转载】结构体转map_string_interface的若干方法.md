@@ -4,7 +4,7 @@ updated: '2021-08-09 16:34:33'
 category:
  - 转载
  - Go
-tags: [转载, Go, Json]
+tags: [转载, Go, Map, Struct, String, Interface, 方法]
 permalink: /articles/2021/08/09/1628498212054.html
 ---
 
