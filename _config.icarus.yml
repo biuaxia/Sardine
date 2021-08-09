@@ -232,13 +232,14 @@ widgets:
       Hexo: "https://hexo.io"
       Go Playground: "https://play.studygolang.com/?utm_source=biuaxia.cn"
       慕课网: "https://www.imooc.com/u/index/allcourses?utm_source=biuaxia.cn"
+      李文周的博客: "https://www.liwenzhou.com?utm_source=biuaxia.cn"
       Picx: "https://picx.xpoet.cn/#/upload?utm_source=biuaxia.cn"
       IconFont: "https://www.iconfont.cn?utm_source=biuaxia.cn"
       jwt解析: "https://jwt.io?utm_source=biuaxia.cn"
       微信开发平台: "https://mp.weixin.qq.com?utm_source=biuaxia.cn"
       字幕库: "http://zimuku.org?utm_source=biuaxia.cn"
       字幕-SubHD: "https://subhd.tv?utm_source=biuaxia.cn"
-      蜀ICP备19024339号-1: "http://www.beian.miit.gov.cn"
+      蜀ICP备19024339号-1: "http://www.beian.miit.gov.cn?utm_source=biuaxia.cn"
   # Calolitegories widget configurations
   - # Where should the widget be placed, left sidebar or right sidebar
     position: left
