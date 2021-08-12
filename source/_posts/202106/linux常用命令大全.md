@@ -8,6 +8,11 @@ toc: true
 permalink: /articles/2021/06/18/1624026313392.html
 ---
 
+提供PDF版本下载链接：<http://ddns.biuaxia.cn:8005/s/EPt5>。
+
+<!-- more -->
+
+
 ## 命令终端字段含义介绍
 
 * [root[@](https://hu60.cn/q.php/bbs.topic.100995.html#)[localhost](https://hu60.cn/q.php/user.info.0.html) ~]#
