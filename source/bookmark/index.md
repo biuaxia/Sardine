@@ -25,6 +25,8 @@ updated: 2021-08-11 10:57:11
 - [考试酷(examcoo)-永久免费的电子作业与在线考试系统云平台](https://www.examcoo.com/index/ku)
 - [OREOOO | 生成奥利奥](https://ljl.li/oreooo/)
 - [The free text converter for all your documents. – Alldocs](https://alldocs.app/)
+- [自留地工牌生成器](https://avatar-flutter.vercel.app/#/)
+- [Flowchart Fun - 在线文本生成流程图](https://flowchart.fun/)
 
 ## Developers
 
@@ -49,6 +51,7 @@ updated: 2021-08-11 10:57:11
 - [xxjwxc/uber_go_guide_cn: Uber Go 语言编码规范中文版. The Uber Go Style Guide .](https://github.com/xxjwxc/uber_go_guide_cn)
 - [GORM 指南 | GORM - The fantastic ORM library for Golang, aims to be developer friendly.](https://gorm.io/zh_CN/docs/)
 - [go-admin](https://doc.go-admin.dev/)
+- [Go入门指南 · 看云](https://www.kancloud.cn/kancloud/the-way-to-go)
 
 ### Java
 
