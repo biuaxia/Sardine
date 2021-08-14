@@ -23,6 +23,10 @@ tags:
 > * 译者：[samyu2000](https://link.juejin.cn?target=https%3A%2F%2Fgithub.com%2Fsamyu2000 "https://github.com/samyu2000")
 > * 校对者：[Kimhooo](https://link.juejin.cn?target=https%3A%2F%2Fgithub.com%2FKimhooo "https://github.com/Kimhooo")，[1autodidact](https://link.juejin.cn?target=https%3A%2F%2Fgithub.com%2F1autodidact "https://github.com/1autodidact")
 
+
+<!-- more -->
+
+
 # 解密 Java Lambda 表达式
 
 ![](https://cdn-images-1.medium.com/max/3840/1*fKbNefOZMcHC3B-KMsy9kw.jpeg)
