@@ -6,57 +6,128 @@ updated: 2021-08-11 10:57:11
 
 ## 工具类
 
-- [俄罗斯方块](http://v.bootstrapmb.com/2021/6/qma6610287/)
-- [简介 | Lomorage文档](https://docs.lomorage.com/zh/)
-- [Account | Cloudflare - Web Performance &amp; Security](https://dash.cloudflare.com)
-- [ColorSpace - Color Palettes Generator and Color Gradient Tool](https://mycolor.space)
-- [唯美女生 丨 一双发现美的眼睛！](https://www.vmgirls.com/)
-- [云段子-搞笑热评段子](http://www.yduanzi.com/)
-- [亂數假文產生器 - Chinese Lorem Ipsum](http://www.richyli.com/tool/loremipsum/)
-- [PDF转Word | 免费在线PDF转Word | PDF转Word转换器 | PDF转化速度快 | 首页](https://www.alltoall.net/)
-- [ProcessOn - 免费在线作图，思维导图，流程图，实时协作](https://www.processon.com/)
-- [极简简历模板PoleBrief_简历模板_个人简历模板_简历模板下载_简历模板免费下载_简历模板下载word格式](https://www.polebrief.com/index)
-- [Emoji cheat sheet for Vditor](https://ld246.com/emoji/index.html)
-- [pushplus(推送加) - 微信推送消息直达](http://www.pushplus.plus/push1.html)
-- [JSON-TO-GO](https://misakafs.github.io/json-to-go/)
-- [订阅链接转换(附搭建教程)_资源共享_妖火网](https://yaohuo.me/bbs-897254.html?lpage=12)
-- [中国语言资源保护工程采录展示平台](https://zhongguoyuyan.cn/index.html?lang=cn)
-- [迅雷小站](https://zhan.xunlei.com/)
-- [考试酷(examcoo)-永久免费的电子作业与在线考试系统云平台](https://www.examcoo.com/index/ku)
-- [OREOOO | 生成奥利奥](https://ljl.li/oreooo/)
-- [The free text converter for all your documents. – Alldocs](https://alldocs.app/)
-- [自留地工牌生成器](https://avatar-flutter.vercel.app/#/)
-- [Flowchart Fun - 在线文本生成流程图](https://flowchart.fun/)
+- [俄罗斯方块](http://v.bootstrapmb.com/2021/6/qma6610287?utm_source=biuaxia.cn)
+- [简介 | Lomorage文档](https://docs.lomorage.com/zh?utm_source=biuaxia.cn)
+- [Account | Cloudflare - Web Performance &amp; Security](https://dash.cloudflare.com?utm_source=biuaxia.cn)
+- [ColorSpace - Color Palettes Generator and Color Gradient Tool](https://mycolor.space?utm_source=biuaxia.cn)
+- [唯美女生 丨 一双发现美的眼睛！](https://www.vmgirls.com?utm_source=biuaxia.cn)
+- [云段子-搞笑热评段子](http://www.yduanzi.com?utm_source=biuaxia.cn)
+- [亂數假文產生器 - Chinese Lorem Ipsum](http://www.richyli.com/tool/loremipsum?utm_source=biuaxia.cn)
+- [PDF转Word | 免费在线PDF转Word | PDF转Word转换器 | PDF转化速度快 | 首页](https://www.alltoall.net?utm_source=biuaxia.cn)
+- [ProcessOn - 免费在线作图，思维导图，流程图，实时协作](https://www.processon.com?utm_source=biuaxia.cn)
+- [极简简历模板PoleBrief_简历模板_个人简历模板_简历模板下载_简历模板免费下载_简历模板下载word格式](https://www.polebrief.com/index?utm_source=biuaxia.cn)
+- [Emoji cheat sheet for Vditor](https://ld246.com/emoji/index.html?utm_source=biuaxia.cn)
+- [pushplus(推送加) - 微信推送消息直达](http://www.pushplus.plus/push1.html?utm_source=biuaxia.cn)
+- [JSON-TO-GO](https://misakafs.github.io/json-to-go?utm_source=biuaxia.cn)
+- [订阅链接转换(附搭建教程)_资源共享_妖火网](https://yaohuo.me/bbs-897254.html?lpage=12?utm_source=biuaxia.cn)
+- [中国语言资源保护工程采录展示平台](https://zhongguoyuyan.cn/index.html?lang=cn?utm_source=biuaxia.cn)
+- [迅雷小站](https://zhan.xunlei.com?utm_source=biuaxia.cn)
+- [考试酷(examcoo)-永久免费的电子作业与在线考试系统云平台](https://www.examcoo.com/index/ku?utm_source=biuaxia.cn)
+- [OREOOO | 生成奥利奥](https://ljl.li/oreooo?utm_source=biuaxia.cn)
+- [The free text converter for all your documents. – Alldocs](https://alldocs.app?utm_source=biuaxia.cn)
+- [自留地工牌生成器](https://avatar-flutter.vercel.app/#?utm_source=biuaxia.cn)
+- [Flowchart Fun - 在线文本生成流程图](https://flowchart.fun?utm_source=biuaxia.cn)
+
+## 待阅读
+
+> 更新于：2021年8月16日
+
+ - [[译]什么是 SQL 注入攻击？如何阻止它](https://juejin.cn/post/6960849763688251406?utm_source=biuaxia.cn)
+ - [可以在下一个项目中使用的 20 个 Go 三方库](https://juejin.cn/post/6956587242848518158?utm_source=biuaxia.cn)
+ - [[译]MongoDB 和 MySQL 使用场景分析](https://juejin.cn/post/6949811448767840263?utm_source=biuaxia.cn)
+ - [【译】为什么 Java 在 25 年之后依旧如此年轻：一个架构师的看法](https://juejin.cn/post/6943795842918645773?utm_source=biuaxia.cn)
+ - [[译]每个人都可以理解的授权访问和身份认证](https://juejin.cn/post/6935230984619032589?utm_source=biuaxia.cn)
+ - [简述 HTTP 请求与跨域资源共享 CORS](https://juejin.cn/post/6927191095470194695?utm_source=biuaxia.cn)
+ - [[译]如何基于已有的 REST API 实现 GraphQL API](https://juejin.cn/post/6931145990599049223?utm_source=biuaxia.cn)
+ - [[译]使用 SpringBoot 和 MySQL 构建 GraphQL 服务端应用程序](https://juejin.cn/post/6899241103682502670?utm_source=biuaxia.cn)
+ - [Github Actions 工作流的创建管理](https://juejin.cn/post/6892248874669309965?utm_source=biuaxia.cn)
+ - [[译] Golang 切片综合指南](https://juejin.cn/post/6883398632071462919?utm_source=biuaxia.cn)
+ - [【译】如何创建一个可复用的网页爬虫](https://juejin.cn/post/6860354555759869966?utm_source=biuaxia.cn)
+ - [[译] Schema.org: 你未曾耳闻的流行网页标准](https://juejin.cn/post/6844904190494392333?utm_source=biuaxia.cn)
+ - [[译] Go 发布新版 Protobuf API](https://juejin.cn/post/6844904111268184078?utm_source=biuaxia.cn)
+ - [[译] 用依赖注入解耦你的代码](https://juejin.cn/post/6844904106486661134?utm_source=biuaxia.cn)
+ - [[译] 停止在任何地方使用 ===](https://juejin.cn/post/6844904081656397838?utm_source=biuaxia.cn)
+ - [[译] 将 GraphQL 概念可视化](https://juejin.cn/post/6844904008805515277?utm_source=biuaxia.cn)
+ - [[译] 把 UUID 或者 GUID 作为主键？你得小心啦！](https://juejin.cn/post/6844903485872275463?utm_source=biuaxia.cn)
+ - [【译】如何使用 Golang 中的 Go-Routines 写出高性能的代码](https://juejin.cn/post/6844903513709887496?utm_source=biuaxia.cn)
+ - [[译] Web 开发者安全清单](https://juejin.cn/post/6844903479333355534?utm_source=biuaxia.cn)
+ - [[译] 前端 vs 后端：哪一个适合你？](https://juejin.cn/post/6844903895307649032?utm_source=biuaxia.cn)
+ - [[译] 喷泉码和动态二维码](https://juejin.cn/post/6844903896834375694?utm_source=biuaxia.cn)
+ - [[译] 开始尝试 DevOps：最适合你的是什么样的工具？](https://juejin.cn/post/6844903862294298632?utm_source=biuaxia.cn)
+ - [[译] Go 语言命令概览](https://juejin.cn/post/6844903848583266311?utm_source=biuaxia.cn)
+ - [[译] 用 Apache Shiro 来保护一个 Spring Boot 应用](https://juejin.cn/post/6844903810117140487?utm_source=biuaxia.cn)
+ - [[译] Golang 数据结构：树](https://juejin.cn/post/6844903798507307015?utm_source=biuaxia.cn)
+ - [[译] 在 GO 语言中创建你自己的 OAuth2 服务：客户端凭据授权流程](https://juejin.cn/post/6844903784498331661?utm_source=biuaxia.cn)
+ - [[译]我作为软件工程师与一名数据科学家合作的经历](https://juejin.cn/post/6844903773739958286?utm_source=biuaxia.cn)
+ - [[译] 如何在六个月或更短的时间内成为 DevOps 工程师，第一部分](https://juejin.cn/post/6844903692844400648?utm_source=biuaxia.cn)
+ - [[译]如何在六个月或更短的时间内成为 DevOps 工程师，第四部分：打包](https://juejin.cn/post/6844903743176065032?utm_source=biuaxia.cn)
+ - [[译] Go 语言的整洁架构之道 —— 一个使用 gRPC 的 Go 项目整洁架构例子](https://juejin.cn/post/6844903687463108616?utm_source=biuaxia.cn)
+ - [[译] 如何在六个月或更短的时间内成为 DevOps 工程师，第二部分：配置](https://juejin.cn/post/6844903686049628174?utm_source=biuaxia.cn)
+ - [[译] 如何在六个月或更短的时间内成为 DevOps 工程师，第三部分：版本控制](https://juejin.cn/post/6844903686481641486?utm_source=biuaxia.cn)
+ - [[译] 正则表达式要跑 5 天，所以我做了个工具，只跑 15 分钟。](https://juejin.cn/post/6844903654718177288?utm_source=biuaxia.cn)
+ - [[译] 我是如何从零开始建立一个网络爬虫来实现我的求职自动化的](https://juejin.cn/post/6844903632874242061?utm_source=biuaxia.cn)
+ - [[译] 通过插图学习 Go 的并发](https://juejin.cn/post/6844903624062009352?utm_source=biuaxia.cn)
+ - [[译]通往 Java 函数式编程的捷径](https://juejin.cn/post/6844903621285380104?utm_source=biuaxia.cn)
+ - [使用 Go 语言的流模式来解析 DrugBank 的 XML（或者任何 XML 大文件）](https://juejin.cn/post/6844903609637797901?utm_source=biuaxia.cn)
+ - [[译] 那些我们不需要的 HTTP 头信息](https://juejin.cn/post/6844903609902039054?utm_source=biuaxia.cn)
+ - [[译]Go并发编程中的那些事](https://juejin.cn/post/6844903505333846030?utm_source=biuaxia.cn)
+ - [[译] SQL 事务隔离实用指南](https://juejin.cn/post/6844903495229767688?utm_source=biuaxia.cn)
+ - [低成本将你的网站切换为 HTTPS](https://juejin.cn/post/6844903494516752392?utm_source=biuaxia.cn)
+ - [在 Go 语言中增强 Cookie 的安全性](https://juejin.cn/post/6844903493845811213?utm_source=biuaxia.cn)
+ - [[译] REST API 已死，GraphQL 长存](https://juejin.cn/post/6844903491106930702?utm_source=biuaxia.cn)
+ - [[译] WAR 还是 JAR，你应该用哪种格式打包？](https://juejin.cn/post/6844903487285755911?utm_source=biuaxia.cn)
+ - [[译] 如何从一个业余爱好者成长成为专业开发者](https://juejin.cn/post/6844903480503582734?utm_source=biuaxia.cn)
+ - [建立更好的代码审查制度](https://juejin.cn/post/6844903480352587784?utm_source=biuaxia.cn)
+ - [gold-miner/rate-limiters.md at master · xitu/gold-miner](https://github.com/xitu/gold-miner/blob/master/TODO/rate-limiters.md?utm_source=biuaxia.cn)
+ - [[译] 我经常听到的 GraphQL 到底是什么？](https://juejin.cn/post/6844903475420069902?utm_source=biuaxia.cn)
+ - [[译] 如何使用 HTTP Headers 来保护你的 Web 应用](https://juejin.cn/post/6844903474631540743?utm_source=biuaxia.cn)
+ - [[译] 解析 Go 中的函数调用](https://juejin.cn/post/6844903474568642567?utm_source=biuaxia.cn)
+ - [[译] 如何在 ChromeOS 下用 Go 搭建 Web 服务](https://juejin.cn/post/6844903471812968461?utm_source=biuaxia.cn)
+ - [[译] 在 Apache 和 Nginx 日志里检测爬虫机器人](https://juejin.cn/post/6844903473247436808?utm_source=biuaxia.cn)
+ - [[译] 跨站请求伪造已死！](https://juejin.cn/post/6844903469720010766?utm_source=biuaxia.cn)
+ - [[译] 这项浏览器调整使 Facebook 收到的网络请求减少了 60%](https://juejin.cn/post/6844903465701883912?utm_source=biuaxia.cn)
+ - [［译］GitHub 是如何阻止网络暴力的](https://juejin.cn/post/6844903458798043144?utm_source=biuaxia.cn)
+ - [[译]Webhook 该做和不该做的: 我们在整合超过 100 个 API 中所学到的](https://juejin.cn/post/6844903455702663176?utm_source=biuaxia.cn)
+ - [[译] 承载了巨大访问量的热门游戏 Pokémon GO 的后端架构是什么？](https://juejin.cn/post/6844903447901257736?utm_source=biuaxia.cn)
+ - [[译] 为什么我们要用网页端组件去构建服务器？该怎么做？](https://juejin.cn/post/6844903440116613128?utm_source=biuaxia.cn)
+ - [SSH 简化配置](https://juejin.cn/post/6844903429727322125?utm_source=biuaxia.cn)
+ - [Web 开发者的 HTTP/2 性能优化指南](https://juejin.cn/post/6844903427126853645?utm_source=biuaxia.cn)
+ - [[译] 字体加载策略全面指南](https://juejin.cn/post/6844903439491661837?utm_source=biuaxia.cn)
+ - [Java 不可变类的整洁之道](https://juejin.cn/post/6844903437998505991?utm_source=biuaxia.cn)
+
+## 已阅读
+
+> 更新于：2021年8月16日
 
 ## Developers
 
 - [TypeScript: 游乐场 - 一个用于 TypeScript 和 JavaScript 的在线编辑器](https://www.typescriptlang.org/zh/play?#code/PTAEiJrQ5+MU3NAYlUAqBPADgUwMoGMBOBLFAF1EA47QBTlAudUBh-gKBFEE34wejNAAOUCo5QTb9ADeUAXjQbPlAaP6BMxSqAwJUDVcoBiVQGbagAzlEqTLgLFAIW6BFf0CbXoCAGGnTCAKg0D3yoFO5E4CDNQNBygSDlAs56BO00Dw+oH95QBSugYO1AWP-79oUAFpQdkBYOUAseUAWD0B5dUBvuUBVeUAcOUB-SNU5BXRsfCJQVUAGdXtdegCgtkBleUAYrLSlTOJAW+jAVZtANz1AODlAaojALrkJXPzfIvZXQDi5QGlbQFXo4MAYFUqMlVABQEXowHxzQHylQF+A1UBMm0BG710aLAB7ADsAZ2IAQ32AUQAPE4BbFAAbNAA1E-wTgCNH0ABeUAAiAASaHu912oAA6rscPcACZ-HYHQ67R4AOlBAHMABRnK63B7PV54D6PACUenopkAnQ6Ab8VAFBy9lUoEAOASALk9ANHygFwCUCANCNmYAG00A36kcqgmQBhcoBjyMAL2aALE1AM6K-RqgAAo1SAQ-lAPYG2nh9G5gFAAwAESoATNIYgGy5QAXNoApxIagBQ5QAA+oBpzTcVEALqZscgUVSANDlADKugF+EwB6Ov0uLo-EA)
-- [Eclipse Project Downloads](https://download.eclipse.org/eclipse/downloads/)：可以下载兼容M1芯片的Eclipse
-- [在线Cron表达式生成器](https://cron.qqe2.com/)
+- [Eclipse Project Downloads](https://download.eclipse.org/eclipse/downloads)：可以下载兼容M1芯片的Eclipse
+- [在线Cron表达式生成器](https://cron.qqe2.com)
 - [在线Cron表达式生成器-奇Q工具网](https://qqe2.com/cron)：通过这个生成器,您可以在线生成任务调度比如Quartz的Cron表达式,对Quartz Cron 表达式的可视化双向解析和生成.
-- [时间戳(Unix timestamp)转换工具 - 在线工具](https://tool.lu/timestamp/)
+- [时间戳(Unix timestamp)转换工具 - 在线工具](https://tool.lu/timestamp)
 - [Context and expression syntax for GitHub Actions - GitHub Docs](https://docs.github.com/en/actions/reference/context-and-expression-syntax-for-github-actions#functions)
 - [rasa/scoop-directory: A directory of buckets for the scoop package manager for Windows](https://github.com/rasa/scoop-directory)
-- [全栈直通车-王世彪的博客](https://www.sofineday.com/)
+- [全栈直通车-王世彪的博客](https://www.sofineday.com)
 - [如何在win10 64位IE浏览器的基础上用上32位IE浏览器? - 知乎](https://www.zhihu.com/question/39074499)
-- [Choose an open source license | Choose a License](https://choosealicense.com/)
+- [Choose an open source license | Choose a License](https://choosealicense.com)
 - [map | 微信开放文档](https://developers.weixin.qq.com/miniprogram/dev/component/map.html)
-- [CSNet（Computer Science Network）](https://csnet.aite.xyz/)，代理配置为: `localhost:54321`
+- [CSNet（Computer Science Network）](https://csnet.aite.xyz)，代理配置为: `localhost:54321`
 
 ### Golang
 
 - [Go 语言后端开发 · 语雀](https://www.yuque.com/keep_running/go)
-- [The Go Playground](https://play.golang.org/)
+- [The Go Playground](https://play.golang.org)
 - [Elastic: An Elasticsearch client for Go](https://olivere.github.io/elastic/#getting-started)
 - [xxjwxc/uber_go_guide_cn: Uber Go 语言编码规范中文版. The Uber Go Style Guide .](https://github.com/xxjwxc/uber_go_guide_cn)
-- [GORM 指南 | GORM - The fantastic ORM library for Golang, aims to be developer friendly.](https://gorm.io/zh_CN/docs/)
-- [go-admin](https://doc.go-admin.dev/)
+- [GORM 指南 | GORM - The fantastic ORM library for Golang, aims to be developer friendly.](https://gorm.io/zh_CN/docs)
+- [go-admin](https://doc.go-admin.dev)
 - [Go入门指南 · 看云](https://www.kancloud.cn/kancloud/the-way-to-go)
 
 ### Java
 
-- [芋道源码 —— 纯源码解析博客](https://www.iocoder.cn/)
-- [聊聊-Java-的类加载机制二](https://nicksxs.me/2021/06/13/%E8%81%8A%E8%81%8A-Java-%E7%9A%84%E7%B1%BB%E5%8A%A0%E8%BD%BD%E6%9C%BA%E5%88%B6%E4%BA%8C/)
+- [芋道源码 —— 纯源码解析博客](https://www.iocoder.cn)
+- [聊聊-Java-的类加载机制二](https://nicksxs.me/2021/06/13/%E8%81%8A%E8%81%8A-Java-%E7%9A%84%E7%B1%BB%E5%8A%A0%E8%BD%BD%E6%9C%BA%E5%88%B6%E4%BA%8C)
 - [云原生时代，Java的危与机-InfoQ](https://www.infoq.cn/article/rqfww2r2zpyqiolc1wbe)
 - [从零开始，手写 Spring IOC - 链滴](https://ld246.com/article/1624354513057)
 - [Spring Boot 2 实战：使用 Flyway 管理你数据库的版本变更 - SegmentFault 思否](https://segmentfault.com/a/1190000020850220)
@@ -71,12 +142,12 @@ updated: 2021-08-11 10:57:11
 
 ### Javascript
 
-- [cdnjs - free and open source CDN built to make life easier for developers](https://cdnjs.com/)
+- [cdnjs - free and open source CDN built to make life easier for developers](https://cdnjs.com)
 
 ### Apis
 
 - [【王者荣耀】荣耀战力查询接口（当前查询马超）](http://api.vopipi.cn/api/select?name=%E9%A9%AC%E8%B6%85)
-- [必应随机壁纸 (1920×1080)](https://img.tjit.net/bing/rand/)
+- [必应随机壁纸 (1920×1080)](https://img.tjit.net/bing/rand)
 - 随机显示动漫图片：[https://www.dmoe.cc/random.php](https://www.dmoe.cc/random.php)
 - 电脑手机自适应随机图片：[https://api.btstu.cn/sjbz/zsy.php](https://api.btstu.cn/sjbz/zsy.php)
 - 横版动漫图片：[https://api.btstu.cn/sjbz/?lx=dongman](https://api.btstu.cn/sjbz/?lx=dongman)
@@ -86,7 +157,7 @@ updated: 2021-08-11 10:57:11
 - 竖版美女图片：[http://api.btstu.cn/sjbz/?lx=m_meizi](http://api.btstu.cn/sjbz/?lx=m_meizi)
 - 竖版随机动漫妹子：[http://api.btstu.cn/sjbz/?m_lx=suiji](http://api.btstu.cn/sjbz/?m_lx=suiji)
 - [功能强大的接口功能，查QQ手机号、京东数据，还能随机看妹子、找壁纸-福利吧](https://fuliba2021.net/api88.html)
-- [搏天api-免费api接口平台](https://api.btstu.cn/)
+- [搏天api-免费api接口平台](https://api.btstu.cn)
 - [抖音解析-搏天api](https://api.btstu.cn/doc/dyjx.php)
 - [网易云音乐解析-搏天api](https://api.btstu.cn/doc/wyy.php)
 - [云段子，重复请求获取不同段子](http://www.yduanzi.com/duanzi/getduanzi)
@@ -100,12 +171,6 @@ updated: 2021-08-11 10:57:11
 
 - [论坛](http://java.landray.com.cn/km/forum/indexCriteria.jsp?timestamp=1621656930950#cri.q=categoryId:122baca0c696f0939e9af9a460b97bd5)：漏洞发布等
 
-### 客户
-
-- [四川省公安厅 - GKP_V1](http://47.108.161.102:8080/ekp)
-- [西南民族大学 - GKP_V1](http://ducha.swun.edu.cn:8080/)
-- [四川省人民政府 - EKP_V14](http://202.61.89.9:8081/)
-
 ## Github仓库推荐
 
 - [peaceiris/actions-gh-pages: GitHub Actions for GitHub Pages 🚀 Deploy static files and publish your site easily. Static-Site-Generators-friendly.](https://github.com/peaceiris/actions-gh-pages#examples)
@@ -117,31 +182,31 @@ updated: 2021-08-11 10:57:11
 ## Hexo
 
 - [利用 GitHub+Actions 自动部署 Hexo 博客 | 小康博客](https://www.antmoe.com/posts/6081157f/index.html)
-- [使用 gulp 压缩 Hexo 博客文件（兼容 ES6 标准） | Ming&#39;s Blog](https://blog.inkuang.com/2021/405/)
+- [使用 gulp 压缩 Hexo 博客文件（兼容 ES6 标准） | Ming&#39;s Blog](https://blog.inkuang.com/2021/405)
 - [D0n9X1n/hexo-blog-encrypt: Yet, just another hexo plugin for security.](https://github.com/D0n9X1n/hexo-blog-encrypt)
 - [XPoet/hexo-theme-keep: A simple and elegant theme for Hexo. It makes you more focused on writing.](https://github.com/XPoet/hexo-theme-keep)
 
 ### 主题推荐
 
-- [Doku | Doku](https://doku.skk.moe/)
+- [Doku | Doku](https://doku.skk.moe)
 
 ## 好孩子
 
 - [我最全.com](https://xn--u2u823bupertv.com/bzycs.html)
-- [磁搜.com - 八爪鱼磁力搜索](https://xn--41tq2inxcv98a.xyz/)
+- [磁搜.com - 八爪鱼磁力搜索](https://xn--41tq2inxcv98a.xyz)
 
 ## 在线影视
 
-- [分享交流下载字幕平台 - SubHD](https://subhd.tv/)
-- [低端影视 - 超清在线视频站](https://ddrk.me/)
+- [分享交流下载字幕平台 - SubHD](https://subhd.tv)
+- [低端影视 - 超清在线视频站](https://ddrk.me)
 
 ## 购买过的程序
 
 1. 彩虹秒赞：[扫码自助下载最新源码](http://auth.wx.jaeapp.com/get/#)
-2. Typecho主题 - Mirages：[Mirages - 简陋的 Mirages 生活自理系列](https://store.get233.com/)
+2. Typecho主题 - Mirages：[Mirages - 简陋的 Mirages 生活自理系列](https://store.get233.com)
 3. EleAdmin Pro & iframe多标签版：[我的订单 - EleAdmin](https://eleadmin.com/user/order) & [EleAdmin Pro | 更新日志](https://eleadmin.com/doc/eleadminpro/#/)
 
 ## 有机会可以练爬虫的网站
 
-- [The Legend of Bald](https://atlob.org/)
-- [Acgur - Pixiv Illustration Update Ranking](https://acgur.com/)
+- [The Legend of Bald](https://atlob.org?utm_source=biuaxia.cn)
+- [Acgur - Pixiv Illustration Update Ranking](https://acgur.com?utm_source=biuaxia.cn)
