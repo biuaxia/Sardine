@@ -1,4 +1,4 @@
-title: 【转载】Web框架Gin之Gin路由.md
+title: 【转载】Web框架Gin之Gin路由
 date: 2021-08-16 09:30:01
 toc: true
 permalink: /articles/go/20210816/01.html
@@ -18,6 +18,10 @@ tags:
 
 本文转载自：[Web框架Gin ｜ Gin 路由](https://juejin.cn/post/6995911587412344840?utm_source=gold_browser_extension)
 
+
+<!-- more -->
+
+
 ---
 
 # Web框架Gin ｜ Gin 路由
@@ -25,10 +29,6 @@ tags:
 Gin 是一个标准的 Web 服务框架，遵循 Restful API 接口规范，其路由库是基于 httproute 实现的。
 
 本节将从 Gin 路由开始，详细讲述各种路由场景下，如何通过 Gin 来实现。
-
-
-<!-- more -->
-
 
 ## 基本路由
 
