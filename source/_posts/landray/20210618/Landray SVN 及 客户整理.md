@@ -1,11 +1,26 @@
-title: Landray SVN整理
-date: '2021-06-18 23:30:48'
-updated: '2021-08-09 14:36:08'
+title: Landray SVN 及 客户整理
+date: 2021-06-18 23:30:48
+toc: true
+permalink: /articles/landray/20210618/02.html
 category: 
  - Landray
-tags: [Landray, SVN]
-permalink: /articles/2021/06/18/1624030248478.html
+tags: 
+ - Landray
+ - SVN
+ - 客户
+ - 整理
 ---
+
+## 客户
+
+- [四川省公安厅 - GKP_V1](http://47.108.161.102:8080/ekp)
+- [西南民族大学 - GKP_V1](http://ducha.swun.edu.cn:8080)
+- [四川省人民政府 - EKP_V14](http://202.61.89.9:8081)
+- [四川省发展和改革委员会 - GKP_V1](http://202.61.89.108:9001)
+
+
+<!-- more -->
+
 
 ## 🏷️ 项目 SVN 库整理
 

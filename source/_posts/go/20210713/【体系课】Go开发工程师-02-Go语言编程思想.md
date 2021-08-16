@@ -1,17 +1,29 @@
 title: 【体系课】Go开发工程师-02-Go语言编程思想
-date: '2021-06-18 16:43:21'
-updated: '2021-07-13 17:13:50'
+date: 2021-07-13 16:43:21
+toc: true
+permalink: /articles/go/20210713/01.html
 category:
  - Go
-tags: [慕课, imooc, 体系课, Go]
-permalink: /articles/2021/06/18/1626002681827.html
-toc: true
+tags:
+ - Go
+ - Golang
+ - imooc
+ - 慕课
+ - 体系课
+ - 语言
+ - 编程
+ - 思想
 ---
+
 ## 面向接口
 
 ### 接口的概念
 
 例如想要编写”获取指定网址源码“的方法：
+
+
+<!-- mroe -->
+
 
 ```go
 package main

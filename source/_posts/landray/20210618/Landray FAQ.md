@@ -1,14 +1,21 @@
 title: Landray FAQ
-date: '2021-06-18 23:31:35'
-updated: '2021-07-04 20:02:25'
+date: 2021-06-18 23:31:35
+toc: true
+permalink: /articles/landray/20210618/01.html
 category: 
  - Landray
-tags: [Landray, FAQ]
-permalink: /articles/2021/06/18/1624030295068.html
+tags: 
+ - Landray
+ - FAQ
 ---
+
 ## 🙌 说明
 
 查找答案时请善用搜索功能。
+
+
+<!-- more -->
+
 
 ## 考核一、👦 新手入门
 

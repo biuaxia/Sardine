@@ -1,24 +1,26 @@
 title: Landray 资料汇总
-date: '2021-06-18 23:23:14'
-updated: '2021-07-07 10:31:30'
+date: 2021-06-18 23:23:14
+toc: true
+permalink: /articles/landray/20210618/03.html
 category: 
  - Landray
-tags: [Landray, 手册, 资料, 开发]
-permalink: /articles/2021/06/18/1624029793886.html
+tags: 
+ - Landray
+ - 手册
+ - 资料
+ - 开发
+ - 汇总
 ---
-
-## 客户
-
-- [四川省公安厅 - GKP_V1](http://47.108.161.102:8080/ekp)
-- [西南民族大学 - GKP_V1](http://ducha.swun.edu.cn:8080)
-- [四川省人民政府 - EKP_V14](http://202.61.89.9:8081)
-- [四川省发展和改革委员会 - GKP_V1](http://202.61.89.108:9001)
 
 ## 📘 定制相关手册
 
 1. [二次开发培训-蓝凌JAVA产品开发规范](http://java.landray.com.cn/kms/multidoc/kms_multidoc_knowledge/kmsMultidocKnowledge.do?method=view&fdId=14ab3fcfc97f5c4b8ac9de541558dce8)
 2. [蓝凌JAVA项目SVN管理规范与使用指引](http://product.landray.com.cn/prod/scm/prod_scm_page_config/prodScmPageConfig.do?method=view&fdId=15428d7e632f5cfe160f5124a39b81f3&s_css=default)
 3. [开发工具百宝箱](http://product.landray.com.cn/prod/scm/prod_scm_page_config/prodScmPageConfig.do?method=view&fdId=1435183e7cf4474a751a1224f45a19d8&s_css=default)
+
+
+<!-- more -->
+
 
 ## 📘 开发常用资料
 

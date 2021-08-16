@@ -1,12 +1,19 @@
 title: 【转载】Go语言fmt.Printf使用指南（占位符总结）
-date: '2021-06-19 11:58:25'
-updated: '2021-06-20 17:09:59'
+date: 2021-06-19 11:58:25
+toc: true
+permalink: /articles/go/20210618/01.html
 category: 
  - 转载
  - Go
-tags: [转载, golang, Go, 占位符]
-permalink: /articles/2021/06/19/1624075105500.html
+tags: 
+ - 转载
+ - Go
+ - Golang
+ - 占位符
+ - 总结
+ - 语言
 ---
+
 本文转载自：[Go语言fmt.Printf使用指南（占位符总结） - Ambition-LC - 博客园](https://www.cnblogs.com/forever521Lee/p/10700549.html#_labelTop)
 
 ---
@@ -15,8 +22,11 @@ permalink: /articles/2021/06/19/1624075105500.html
 
 在这里按照占位符将被替换的变量类型划分，更方便查询和记忆。
 
-## 1.1 General（通用占位符）
 
+<!-- more -->
+
+
+## 1.1 General（通用占位符）
 
 | 占位符 | 说明                                                                                             |
 | -------- | -------------------------------------------------------------------------------------------------- |
@@ -53,10 +63,9 @@ func main() {
 
 执行结果：
 
-![1555127039133](https://b3logfile.com/file/2021/06/solo-fetchupload-3129116804600113009-e7c4f92d.png)
+![](https://b3logfile.com/file/2021/06/solo-fetchupload-3129116804600113009-e7c4f92d.png)
 
 ## 1.2 Integer（整型）
-
 
 | 占位符 | 说明                |
 | -------- | --------------------- |
@@ -73,7 +82,6 @@ func main() {
 
 ## 1.3 Integer width（指定长度的整型，以5为例）
 
-
 | 占位符 | 说明                          |
 | -------- | ------------------------------- |
 | %5d    | 整型长度为5，右对齐，左边留白 |
@@ -82,7 +90,7 @@ func main() {
 
 示例：
 
-```go hljs
+```go
 package main
 
 import "fmt"
@@ -101,10 +109,9 @@ func main() {
 
 执行结果：
 
-![1555127339224](https://b3logfile.com/file/2021/06/solo-fetchupload-5521591022137571142-ee12179d.png)
+![](https://b3logfile.com/file/2021/06/solo-fetchupload-5521591022137571142-ee12179d.png)
 
 ## 1.4 Float（浮点数）
-
 
 | 占位符 | 说明                            |
 | -------- | --------------------------------- |
@@ -116,7 +123,7 @@ func main() {
 
 示例：
 
-```go hljs
+```go
 package main
 
 import "fmt"
@@ -130,10 +137,9 @@ func main() {
 
 执行结果：
 
-![1555127507824](https://b3logfile.com/file/2021/06/solo-fetchupload-4033795274561282096-ca63e9da.png)
+![](https://b3logfile.com/file/2021/06/solo-fetchupload-4033795274561282096-ca63e9da.png)
 
 ## 1.5 String（字符串）
-
 
 | 占位符 | 说明                                                 |
 | -------- | ------------------------------------------------------ |
@@ -146,7 +152,7 @@ func main() {
 
 示例：
 
-```go hljs
+```go
 package main
 
 import "fmt"
@@ -160,10 +166,9 @@ func main() {
 
 执行结果：
 
-![1555127870295](https://b3logfile.com/file/2021/06/solo-fetchupload-5991599813402467706-64378629.png)
+![](https://b3logfile.com/file/2021/06/solo-fetchupload-5991599813402467706-64378629.png)
 
 ## 1.6 String Width (指定长度的字符串，以5为例）
-
 
 | 占位符 | 说明                                |
 | -------- | ------------------------------------- |
@@ -177,7 +182,7 @@ func main() {
 
 代码示例：
 
-```go hljs
+```go
 package main
 
 import "fmt"
@@ -192,10 +197,9 @@ func main() {
 
 执行结果：
 
-![1555128027893](https://b3logfile.com/file/2021/06/solo-fetchupload-5590531611922872834-6a33eca3.png)
+![](https://b3logfile.com/file/2021/06/solo-fetchupload-5590531611922872834-6a33eca3.png)
 
 ## 1.7 Struct（结构体）
-
 
 | 占位符 | 说明                               |
 | -------- | ------------------------------------ |
@@ -205,13 +209,11 @@ func main() {
 
 ## 1.8 Boolean（布尔值）
 
-
 | 占位符 | 说明            |
 | -------- | ----------------- |
 | %t     | 打印true或false |
 
 ## 1.9 Pointer（指针）
-
 
 | 占位符 | 说明                                       |
 | -------- | -------------------------------------------- |

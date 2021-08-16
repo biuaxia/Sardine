@@ -1,13 +1,19 @@
 title: 【体系课】Go开发工程师-01-Go语言基础知识
-date: '2021-06-18 16:43:21'
-updated: '2021-07-11 19:17:39'
+date: 2021-06-18 16:43:21
+toc: true
+permalink: /articles/go/20210618/01.html
 category:
  - Go
-tags: [慕课, imooc, 体系课, Go]
-permalink: /articles/2021/06/18/1624005800995.html
-toc: true
+tags: 
+ - Go
+ - Golang
+ - imooc
+ - 慕课
+ - 体系课
+ - 语言
+ - 基础
+ - 知识
 ---
-![](https://b3logfile.com/bing/20190830.jpg?imageView2/1/w/960/h/540/interlace/1/q/100)
 
 ## Go语言开发环境搭建
 
@@ -18,6 +24,10 @@ toc: true
 Google 也在国内架设了镜像站点：[https://golang.google.cn](https://golang.google.cn)。
 
 如果镜像站点下载 Golang 也比较慢，可以使用国内社区镜像加速：[https://studygolang.com/dl](https://studygolang.com/dl)。
+
+
+<!-- more -->
+
 
 ---
 

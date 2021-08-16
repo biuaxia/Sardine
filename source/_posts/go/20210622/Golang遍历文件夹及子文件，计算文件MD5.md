@@ -1,14 +1,23 @@
 title: Golang遍历文件夹及子文件，计算文件MD5
-date: '2021-06-22 11:04:03'
-updated: '2021-06-29 12:01:03'
+date: 2021-06-22 11:04:03
+toc: true
+permalink: /articles/go/20210618/01.html
 category: 
  - Go
-tags: [golang, MD5, TODO]
-permalink: /articles/2021/06/22/1624331043791.html
+tags: 
+ - Go
+ - Golang
+ - MD5
+ - TODO
 ---
+
 > 2021年6月29日11点55分更新代码
 >
 > 运行后将会在当前目录生成文件："当前目录名.txt" 的文件
+
+
+<!-- more -->
+
 
 ```go
 package main
