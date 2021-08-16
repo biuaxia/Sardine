@@ -34,7 +34,7 @@ Gin 是一个标准的 Web 服务框架，遵循 Restful API 接口规范，其�
 
 Gin 支持 GET、POST、PUT、PATCH、DELETE、OPTIONS 等请求类型。
 
-[示例](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Fxcbeyond%2FgolangLearning%2Ftree%2Fmain%2Fframework%2Fgin-demo%2Froute%2Fbasic%2Fbasic-route.go "https://github.com/xcbeyond/golangLearning/tree/main/framework/gin-demo/route/basic/basic-route.go")：
+[示例](https://github.com/xcbeyond/golangLearning/tree/main/framework/gin-demo/route/basic/basic-route.go)：
 
 ```go
 package main
@@ -86,7 +86,7 @@ func postHandler(c *gin.Context) {
 
 可通过 `*gin.Context` 的 Param 函数获取请求 Path 中的参数，Path 路径中参数以`:`开头，如：`/user/:name`，能够匹配路径 `/user/xx`。
 
-[示例](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Fxcbeyond%2FgolangLearning%2Ftree%2Fmain%2Fframework%2Fgin-demo%2Froute%2Fparam%2Frequest-param.go "https://github.com/xcbeyond/golangLearning/tree/main/framework/gin-demo/route/param/request-param.go")：
+[示例](https://github.com/xcbeyond/golangLearning/tree/main/framework/gin-demo/route/param/request-param.go)：
 
 ```go
 package main
@@ -139,7 +139,7 @@ func main() {
 
 可通过 `*gin.Context` 的 Query 函数获取参数，如：`/user?name=xcbeyond`。
 
-[示例](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Fxcbeyond%2FgolangLearning%2Ftree%2Fmain%2Fframework%2Fgin-demo%2Froute%2Fparam%2Frequest-param.go "https://github.com/xcbeyond/golangLearning/tree/main/framework/gin-demo/route/param/request-param.go")：
+[示例](https://github.com/xcbeyond/golangLearning/tree/main/framework/gin-demo/route/param/request-param.go)：
 
 ```go
 package main
@@ -194,7 +194,7 @@ Gin 提供了路由分组的能力，方便管理分组管理路由，将具有�
 
 此外，还支持多层分组。
 
-[示例](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Fxcbeyond%2FgolangLearning%2Ftree%2Fmain%2Fframework%2Fgin-demo%2Froute%2Fgroup%2Fgroup-route.go "https://github.com/xcbeyond/golangLearning/tree/main/framework/gin-demo/route/group/group-route.go")：
+[示例](https://github.com/xcbeyond/golangLearning/tree/main/framework/gin-demo/route/group/group-route.go)：
 
 ```go
 package main
@@ -293,7 +293,7 @@ func main() {
     └── routes.go
 ```
 
-示例完整源码：[route-split-v1](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Fxcbeyond%2FgolangLearning%2Ftree%2Fmain%2Fframework%2Fgin-demo%2Froute%2Froute-split%2Fsplit-v1 "https://github.com/xcbeyond/golangLearning/tree/main/framework/gin-demo/route/route-split/split-v1")
+示例完整源码：[route-split-v1](https://github.com/xcbeyond/golangLearning/tree/main/framework/gin-demo/route/route-split/split-v1)
 
 在 `/routes/routes.go` 文件中实现并注册路由信息：
 
@@ -382,7 +382,7 @@ func main() {
     └── user.go
 ```
 
-示例完整源码：[route-split-v2](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Fxcbeyond%2FgolangLearning%2Ftree%2Fmain%2Fframework%2Fgin-demo%2Froute%2Froute-split%2Fsplit-v2 "https://github.com/xcbeyond/golangLearning/tree/main/framework/gin-demo/route/route-split/split-v2")
+示例完整源码：[route-split-v2](https://github.com/xcbeyond/golangLearning/tree/main/framework/gin-demo/route/route-split/split-v2)
 
 在 routes 包下，根据某种维度拆分为多个路由实现文件，如：根据业务模块，可拆分为认证模块（auth.go）、用户模块（user.go）等，并在各自路由文件中实现具体的业务功能，并进行路由注册。
 
@@ -454,5 +454,5 @@ func main() {
 
 参考资料：
 
-1. [api-examples](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Fgin-gonic%2Fgin%23api-examples "https://github.com/gin-gonic/gin#api-examples")
-2. [gin框架路由拆分与注册](https://link.juejin.cn/?target=https%3A%2F%2Fwww.liwenzhou.com%2Fposts%2FGo%2Fgin_routes_registry%2F "https://www.liwenzhou.com/posts/Go/gin_routes_registry/")
+1. [api-examples](https://github.com/gin-gonic/gin#api-examples)
+2. [gin框架路由拆分与注册](https://www.liwenzhou.com/posts/Go/gin_routes_registry)
