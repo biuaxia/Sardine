@@ -126,6 +126,7 @@ updated: 2021-08-11 10:57:11
 - [GORM 指南 | GORM - The fantastic ORM library for Golang, aims to be developer friendly.](https://gorm.io/zh_CN/docs)
 - [go-admin](https://doc.go-admin.dev)
 - [Go入门指南 · 看云](https://www.kancloud.cn/kancloud/the-way-to-go)
+- [beego: 简约 & 强大并存的 Go 应用框架](https://beego.me/docs/intro/)
 
 ### Java
 
