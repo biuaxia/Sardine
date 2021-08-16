@@ -1,4 +1,4 @@
-title: 我希望多年前就知道的 Nginx 概念
+title: 【转载】我希望多年前就知道的 Nginx 概念
 date: 2021-08-14 09:32:45
 toc: true
 permalink: /articles/2021/08/14/1628904760885.html
