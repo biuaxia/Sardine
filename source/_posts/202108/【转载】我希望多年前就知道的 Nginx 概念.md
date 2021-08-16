@@ -105,7 +105,7 @@ Nginx 就是 Web 服务器，到目前为止，我一直在整篇博客中使用
 好的，老实说，在任何操作系统上安装 Nginx 都只需要一行命令。我是 Mac OSX 用户，所以会基于它来写命令。但对于 [Ubuntu](https://link.juejin.cn?target=https%3A%2F%2Fubuntu.com%2Ftutorials%2Finstall-and-configure-nginx%232-installing-nginx "https://ubuntu.com/tutorials/install-and-configure-nginx#2-installing-nginx") 和 [Windows](https://link.juejin.cn?target=https%3A%2F%2Fwww.maketecheasier.com%2Finstall-nginx-server-windows%2F "https://www.maketecheasier.com/install-nginx-server-windows/") 以及其他 Linux 发行版，也有类似的命令。
 
 ```
-$ brew install Nginx
+brew install Nginx
 ```
 
 只需要一行命令，你的系统就已经安装上 Nginx 了!非常 Amazing！
@@ -115,9 +115,9 @@ $ brew install Nginx
 运行下面的命令来检查 Nginx 是否在你的系统上运行起来了，又是非常简单的一步。
 
 ```
-$ nginx 
+nginx 
 # OR 
-$ sudo nginx
+sudo nginx
 ```
 
 运行完命令之后，使用你最喜欢的浏览器访问 `http://localhost:8080/`，你将在屏幕上看到下面的画面！
@@ -150,16 +150,16 @@ $ sudo nginx
 
 现在回到正轨。我们可以通过修改位于 `/usr/local/etc/nginx` （译者注：默认安装路径）路径下的 `nginx.conf` 文件，实现对 Nginx 默认配置的任何改动。另外，我的系统中有 Vim，所以我将用 Vim 进行修改，你也可以自由使用所选的编辑器。
 
-```
-$ cd /usr/local/etc/nginx
-$ vim nginx.conf
+```bash
+cd /usr/local/etc/nginx
+vim nginx.conf
 ```
 
 这将打开一个默认的 Nginx 配置文件，但我真的不想使用它的默认配置。因此，我通常会复制这个配置文件，然后对原文件进行修改。在这里我们也这样做。
 
-```
-$ cp nginx.conf copy-nginx.conf
-$ rm nginx.conf && vim nginx.conf 
+```bash
+cp nginx.conf copy-nginx.conf
+rm nginx.conf && vim nginx.conf 
 ```
 
 现在打开一个空文件，我们将给它添加我们的配置。
@@ -167,7 +167,7 @@ $ rm nginx.conf && vim nginx.conf
 1. 添加一个基本配置。添加 `events {}` 是必须的，因为对于 Nginx 架构来讲，它通常被用来表示 Worker 的数量。我们在这里使用 `http` 来告诉 Nginx，我们将使用 [OSI 模型](https://link.juejin.cn?target=https%3A%2F%2Fbit.ly%2F2LGdbYB "https://bit.ly/2LGdbYB") 的第 7 层。
    在这里，我们让 Nginx 监听 5000 端口，并指向 `/nginx-demo/main` 文件夹下的静态文件。
    
-    ```
+    ```nginx
     http {
 
         server {
@@ -183,7 +183,7 @@ $ rm nginx.conf && vim nginx.conf
 2. 接下来我们将对 `/content` 和 `/outsider` URL 添加额外的规则，其中 **outsider** 将指向第一步中提到的根目录（`/nginx-demo`）以外的目录。
    这里 `location /content` 表示无论我在子目录中定义了哪一个根目录，**content** 子 URL 都会被添加到定义的根目录末尾。因此，这里当我指定根目录为 `root /path/to/nginx-demo/` 时，仅仅表示我告诉 Nginx 在 `http://localhost:5000/path/to/nginx-demo/content/` 向我展示文件夹内静态文件的内容。
    
-    ```
+    ```nginx
     http {
 
         server {
@@ -207,16 +207,16 @@ $ rm nginx.conf && vim nginx.conf
    > 好酷！现在 Nginx 不仅限于定义根 URL，还可以设置规则，以便于我可以阻止客户端访问某些文件。
 3. 我们将在定义的主服务器中写入一条附加规则，用来阻止访问任何 **.md** 文件。我们可以在 Nginx 中使用正则表达式，规则定义如下：
    
-    ```
+    ```nginx
     location ~ .md {
-            return 403;
-        }
+        return 403;
+    }
     ```
 
 4. 最后我们来学习一下流行的命令 `proxy_pass`。现在我们已经了解了什么是代理和反向代理，这里我们先定义另一个运行在 8888 端口的后台服务器，所以现在我们已经有了 2 个分别运行在 5000 和 8888 端口的后台服务器。
    我们要做的是，当客户端通过 Nginx 访问 8888 端口时，将这个请求传到 5000 端口，并向客户端返回响应！
    
-    ```
+    ```nginx
     server {
         listen 8888;
 
@@ -232,41 +232,40 @@ $ rm nginx.conf && vim nginx.conf
 
 ### 最后一起来看看完整的代码！😁
 
-```
+```nginx
 http {
 
-        server {
-            listen 5000;
-            root /path/to/nginx-demo/main/; 
+    server {
+        listen 5000;
+        root /path/to/nginx-demo/main/; 
 
-            location /content {
-                root /path/to/nginx-demo/;
-            }   
+        location /content {
+            root /path/to/nginx-demo/;
+        }   
 
-            location /outsider {
-               root /path/temp-nginx/;
-            }
+        location /outsider {
+            root /path/temp-nginx/;
+        }
 
-                    location ~ .md {
-              return 403;
-            }
-       }
+                location ~ .md {
+            return 403;
+        }
+    }
 
-         server {
-           listen 8888;
+    server {
+        listen 8888;
 
-           location / {
-               proxy_pass http://localhost:5000/;
-           }
+        location / {
+            proxy_pass http://localhost:5000/;
+        }
 
-           location /new {
-               proxy_pass http://localhost:5000/outsider/;
-           }
-      }
+        location /new {
+            proxy_pass http://localhost:5000/outsider/;
+        }
+    }
+}
 
-   }
-
-   events {}
+events {}
 ```
 
 通过 `sudo nginx` 来运行代码。
@@ -274,36 +273,43 @@ http {
 ## 额外的 Nginx 命令！
 
 1. 首次启动 Nginx Web 服务器。
-   ```
-   $ nginx 
-     #OR 
-     $ sudo nginx
-   ```
+
+    ```bash
+    nginx 
+    #OR 
+    sudo nginx
+    ```
+
 2. 重新加载正在运行的 Nginx Web 服务器。
-   ```
-   $ nginx -s reload
-     #OR 
-     $ sudo nginx -s reload
-   ```
+
+    ```bash
+    nginx -s reload
+    #OR 
+    sudo nginx -s reload
+    ```
+
 3. 关闭正在运行的 Nginx Web 服务器。
-   ```
-   $ nginx -s stop
-     #OR 
-     $ sudo nginx -s stop
-   ```
+
+    ```bash
+    nginx -s stop
+    #OR 
+    sudo nginx -s stop
+    ```
+
 4. 查找有哪些 Nginx 进程正在系统中运行
-   ```
-   $ ps -ef | grep Nginx
-   ```
+
+    ```bash
+    ps -ef | grep Nginx
+    ```
 
 第 4 条命令很重要，当前 3 条命令出现错误时，可以使用第 4 条命令找到所有正在运行的 Nginx 进程，然后 kill 掉这些进程，重新启动 Nginx 服务。
 
 要 kill 一个进程，你需要先知道它的 PID，然后用下面的命令 kill 它：
 
-```
-$ kill -9 <PID>
+```bash
+kill -9 <PID>
 #OR 
-$ sudo kill -9 <PID>
+sudo kill -9 <PID>
 ```
 
 在结束这篇文章之前，声明一下我所使用图片和视觉效果来自 Goole 图片和由 [Hussein Nasser](https://link.juejin.cn?target=https%3A%2F%2Fwww.youtube.com%2Fuser%2FGISIGeometry "https://www.youtube.com/user/GISIGeometry") 提供的 Youtube 教程。
