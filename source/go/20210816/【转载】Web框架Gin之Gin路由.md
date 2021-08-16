@@ -1,5 +1,5 @@
 title: 【转载】Web框架Gin之Gin路由.md
-date: 2021-08-16 09:24:01
+date: 2021-08-16 09:30:01
 toc: true
 permalink: /articles/go/20210816/01.html
 category:
@@ -36,7 +36,7 @@ Gin 支持 GET、POST、PUT、PATCH、DELETE、OPTIONS 等请求类型。
 
 [示例](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Fxcbeyond%2FgolangLearning%2Ftree%2Fmain%2Fframework%2Fgin-demo%2Froute%2Fbasic%2Fbasic-route.go "https://github.com/xcbeyond/golangLearning/tree/main/framework/gin-demo/route/basic/basic-route.go")：
 
-```go copyable
+```go
 package main
 
 import (
@@ -78,7 +78,6 @@ func main() {
 func postHandler(c *gin.Context) {
 	c.JSON(http.StatusOK, "this is a post method response!")
 }
-复制代码
 ```
 
 ## 参数处理
@@ -89,7 +88,7 @@ func postHandler(c *gin.Context) {
 
 [示例](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Fxcbeyond%2FgolangLearning%2Ftree%2Fmain%2Fframework%2Fgin-demo%2Froute%2Fparam%2Frequest-param.go "https://github.com/xcbeyond/golangLearning/tree/main/framework/gin-demo/route/param/request-param.go")：
 
-```go copyable
+```go
 package main
 
 import (
@@ -134,7 +133,6 @@ func main() {
 	route.Run()
 }
 
-复制代码
 ```
 
 ### 查询参数
@@ -143,7 +141,7 @@ func main() {
 
 [示例](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Fxcbeyond%2FgolangLearning%2Ftree%2Fmain%2Fframework%2Fgin-demo%2Froute%2Fparam%2Frequest-param.go "https://github.com/xcbeyond/golangLearning/tree/main/framework/gin-demo/route/param/request-param.go")：
 
-```go copyable
+```go
 package main
 
 import (
@@ -186,8 +184,6 @@ func main() {
 
 	route.Run()
 }
-
-复制代码
 ```
 
 ### ……
@@ -200,7 +196,7 @@ Gin 提供了路由分组的能力，方便管理分组管理路由，将具有�
 
 [示例](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Fxcbeyond%2FgolangLearning%2Ftree%2Fmain%2Fframework%2Fgin-demo%2Froute%2Fgroup%2Fgroup-route.go "https://github.com/xcbeyond/golangLearning/tree/main/framework/gin-demo/route/group/group-route.go")：
 
-```go copyable
+```go
 package main
 
 import (
@@ -274,8 +270,6 @@ func main() {
 
 	route.Run()
 }
-
-复制代码
 ```
 
 ## 路由拆分
@@ -292,19 +286,18 @@ func main() {
 
 将路由实现分离到单独的包下，使得项目结构更加清晰。项目结构如下：
 
-```sh copyable
+```sh
 .
 ├── main.go
 └── routes
     └── routes.go
-复制代码
 ```
 
 示例完整源码：[route-split-v1](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Fxcbeyond%2FgolangLearning%2Ftree%2Fmain%2Fframework%2Fgin-demo%2Froute%2Froute-split%2Fsplit-v1 "https://github.com/xcbeyond/golangLearning/tree/main/framework/gin-demo/route/route-split/split-v1")
 
 在 `/routes/routes.go` 文件中实现并注册路由信息：
 
-```go copyable
+```go
 package routes
 
 import (
@@ -361,20 +354,17 @@ func querUserHandler(c *gin.Context) {
 	}
 	c.JSON(http.StatusOK, "not found user :"+name)
 }
-
-复制代码
 ```
 
 并在 main.go 中调用路由配置函数 SetupRouter 即可：
 
-```go copyable
+```go
 func main() {
 	route := routes.SetupRouter()
 	if err := route.Run(); err != nil {
 		fmt.Printf("startup server failed,err: %v", err)
 	}
 }
-复制代码
 ```
 
 ### 路由拆分为多个源文件
@@ -383,14 +373,13 @@ func main() {
 
 因此，可根据某种维度拆分为多个路由文件来实现不同业务功能。项目结构如下：
 
-```sh copyable
+```sh
 .
 ├── main.go
 └── routes
     ├── auth.go
     ├── routes.go
     └── user.go
-复制代码
 ```
 
 示例完整源码：[route-split-v2](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Fxcbeyond%2FgolangLearning%2Ftree%2Fmain%2Fframework%2Fgin-demo%2Froute%2Froute-split%2Fsplit-v2 "https://github.com/xcbeyond/golangLearning/tree/main/framework/gin-demo/route/route-split/split-v2")
@@ -399,7 +388,7 @@ func main() {
 
 如，认证模块 auth.go：
 
-```go copyable
+```go
 package routes
 
 import (
@@ -422,15 +411,13 @@ func loginHandler(c *gin.Context) {
 func logoutUserHanler(c *gin.Context) {
 
 }
-
-复制代码
 ```
 
 其中，定义 AuthRegister 函数将该模块下所有路由进行注册，注意该函数为大写字母开头，作为全局函数能够被包外 main.go 调用。
 
 routes/routes.go 中，配置路由，并统一注册所有模块的路由：
 
-```go copyable
+```go
 package routes
 
 import (
@@ -450,20 +437,17 @@ func SetupRouter() *gin.Engine {
 
 	return route
 }
-
-复制代码
 ```
 
 main.go 和上一版本一样，作为程序等入口：
 
-```go copyable
+```go
 func main() {
 	route := routes.SetupRouter()
 	if err := route.Run(); err != nil {
 		fmt.Printf("startup server failed,err: %v", err)
 	}
 }
-复制代码
 ```
 
 ---
