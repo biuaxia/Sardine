@@ -199,9 +199,6 @@ widgets:
     # Names and URLs of the sites
     links:
       Hexo: "https://hexo.io"
-      Go Playground: "https://play.studygolang.com/?utm_source=biuaxia.cn"
-      慕课网: "https://www.imooc.com/u/index/allcourses?utm_source=biuaxia.cn"
-      微信开发平台: "https://mp.weixin.qq.com?utm_source=biuaxia.cn"
       # 固链
       Newlearnerの小站: "https://www.newlearner.site?utm_source=biuaxia.cn"
       李文周的博客: "https://www.liwenzhou.com?utm_source=biuaxia.cn"
@@ -211,15 +208,6 @@ widgets:
       嗨客导航_纯净的浏览器主页: "https://hik.win?utm_source=biuaxia.cn"
       ZNGG在线工具: "https://zn.gg?utm_source=biuaxia.cn"
       # Hu60 友链 End
-      # 工具
-      免费考研资源网: "http://qzbltushu.ys168.com?utm_source=biuaxia.cn"
-      字幕库: "http://zimuku.org?utm_source=biuaxia.cn"
-      字幕-SubHD: "https://subhd.tv?utm_source=biuaxia.cn"
-      jwt解析: "https://jwt.io?utm_source=biuaxia.cn"
-      在线加解密: "https://www.cmd5.com/hash.aspx?s=123456&utm_source=biuaxia.cn"
-      Picx: "https://picx.xpoet.cn/#/upload?utm_source=biuaxia.cn"
-      IconFont: "https://www.iconfont.cn?utm_source=biuaxia.cn"
-      # 工具 End
       # 备案
       蜀ICP备19024339号-1: "http://www.beian.miit.gov.cn?utm_source=biuaxia.cn"
       # 备案 End
