@@ -27,6 +27,7 @@ updated: 2021-08-11 10:57:11
 - [The free text converter for all your documents. – Alldocs](https://alldocs.app?utm_source=biuaxia.cn)
 - [自留地工牌生成器](https://avatar-flutter.vercel.app/#?utm_source=biuaxia.cn)
 - [Flowchart Fun - 在线文本生成流程图](https://flowchart.fun?utm_source=biuaxia.cn)
+- [Font Awesome](https://fontawesome.com?utm_source=biuaxia.cn)
 
 ## 待阅读
 
