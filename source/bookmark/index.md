@@ -6,6 +6,13 @@ updated: 2021-08-11 10:57:11
 
 ## 工具类
 
+- [免费考研资源网](http://qzbltushu.ys168.com?utm_source=biuaxia.cn)
+- [字幕库](http://zimuku.org?utm_source=biuaxia.cn)
+- [字幕-SubHD](https://subhd.tv?utm_source=biuaxia.cn)
+- [jwt解析](https://jwt.io?utm_source=biuaxia.cn)
+- [在线加解密](https://www.cmd5.com/hash.aspx?s=123456&utm_source=biuaxia.cn)
+- [Picx](https://picx.xpoet.cn/#/upload?utm_source=biuaxia.cn)
+- [IconFont](https://www.iconfont.cn?utm_source=biuaxia.cn)
 - [俄罗斯方块](http://v.bootstrapmb.com/2021/6/qma6610287?utm_source=biuaxia.cn)
 - [简介 | Lomorage文档](https://docs.lomorage.com/zh?utm_source=biuaxia.cn)
 - [Account | Cloudflare - Web Performance &amp; Security](https://dash.cloudflare.com?utm_source=biuaxia.cn)
@@ -123,6 +130,7 @@ updated: 2021-08-11 10:57:11
 - [Choose an open source license | Choose a License](https://choosealicense.com)
 - [map | 微信开放文档](https://developers.weixin.qq.com/miniprogram/dev/component/map.html)
 - [CSNet（Computer Science Network）](https://csnet.aite.xyz)，代理配置为: `localhost:54321`
+- [DataEase - 人人可用的开源数据可视化分析工具 - 官网](https://dataease.io/)
 
 ### Golang
 
