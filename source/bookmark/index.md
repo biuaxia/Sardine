@@ -128,6 +128,7 @@ updated: 2021-08-11 10:57:11
 - [Go入门指南 · 看云](https://www.kancloud.cn/kancloud/the-way-to-go)
 - [beego: 简约 & 强大并存的 Go 应用框架](https://beego.me/docs/intro/)
 - [框架介绍 - GoFrame官网 - 类似PHP-Laravel, Java-SpringBoot的Go企业级开发框架](https://goframe.org/display/gf)
+- [go-swagger/go-swagger: Swagger 2.0 implementation for go](https://github.com/go-swagger/go-swagger)
 
 ### Java
 
