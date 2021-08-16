@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+sitemap: https://www.biuaxia.cn/sitemap.xml
