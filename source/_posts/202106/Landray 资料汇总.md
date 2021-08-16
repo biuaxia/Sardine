@@ -7,6 +7,13 @@ tags: [Landray, 手册, 资料, 开发]
 permalink: /articles/2021/06/18/1624029793886.html
 ---
 
+## 客户
+
+- [四川省公安厅 - GKP_V1](http://47.108.161.102:8080/ekp)
+- [西南民族大学 - GKP_V1](http://ducha.swun.edu.cn:8080)
+- [四川省人民政府 - EKP_V14](http://202.61.89.9:8081)
+- [四川省发展和改革委员会 - GKP_V1](http://202.61.89.108:9001)
+
 ## 📘 定制相关手册
 
 1. [二次开发培训-蓝凌JAVA产品开发规范](http://java.landray.com.cn/kms/multidoc/kms_multidoc_knowledge/kmsMultidocKnowledge.do?method=view&fdId=14ab3fcfc97f5c4b8ac9de541558dce8)
