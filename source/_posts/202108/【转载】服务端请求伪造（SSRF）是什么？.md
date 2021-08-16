@@ -58,7 +58,6 @@ header("Content-Type: image/png");
 * 响应图片的内容
 */
 fpassthru($image);}
-复制代码
 ```
 
 在上面的例子中，攻击者可以完全控制 **url** 参数。攻击者可以向因特网上的任意网站和被攻击服务器（**localhost** ）上的资源发起 GET 请求。
@@ -68,7 +67,6 @@ fpassthru($image);}
 ```http
 GET /?url=http://localhost/server-status HTTP/1.1
 Host: example.com
-复制代码
 ```
 
 攻击者也可以使用 SSRF 向 web 服务器有权访问的其他内部资源发出请求，尽管它们不是公开可访问的。例如，攻击者可以访问类似 AWS/[Amazon EC2](https://link.juejin.cn?target=http%3A%2F%2Fdocs.aws.amazon.com%2FAWSEC2%2Flatest%2FUserGuide%2Fec2-instance-metadata.html "http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-metadata.html") 和 [OpenStack](https://link.juejin.cn?target=https%3A%2F%2Fdocs.openstack.org%2Fadmin-guide%2Fcompute-networking-nova.html "https://docs.openstack.org/admin-guide/compute-networking-nova.html") 的云服务实例的元数据。攻击者甚至可以利用 SSRF 发挥创意，[对内部 IP 进行端口扫描](https://link.juejin.cn?target=https%3A%2F%2Fwww.acunetix.com%2Fblog%2Farticles%2Fssrf-vulnerability-used-to-scan-the-web-servers-network%2F "https://www.acunetix.com/blog/articles/ssrf-vulnerability-used-to-scan-the-web-servers-network/")。
@@ -76,7 +74,6 @@ Host: example.com
 ```http
 GET /?url=http://169.254.169.254/latest/meta-data/ HTTP/1.1
 Host: example.com
-复制代码
 ```
 
 除了 **http://** 和 **https://** URL 协议之外，攻击者可以利用鲜为人知的或古老的 URL 协议访问本地系统或内部网络上的文件。
@@ -86,7 +83,6 @@ Host: example.com
 ```http
 GET /?url=file:///etc/passwd HTTP/1.1
 Host: example.com
-复制代码
 ```
 
 部分应用可能允许攻击者使用更多奇怪的 URL 协议。比如，如果应用使用 cURL 发起请求，那么攻击者可以使用 **dict://** URL 协议向任意的主机和端口发起请求，并发送自定义数据。
@@ -94,7 +90,6 @@ Host: example.com
 ```http
 GET /?url=dict://localhost:11211/stat HTTP/1.1
 Host: example.com
-复制代码
 ```
 
 上面的请求使得应用程序连接 **localhost** 的 11211 端口，并发送 `stat` 字符串。端口 11211 是 [Memcached](https://link.juejin.cn?target=https%3A%2F%2Fmemcached.org%2F "https://memcached.org/") 的默认端口，该端口通常不会对外暴露。
