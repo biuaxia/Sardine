@@ -213,7 +213,7 @@ widgets:
       蜀ICP备19024339号-1: "http://www.beian.miit.gov.cn?utm_source=biuaxia.cn"
   # Archives widget configurations
   - # Where should the widget be placed, left sidebar or right sidebar
-    position: right
+    position: left
     type: archives
   # Calolitegories widget configurations
   - # Where should the widget be placed, left sidebar or right sidebar
@@ -221,7 +221,7 @@ widgets:
     type: categories
   # Tags widget configurations
   - # Where should the widget be placed, left sidebar or right sidebar
-    position: right
+    position: left
     type: tags
   # Profile widget configurations
   - # Where should the widget be placed, left sidebar or right sidebar
@@ -248,7 +248,7 @@ widgets:
         url: /atom.xml
   # Table of contents widget configurations
   - # Where should the widget be placed, left sidebar or right sidebar
-    position: left
+    position: right
     type: toc
     # Whether to show the index of each heading
     index: true
