@@ -6,6 +6,9 @@ updated: 2021-08-11 10:57:11
 
 ## 工具类
 
+- [慕课网](https://www.imooc.com/u/index/allcourses?utm_source=biuaxia.cn)
+- [Go Playground](https://play.studygolang.com/?utm_source=biuaxia.cn)
+- [微信开发平台](https://mp.weixin.qq.com?utm_source=biuaxia.cn)
 - [免费考研资源网](http://qzbltushu.ys168.com?utm_source=biuaxia.cn)
 - [字幕库](http://zimuku.org?utm_source=biuaxia.cn)
 - [字幕-SubHD](https://subhd.tv?utm_source=biuaxia.cn)
