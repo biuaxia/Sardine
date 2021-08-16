@@ -105,7 +105,7 @@ navbar:
   links:
     View on GitHub:
       icon: fab fa-github
-      url: "https://github.com/biuaxia?utm_source=biuaxia.cn"
+      url: "https://github.com/biuaxia/Sardine?utm_source=biuaxia.cn"
 # Page footer configurations
 footer:
   # Links to be shown on the right of the footer section
@@ -113,9 +113,6 @@ footer:
     Creative Commons:
       icon: fab fa-creative-commons
       url: "https://creativecommons.org/"
-    View on GitHub:
-      icon: fab fa-github
-      url: "https://github.com/biuaxia"
 # Article related configurations
 article:
   # Code highlight settings
@@ -211,12 +208,9 @@ widgets:
     follow_link: "https://github.com/biuaxia"
     # Links to be shown on the bottom of the profile widget
     social_links:
-      Github:
-        icon: fab fa-github
-        url: "https://github.com/biuaxia"
       RSS:
         icon: fas fa-rss
-        url: /
+        url: /atom.xml
   # Table of contents widget configurations
   - # Where should the widget be placed, left sidebar or right sidebar
     position: left
