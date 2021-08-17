@@ -40,6 +40,21 @@ updated: 2021-08-11 10:57:11
 - [Flowchart Fun - 在线文本生成流程图](https://flowchart.fun?utm_source=biuaxia.cn)
 - [Font Awesome](https://fontawesome.com?utm_source=biuaxia.cn)
 
+---
+
+- [主页 | 云盘资源分享](https://oook.xyz/)
+- [主页 | JIKE](https://jike.info/)
+
+---
+
+### V2Ray订阅
+
+- <https://misakanode.cf/sub.txt>
+
+### Clash订阅
+
+- <https://misakanode.cf/Clash.yml>
+
 ## 待阅读
 
 > 更新于：2021年8月16日
