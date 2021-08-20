@@ -152,6 +152,7 @@ updated: 2021-08-11 10:57:11
 - [map | 微信开放文档](https://developers.weixin.qq.com/miniprogram/dev/component/map.html)
 - [CSNet（Computer Science Network）](https://csnet.aite.xyz)，代理配置为: `localhost:54321`
 - [DataEase - 人人可用的开源数据可视化分析工具 - 官网](https://dataease.io/)
+- [IntelliJ IDEA Tips & Tricks: 多个光标 - IntelliJ IDEA Tutorial](https://einverne.gitbook.io/intellij-idea-tutorial/tips-multiple-cursors)
 
 ### Golang
 
