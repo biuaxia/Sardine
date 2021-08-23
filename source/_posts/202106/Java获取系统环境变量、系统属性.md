@@ -1,16 +1,23 @@
 title: Java获取系统环境变量、系统属性
 date: '2021-06-21 15:44:17'
-updated: '2021-06-21 21:29:56'
+toc: truue
+permalink: /articles/2021/06/21/1624261456912.html
 category: 
  - Java
-tags: [Java, env, 环境变量]
-permalink: /articles/2021/06/21/1624261456912.html
+tags: 
+ - Java
+ - env
+ - 环境变量
 ---
+
 ## 系统环境变量
 
 即配置在系统变量中的内容：
 
 ![image.png](https://b3logfile.com/file/2021/06/image-8c0990b5.png)
+
+
+<!-- more -->
 
 代码为：
 
