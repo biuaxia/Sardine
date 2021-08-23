@@ -1,16 +1,25 @@
 title: 【转载】搓一个 Telegram Bot
 date: '2021-06-18 22:44:51'
-updated: '2021-06-18 22:45:05'
+toc: true'
+permalink: /articles/2021/06/18/1624027490919.html
 category: 
  - 转载
-tags: [Telegram, bot, golang]
-permalink: /articles/2021/06/18/1624027490919.html
+tags:  
+ - 转载
+ - Telegram
+ - bot
+ - golang
 ---
+
 本文转载自：[搓一个 Telegram Bot - bleem](https://mritd.com/2021/06/03/make-a-telegram-bot/#%E4%B8%80%E3%80%81Telegram-Bot-%E4%BB%8B%E7%BB%8D)
 
 ---
 
 > 在一个月光如雪的晚上和 PMheart 在 Telegram 闲聊，突然发现群里一个人的昵称是当前时间，然后观察一会儿发现还在不停变化… 最可气的是他还弄个 “东半球🌏最准报时” 的头衔，我一开始以为是 Telegram 又出的什么 “高级功能”(毕竟微信炸💩都是 Telegram 好久之前玩剩下的)，几经 Google 我发现其实就是自己写个 Bot，然后定时 rename；**那我要不整个 “东半球最浪漫诗人” 岂不是太面了🤔。**
+
+
+<!-- more -->
+
 
 ## 一、Telegram Bot 介绍
 
