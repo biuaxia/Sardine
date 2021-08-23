@@ -1,5 +1,7 @@
 title: 【转载】Go语言操作MySQL
 date: '2021-08-11 10:52:59'
+toc: true
+permalink: /articles/2021/08/11/1628650386128.html
 category:
  - 转载
  - Go
@@ -8,8 +10,6 @@ tags:
  - Go
  - MySQL
  - 操作
-toc: true
-permalink: /articles/2021/08/11/1628650386128.html
 ---
 
 本文转载自：[Go语言操作MySQL | 李文周的博客](https://www.liwenzhou.com/posts/Go/go_mysql/#autoid-1-3-0)
@@ -18,10 +18,6 @@ permalink: /articles/2021/08/11/1628650386128.html
 
 MySQL是业界常用的关系型数据库，本文介绍了Go语言如何操作MySQL数据库。
 
-
-<!-- more -->
-
-
 # Go操作MySQL
 
 ## 连接
@@ -29,6 +25,10 @@ MySQL是业界常用的关系型数据库，本文介绍了Go语言如何操作M
 Go语言中的`database/sql`包提供了保证SQL或类SQL数据库的泛用接口，并不提供具体的数据库驱动。使用`database/sql`包时必须注入（至少）一个数据库驱动。
 
 我们常用的数据库基本上都有完整的第三方实现。例如：[MySQL驱动](https://github.com/go-sql-driver/mysql)
+
+
+<!-- more -->
+
 
 ### 下载依赖
 
