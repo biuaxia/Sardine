@@ -1,11 +1,21 @@
 title: SpringBoot 获取项目所在目录 & 配置文件读取顺序
 date: '2021-06-21 16:22:12'
-updated: '2021-06-21 21:30:01'
+toc: true
+permalink: /articles/2021/06/21/1624263732476.html
 category: 
  - Java
-tags: [SpringBoot, Java, 顺序]
-permalink: /articles/2021/06/21/1624263732476.html
+tags: 
+ - SpringBoot
+ - Java
+ - 获取
+ - 项目
+ - 目录
+ - 配置
+ - 文件
+ - 读取
+ - 顺序
 ---
+
 项目目录与当前类所在目录：
 
 ```java
@@ -21,6 +31,10 @@ log.info("启动类所在目录: {}", ResourceUtils.
 ```
 
 项目目录如果是以 jar 启动则是 jar 所在目录，如果是用代码直接启动就在项目根目录下。
+
+
+<!-- more -->
+
 
 直接启动：
 
