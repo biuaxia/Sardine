@@ -1,14 +1,21 @@
 title: 【转载】Go语言中的单例模式
 date: '2021-08-09 16:35:33'
-updated: '2021-08-09 16:35:33'
+toc: true
+permalink: /articles/2021/08/09/1628498563054.html
 category:
  - 转载
  - Go
-tags: [转载, Go, 设计模式, 单例, 错误]
-permalink: /articles/2021/08/09/1628498563054.html
+tags: 
+ - 转载
+ - Go
+ - 设计
+ - 模式
+ - 单例
+ - 错误
 ---
 
 本文转载自：[Go语言中的单例模式 | 李文周的博客](https://www.liwenzhou.com/posts/Go/singleton_in_go/)
+
 ---
 
 在过去的几年中，Go语言的发展是惊人的，并且吸引了很多由其他语言（Python、PHP、Ruby）转向Go语言的跨语言学习者。 Go语言太容易实现并发了，以至于它在很多地方被不正确的使用了。
