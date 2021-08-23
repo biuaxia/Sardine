@@ -1,14 +1,20 @@
 title: 【转载】Go语言操作mongoDB
 date: '2021-08-09 16:38:33'
-updated: '2021-08-09 16:38:33'
+toc: true
+permalink: /articles/2021/08/09/1628499161053.html
 category:
  - 转载
  - Go
-tags: [转载, Go, MongoDB, Mongo]
-permalink: /articles/2021/08/09/1628499161053.html
+tags: 
+ - 转载
+ - Go
+ - MongoDB
+ - Mongo
+ - 操作
 ---
 
 本文转载自：[Go语言操作mongoDB | 李文周的博客](https://www.liwenzhou.com/posts/Go/go_mongodb/)
+
 ---
 
 mongoDB是目前比较流行的一个基于分布式文件存储的数据库，它是一个介于关系数据库和非关系数据库(NoSQL)之间的产品，是非关系数据库当中功能最丰富，最像关系数据库的。
