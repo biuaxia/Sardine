@@ -1,14 +1,19 @@
 title: 【转载】Go语言基础之并发
 date: '2021-08-09 16:39:33'
-updated: '2021-08-09 16:39:33'
+toc: true
+permalink: /articles/2021/08/09/1628499474066.html
 category:
  - 转载
  - Go
-tags: [转载, Go, 基础, 并发]
-permalink: /articles/2021/08/09/1628499474066.html
+tags: 
+ - 转载
+ - Go
+ - 基础
+ - 并发
 ---
 
 本文转载自：[Go语言基础之并发 | 李文周的博客](https://www.liwenzhou.com/posts/Go/14_concurrence/)
+
 ---
 
 并发是编程里面一个非常重要的概念，Go语言在语言层面天生支持并发，这也是Go语言流行的一个很重要的原因。
