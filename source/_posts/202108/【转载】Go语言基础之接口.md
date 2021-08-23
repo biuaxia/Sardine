@@ -1,14 +1,19 @@
 title: 【转载】Go语言基础之接口
 date: '2021-08-09 16:41:33'
-updated: '2021-08-09 16:41:33'
+toc: true
+permalink: /articles/2021/08/09/1628499636054.html
 category:
  - 转载
  - Go
-tags: [转载, Go, 基础, 接口]
-permalink: /articles/2021/08/09/1628499636054.html
+tags: 
+ - 转载
+ - Go
+ - 基础
+ - 接口
 ---
 
 本文转载自：[Go语言基础之接口 | 李文周的博客](https://www.liwenzhou.com/posts/Go/12_interface/)
+
 ---
 
 接口（interface）定义了一个对象的行为规范，只定义规范不实现，由具体的对象来实现规范的细节。
