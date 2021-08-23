@@ -1,16 +1,26 @@
 title: 【转载】各种 Minecraft 服务端介绍和下载
 date: '2021-06-18 23:45:20'
-updated: '2021-06-18 23:45:20'
+toc: true
+permalink: /articles/2021/06/18/1624031120508.html
 category: 
  - 转载
-tags: [转载, Minecraft, 服务端, 下载]
-permalink: /articles/2021/06/18/1624031120508.html
+tags: 
+ - 转载
+ - Minecraft
+ - 服务端
+ - 下载
+ - 介绍
 ---
+
 本文转载自：[各种 Minecraft 服务端介绍和下载 - Zeruns’s Blog](https://blog.zeruns.tech/archives/626.html)
 
 **我的世界服务端大全，下面收集了一些 MC 的服务端**
 
 注：部分服务端第一次运行时会自动下载库文件，由于服务器处于境外，所以下载缓慢还可能失败，建议先找台境外服务器把要用的服务端放上去运行一下，把库文件都下载后把服务端目录下的 libraries 目录打包下载下来，然后在境内服务器开服时把 libraries 目录放服务端目录下。
+
+
+<!-- more -->
+
 
 # Minecraft 开服教程
 
