@@ -1,17 +1,28 @@
 title: 【转载】聊聊传说中的 ThreadLocal
 date: '2021-06-18 23:00:59'
-updated: '2021-06-18 23:00:59'
+toc: true
+permalink: /articles/2021/06/18/1624028459713.html
 category: 
  - 转载
  - Java
-tags: [转载, ThreadLocal]
-permalink: /articles/2021/06/18/1624028459713.html
+tags: 
+ - 转载
+ - ThreadLocal
+ - Java
+ - 传说
+ - 聊聊
 ---
+
 本文转载自：[聊聊传说中的 ThreadLocal | Nicksxs's Blog](https://nicksxs.me/2021/05/30/%E8%81%8A%E8%81%8A%E4%BC%A0%E8%AF%B4%E4%B8%AD%E7%9A%84-ThreadLocal/)
 
 ---
+
 说来也惭愧，这个 ThreadLocal 其实一直都是一知半解，而且看了一下之后还发现记错了，所以还是记录下
-原先记忆里的都是反过来，一个 ThreadLocal 是里面按照 thread 作为 key，存储线程内容的，真的是半解都米有，完全是错的，这样就得用 concurrentHashMap 这种去存储并且要锁定线程了，然后内容也只能存一个了，想想简直智障
+原先记忆里的都是反过来，一个 ThreadLocal 是里面按照 thread 作为 key，存储线程内容的，真的是半解都米有，完全是错的，这样就得用 concurrentHashMap 这种去存储并且要锁定线程了，然后内容也只能存一个了，想想简直智障。
+
+
+<!-- more -->
+
 
 ### 究竟是啥结构
 
