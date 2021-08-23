@@ -1,11 +1,22 @@
 title: 【转载】为brew、git、pip设置代理&为brew正确换源终极版
 date: '2021-06-18 21:57:00'
-updated: '2021-06-18 21:57:00'
+toc: true
+permalink: /articles/2021/06/18/1624024619981.html
 category: 
  - 转载
-tags: [转载, brew, http, https]
-permalink: /articles/2021/06/18/1624024619981.html
+tags: 
+ - 转载
+ - brew
+ - http
+ - https
+ - git
+ - pip
+ - 代理
+ - 设置
+ - 换源
+ - 终极版
 ---
+
 本文转载自：[为brew/git/pip设置代理&为brew正确换源终极版 - SegmentFault 思否](https://segmentfault.com/a/1190000019758638)
 
 ---
@@ -13,6 +24,10 @@ permalink: /articles/2021/06/18/1624024619981.html
 # 如何正确设置HTTP/HTTPS代理
 
 设置了brew通过socks5的代理后，会发现pip其实是不支持socks5的，只能通过http/https。
+
+
+<!-- more -->
+
 
 ## 首先获取端口
 
