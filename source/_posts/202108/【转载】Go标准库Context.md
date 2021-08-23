@@ -1,14 +1,19 @@
 title: 【转载】Go标准库Context
 date: '2021-08-09 16:38:33'
-updated: '2021-08-09 16:38:33'
+toc: true
+permalink: /articles/2021/08/09/1628499215068.html
 category:
  - 转载
  - Go
-tags: [转载, Go, 标准库, Context]
-permalink: /articles/2021/08/09/1628499215068.html
+tags: 
+ - 转载
+ - Go
+ - 标准库
+ - Context
 ---
 
 本文转载自：[Go标准库Context | 李文周的博客](https://www.liwenzhou.com/posts/Go/go_context/)
+
 ---
 
 在 Go http包的Server中，每一个请求在都有一个对应的 goroutine 去处理。请求处理函数通常会启动额外的 goroutine 用来访问后端服务，比如数据库和RPC服务。用来处理一个请求的 goroutine 通常需要访问一些与请求特定的数据，比如终端用户的身份认证信息、验证相关的token、请求的截止时间。 当一个请求被取消或超时时，所有用来处理该请求的 goroutine 都应该迅速退出，然后系统才能释放这些 goroutine 占用的资源。
