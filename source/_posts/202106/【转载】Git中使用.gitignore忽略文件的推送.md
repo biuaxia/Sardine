@@ -1,11 +1,20 @@
 title: 【转载】Git中使用.gitignore忽略文件的推送
 date: '2021-06-18 21:54:50'
-updated: '2021-06-18 21:54:50'
+toc: true
+permalink: /articles/2021/06/18/1624024490636.html
 category: 
  - 转载
-tags: [转载, Git, gitignore, ignore]
-permalink: /articles/2021/06/18/1624024490636.html
+tags: 
+ - 转载
+ - Git
+ - gitignore
+ - ignore
+ - 忽略
+ - 文件
+ - 推送
+ - 忽略文件
 ---
+
 本文转载自：[Git 忽略提交 .gitignore - 悠悠](http://uusama.com/542.html)，还可以参考：[Git中使用.gitignore忽略文件的推送_不当初-CSDN博客_gitignore](https://blog.csdn.net/lk142500/article/details/82869018)。
 
 ---
@@ -15,6 +24,10 @@ permalink: /articles/2021/06/18/1624024490636.html
 ## Git 忽略文件提交的方法
 
 有三种方法可以实现忽略Git中不想提交的文件。
+
+
+<!-- more -->
+
 
 ### 在Git项目中定义 .gitignore 文件
 
