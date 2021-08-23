@@ -1,12 +1,21 @@
 title: 【转载】CentOS下配置redis允许远程连接
 date: '2021-06-18 23:04:22'
-updated: '2021-06-18 23:04:22'
+toc: true
+permalink: /articles/2021/06/18/1624028661849.html
 category: 
  - 转载
  - Linux
-tags: [转载, Centos, Redis, 远程]
-permalink: /articles/2021/06/18/1624028661849.html
+ - Centos
+tags: 
+ - 转载
+ - Centos
+ - Redis
+ - 远程
+ - 链接
+ - 允许
+ - 配置
 ---
+
 本文转载自：[CentOS下配置redis允许远程连接 - 禁忌夜色153 - 博客园](https://www.cnblogs.com/jinjiyese153/p/8600703.html)
 
 ---
@@ -14,6 +23,10 @@ permalink: /articles/2021/06/18/1624028661849.html
 ## 目的
 
 因为想要学习redis，因此在虚拟机中安装了redis，为了实现在物理机可以访问redis，弄了好久；因此记录下来，以免忘记。
+
+
+<!-- more -->
+
 
 ## 环境
 
