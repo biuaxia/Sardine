@@ -1,12 +1,22 @@
 title: 【转载】Travis CI 和 Github Pages 实现 Hexo 博客的自动化部署
 date: '2021-06-18 16:14:54'
-updated: '2021-07-07 10:32:59'
+toc: true
+permalink: /articles/2021/06/18/1624004094601.html
 category: 
  - 转载
  - Hexo
-tags: [转载, hexo, CI]
-permalink: /articles/2021/06/18/1624004094601.html
+tags: 
+ - 转载
+ - hexo
+ - Travis-CI
+ - Github
+ - Pages
+ - 自动
+ - 自动化
+ - 部署
+ - 博客
 ---
+
 本文转载自：[Travis CI 和 Github Pages 实现 Hexo 博客的自动化部署 | Haukeng's Blog](https://blog.ghkk.net/post/automatically-deploy-hexo-with-travis-ci/)
 
 ---
@@ -15,7 +25,11 @@ permalink: /articles/2021/06/18/1624004094601.html
 
 前几日重装系统，便想着使用 Travis CI 来构建部署我的博客，然后把源文件放到 Github repo 中。这样子做实现了用 git 来管理博客的文件，方便进行版本管理，且部署脱离本地环境的限制，如果不需要在本地预览的话，连 hexo 都可以不安装。
 
-需要的工具： `git`, `npm`
+需要的工具： `git`, `npm`。
+
+
+<!-- more -->
+
 
 ## 安装 Hexo
 
