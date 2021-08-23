@@ -1,20 +1,32 @@
 title: npm设置和取消代理的方法
 date: '2021-06-18 22:23:10'
-updated: '2021-06-18 22:23:10'
-category: 
+toc: true
+permalink: /articles/2021/06/18/1624026190410.html
+category:
  - Linux
  - 代理
  - 镜像
  - Node
-tags: [npm, nrm, 代理, 镜像]
-permalink: /articles/2021/06/18/1624026190410.html
+tags: 
+ - npm
+ - nrm
+ - 代理
+ - 镜像
+ - 设置
+ - 取消
+ - 方法
 ---
+
 ## 设置代理
 
 ```bash
 npm config set proxy=http://127.0.0.1:8087
 npm config set registry=http://registry.npmjs.org
 ```
+
+
+<!-- more -->
+
 
 ## 关于https
 
@@ -121,4 +133,3 @@ nrm del <registry>
 ```
 nrm test
 ```
-
