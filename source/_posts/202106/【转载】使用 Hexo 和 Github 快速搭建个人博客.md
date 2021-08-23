@@ -1,12 +1,20 @@
 title: 【转载】使用 Hexo 和 Github 快速搭建个人博客
 date: '2021-06-18 22:16:32'
-updated: '2021-06-18 22:16:32'
+toc: true
+permalink: /articles/2021/06/18/1624025792741.html
 category: 
  - 转载
  - Hexo
-tags: [转载, hexo, github, 博客]
-permalink: /articles/2021/06/18/1624025792741.html
+tags: 
+ - 转载
+ - hexo
+ - github
+ - 博客
+ - 快速
+ - 搭建
+ - 个人
 ---
+
 本文转载自：[使用 Hexo 和 Github 快速搭建个人博客 | ９９３５](https://hooray.github.io/posts/15e2d21f/)
 
 ---
@@ -14,6 +22,10 @@ permalink: /articles/2021/06/18/1624025792741.html
 ![](https://b3logfile.com/file/2021/06/solo-fetchupload-6371403681885890992-75fc5ab1.png)
 
 网上类似的教程一搜一大把，写得其实很详细。但对于初次接触的我来说，这是一次全新的体验。所以在经历了多次「安装——配置——部署——删除——再安装——」之后，大概弄懂了整个流程。正好也是博客的开篇文章，记录一下整个搭建流程，加深印象。
+
+
+<!-- more -->
+
 
 ## 安装
 
