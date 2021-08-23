@@ -1,11 +1,19 @@
 title: 【转载】Jetbrains系列产品重置试用方法
 date: '2021-06-19 06:31:40'
-updated: '2021-06-19 06:32:52'
+toc: true
+permalink: /articles/2021/06/19/1624055500009.html
 category: 
  - 转载
-tags: [Jetbrains, 重置]
-permalink: /articles/2021/06/19/1624055500009.html
+tags: 
+ - Jetbrains
+ - 重置
+ - 试用
+ - 重置
+ - 方法
+ - 系列
+ - 产品
 ---
+
 本文转载自：[Jetbrains系列产品重置试用方法 | 知了](https://zhile.io/2020/11/18/jetbrains-eval-reset-da33a93d.html)。
 
 附赠项目 Gitee 仓库地址：[ide-eval-resetter: Reset your IDE eval information.](https://gitee.com/pengzhile/ide-eval-resetter?_from=gitee_search)
@@ -14,8 +22,13 @@ permalink: /articles/2021/06/19/1624055500009.html
 
 **本站惯例：本文假定你知道Jetbrains家的产品。不知道可以问问搜索引擎。**
 
-没错，`jetbrains-agent`这个项目停止了。市面上漫天飞的各种最新都是其他大神的魔改版本。[/斜眼]
+没错，`jetbrains-agent`这个项目停止了。市面上漫天飞的各种最新都是其他大神的魔改版本。
+
 我不是要专门写个博文来说明 `jetbrains-agent`项目已经停止，然后缅怀感叹一番。这篇文章是想和大家聊聊**另一种思路** 。
+
+
+<!-- more -->
+
 
 ## 0x0. 项目背景
 
