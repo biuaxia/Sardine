@@ -1,14 +1,20 @@
 title: 【转载】gRPC快速入门
 date: '2021-08-09 16:36:33'
-updated: '2021-08-09 16:36:33'
+toc: true
+permalink: /articles/2021/08/09/1628498928054.html
 category:
  - 转载
  - Go
-tags: [转载, Go, gRPC]
-permalink: /articles/2021/08/09/1628498928054.html
+tags: 
+ - 转载
+ - Go
+ - gRPC
+ - 快速
+ - 入门
 ---
 
 本文转载自：[gRPC快速入门 | 李文周的博客](https://www.liwenzhou.com/posts/Go/gRPC/)
+
 ---
 
 RPC算是近些年比较火热的概念了，随着微服务架构的兴起，RPC的应用越来越广泛。本文介绍了RPC和gRPC的相关概念，并且通过详细的代码示例介绍了gRPC的基本使用。
