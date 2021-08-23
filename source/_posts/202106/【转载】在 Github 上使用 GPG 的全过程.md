@@ -1,22 +1,29 @@
 title: 【转载】在 Github 上使用 GPG 的全过程
 date: '2021-06-21 09:01:58'
-updated: '2021-06-21 09:01:58'
+toc: true
+permalink: /articles/2021/06/21/1624237318842.html
 category: 
  - 转载
-tags: [转载, GPG, github]
-permalink: /articles/2021/06/21/1624237318842.html
+tags: 
+ - 转载
+ - GPG
+ - github
+ - 过程
 ---
+
 本文转载自：[在 Github 上使用 GPG 的全过程 | 无辄的栈](https://www.imwzk.com/posts/2019-08-04-how-to-use-gpg-on-github/)
 
 ---
-
-
 
 ## 起因
 
 其实在很早之前 Github 就已经充分支持 GPG 密钥了，而在我之前使用 Github 的两年时间内，竟对此一无所知，实在有些“没见过世面”。直至近日，在一次偶然查看仓库的 commit 历史中，发现某些 commit 有一个不同寻常的绿色标记（Verified），不仅美观（？）而且看上去舒心，如图所示：
 
 ![漂亮的 Verified 标记](https://b3logfile.com/file/2021/06/solo-fetchupload-5550046153599246802-c1fe7c64.webp)
+
+
+<!-- more -->
+
 
 点击这个标记，得知这一次 commit 是经过签名验证的（signed with a verified signature），因此，我便开始研究如何利用 GPG 对自己的每次 commit 进行签名验证。
 
