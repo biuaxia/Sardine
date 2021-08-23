@@ -1,14 +1,19 @@
 title: 【转载】Go语言基础之反射
 date: '2021-08-09 16:40:33'
-updated: '2021-08-09 16:40:33'
+toc: true
+permalink: /articles/2021/08/09/1628499538055.html
 category:
  - 转载
  - Go
-tags: [转载, Go, 基础, 反射]
-permalink: /articles/2021/08/09/1628499538055.html
+tags: 
+ - 转载
+ - Go
+ - 基础
+ - 反射
 ---
 
 本文转载自：[Go语言基础之反射 | 李文周的博客](https://www.liwenzhou.com/posts/Go/13_reflect/)
+
 ---
 
 本文介绍了Go语言反射的意义和基本使用。
