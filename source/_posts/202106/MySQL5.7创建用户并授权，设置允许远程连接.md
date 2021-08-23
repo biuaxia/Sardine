@@ -1,24 +1,37 @@
 title: MySQL5.7创建用户并授权，设置允许远程连接
 date: '2021-06-18 22:32:28'
-updated: '2021-06-18 22:32:28'
+toc: true
+permalink: /articles/2021/06/18/1624026748089.html
 category: 
  - Linux
  - MySQL
-tags: [MySQL, 远程, 授权]
-permalink: /articles/2021/06/18/1624026748089.html
+tags: 
+ - MySQL
+ - 远程
+ - 授权
+ - 设置
+ - 允许
+ - 连接
+ - 创建
+ - 用户
 ---
 ## 创建用户
 
 命令：
 
-```mysql
+```sql
 CREATE USER 'username'@'host' IDENTIFIED BY 'password';
 ```
+
 说明：
 
 - username：你将创建的用户名
 - host：指定该用户在哪个主机上可以登陆，如果是本地用户可用localhost，如果想让该用户可以**从任意远程主机登陆** ，可以使用通配符`%`
 - password：该用户的登陆密码，密码可以为空，如果为空则该用户可以不需要密码登陆服务器
+
+
+<!-- more -->
+
   
 例子：
 
@@ -116,4 +129,3 @@ DROP USER 'username'@'host';
 ```mysql
 FLUSH PRIVILEGES;
 ```
-
