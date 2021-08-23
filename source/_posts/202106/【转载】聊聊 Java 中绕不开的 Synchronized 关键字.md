@@ -1,17 +1,27 @@
 title: 【转载】聊聊 Java 中绕不开的 Synchronized 关键字
 date: '2021-06-22 20:49:55'
-updated: '2021-06-22 20:49:55'
+toc: true
+permalink: /articles/2021/06/22/1624366194854.html
 category: 
  - 转载
  - Java
-tags: [Java, Synchronized, 锁]
-permalink: /articles/2021/06/22/1624366194854.html
+tags: 
+ - Java
+ - Synchronized
+ - 锁
 ---
+
 本文转载自：[聊聊 Java 中绕不开的 Synchronized 关键字 | Nicksxs's Blog](https://nicksxs.me/2021/06/20/%E8%81%8A%E8%81%8A-Java-%E4%B8%AD%E7%BB%95%E4%B8%8D%E5%BC%80%E7%9A%84-Synchronized-%E5%85%B3%E9%94%AE%E5%AD%97/)
 
 ---
 
-Synchronized 关键字在 Java 的并发体系里也是非常重要的一个内容，首先比较常规的是知道它使用的方式，可以锁对象，可以锁代码块，也可以锁方法，看一个简单的 demo
+Synchronized 关键字在 Java 的并发体系里也是非常重要的一个内容，首先比较常规的是知道它使用的方式，可以锁对象，可以锁代码块，也可以锁方法。
+
+
+<!-- more -->
+
+
+看一个简单的 demo
 
 ```java
 public class SynchronizedDemo {
