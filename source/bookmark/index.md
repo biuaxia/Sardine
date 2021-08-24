@@ -136,6 +136,8 @@ updated: 2021-08-11 10:57:11
 > 更新于：2021年8月16日
 
  - [[译]解密 Java Lambda 表达式](https://juejin.cn/post/6976973764277846023)
+ - [SpringBoot包扫描之多模块多包名扫描和同类名扫描冲突解决｜8月更文挑战](https://juejin.cn/post/6999428902275940382?utm_source=gold_browser_extension#comment)
+ - [六种方式，教你在SpringBoot初始化时搞点事情！](https://juejin.cn/post/6999419046697369613?utm_source=gold_browser_extension)
 
 ## Developers
 
