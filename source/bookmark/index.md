@@ -60,6 +60,12 @@ updated: 2021-08-11 10:57:11
 
 > 更新于：2021年8月16日
 
+ - [Go 代码整洁之道](https://juejin.cn/post/6998560276610023438?utm_source=biuaxia.cn)
+ - [linux笔记：极简方式安装mysql，建议收藏](https://juejin.cn/post/6999798922759634951?utm_source=biuaxia.cn)
+ - [死锁的 4 种排查工具 ！](https://juejin.cn/post/6999790359530176519?utm_source=biuaxia.cn)
+ - [docker入门：极简方式发布springboot](https://juejin.cn/post/6999419423849185287?utm_source=biuaxia.cn)
+ - [MySQL存储IP地址优化记录一下](https://juejin.cn/post/6999566112736165901?utm_source=biuaxia.cn)
+ - [HashMap 一文讲通透](https://juejin.cn/post/6999643435833507853?utm_source=biuaxia.cn)
  - [5秒到1秒，记一次效果“非常”显著的性能优化](https://juejin.cn/post/6997944097155579934?utm_source=biuaxia.cn)
  - [SpringBoot：三十五道SpringBoot面试题及答案！](https://juejin.cn/post/6996826953852551205?utm_source=biuaxia.cn)
  - [Java GUI入门手册](https://juejin.cn/post/6995793181090512932?utm_source=biuaxia.cn)
@@ -136,8 +142,8 @@ updated: 2021-08-11 10:57:11
 > 更新于：2021年8月16日
 
  - [[译]解密 Java Lambda 表达式](https://juejin.cn/post/6976973764277846023)
- - [SpringBoot包扫描之多模块多包名扫描和同类名扫描冲突解决｜8月更文挑战](https://juejin.cn/post/6999428902275940382?utm_source=gold_browser_extension#comment)
- - [六种方式，教你在SpringBoot初始化时搞点事情！](https://juejin.cn/post/6999419046697369613?utm_source=gold_browser_extension)
+ - [SpringBoot包扫描之多模块多包名扫描和同类名扫描冲突解决｜8月更文挑战](https://juejin.cn/post/6999428902275940382?utm_source=biuaxia.cn)
+ - [六种方式，教你在SpringBoot初始化时搞点事情！](https://juejin.cn/post/6999419046697369613?utm_source=biuaxia.cn)
 
 ## Developers
 
@@ -218,12 +224,12 @@ updated: 2021-08-11 10:57:11
 
 ## Github仓库推荐
 
-- [peaceiris/actions-gh-pages: GitHub Actions for GitHub Pages 🚀 Deploy static files and publish your site easily. Static-Site-Generators-friendly.](https://github.com/peaceiris/actions-gh-pages#examples)
-- [PanJiaChen/vue-element-admin: A magical vue admin https://panjiachen.github.io/vue-element-admin](https://github.com/PanJiaChen/vue-element-admin?utm_source=gold_browser_extension)
-- [ehang-io/nps: 一款轻量级、高性能、功能强大的内网穿透代理服务器。支持tcp、udp、socks5、http等几乎所有流量转发，可用来访问内网网站、本地支付接口调试、ssh访问、远程桌面，内网dns解析、内网socks5代理等等……，并带有功能强大的web管理端。a lightweight, high-performance, powerful intranet penetration proxy server, with a powerful web management terminal.](https://github.com/ehang-io/nps)
-- [88250/solo: 🎸 B3log 分布式社区的 Java 博客端节点系统，欢迎加入下一代社区网络。B3log distributed community blog-end node system, welcome to join the next generation community network.](https://github.com/88250/solo)
-- [core-lib/xjar: Spring Boot JAR 安全加密运行工具，支持的原生JAR。](https://github.com/core-lib/xjar)
-- [kangvcar/InfoSpider: INFO-SPIDER 是一个集众多数据源于一身的爬虫工具箱🧰，旨在安全快捷的帮助用户拿回自己的数据，工具代码开源，流程透明。支持数据源包括GitHub、QQ邮箱、网易邮箱、阿里邮箱、新浪邮箱、Hotmail邮箱、Outlook邮箱、京东、淘宝、支付宝、中国移动、中国联通、中国电信、知乎、哔哩哔哩、网易云音乐、QQ好友、QQ群、生成朋友圈相册、浏览器浏览历史、12306、博客园、CSDN博客、开源中国博客、简书。](https://github.com/kangvcar/InfoSpider)
+- [peaceiris/actions-gh-pages: GitHub Actions for GitHub Pages 🚀 Deploy static files and publish your site easily. Static-Site-Generators-friendly.](https://github.com/peaceiris/actions-gh-pages#examples?utm_source=biuaxia.cn)
+- [PanJiaChen/vue-element-admin: A magical vue admin https://panjiachen.github.io/vue-element-admin](https://github.com/PanJiaChen/vue-element-admin?utm_source=biuaxia.cn)
+- [ehang-io/nps: 一款轻量级、高性能、功能强大的内网穿透代理服务器。支持tcp、udp、socks5、http等几乎所有流量转发，可用来访问内网网站、本地支付接口调试、ssh访问、远程桌面，内网dns解析、内网socks5代理等等……，并带有功能强大的web管理端。a lightweight, high-performance, powerful intranet penetration proxy server, with a powerful web management terminal.](https://github.com/ehang-io/nps?utm_source=biuaxia.cn)
+- [88250/solo: 🎸 B3log 分布式社区的 Java 博客端节点系统，欢迎加入下一代社区网络。B3log distributed community blog-end node system, welcome to join the next generation community network.](https://github.com/88250/solo?utm_source=biuaxia.cn)
+- [core-lib/xjar: Spring Boot JAR 安全加密运行工具，支持的原生JAR。](https://github.com/core-lib/xjar?utm_source=biuaxia.cn)
+- [kangvcar/InfoSpider: INFO-SPIDER 是一个集众多数据源于一身的爬虫工具箱🧰，旨在安全快捷的帮助用户拿回自己的数据，工具代码开源，流程透明。支持数据源包括GitHub、QQ邮箱、网易邮箱、阿里邮箱、新浪邮箱、Hotmail邮箱、Outlook邮箱、京东、淘宝、支付宝、中国移动、中国联通、中国电信、知乎、哔哩哔哩、网易云音乐、QQ好友、QQ群、生成朋友圈相册、浏览器浏览历史、12306、博客园、CSDN博客、开源中国博客、简书。](https://github.com/kangvcar/InfoSpider?utm_source=biuaxia.cn)
 
 ## Hexo
 
@@ -234,24 +240,24 @@ updated: 2021-08-11 10:57:11
 
 ### 主题推荐
 
-- [Doku | Doku](https://doku.skk.moe)
+- [Doku | Doku](https://doku.skk.moe?utm_source=biuaxia.cn)
 
 ## 好孩子
 
-- [我最全.com](https://xn--u2u823bupertv.com/bzycs.html)
-- [磁搜.com - 八爪鱼磁力搜索](https://xn--41tq2inxcv98a.xyz)
+- [我最全.com](https://xn--u2u823bupertv.com/bzycs.html?utm_source=biuaxia.cn)
+- [磁搜.com - 八爪鱼磁力搜索](https://xn--41tq2inxcv98a.xyz?utm_source=biuaxia.cn)
 
 ## 在线影视
 
-- [分享交流下载字幕平台 - SubHD](https://subhd.tv)
-- [低端影视 - 超清在线视频站](https://ddrk.me)
-- [扫黑风暴第01集 - COKEMV影视 在线1080P电影](https://cokemv.me/vodplay/38016-1-1.html)：跳过片头设置为 `114` 秒
+- [分享交流下载字幕平台 - SubHD](https://subhd.tv?utm_source=biuaxia.cn)
+- [低端影视 - 超清在线视频站](https://ddrk.me?utm_source=biuaxia.cn)
+- [扫黑风暴第01集 - COKEMV影视 在线1080P电影](https://cokemv.me/vodplay/38016-1-1.html?utm_source=biuaxia.cn)：跳过片头设置为 `114` 秒
 
 ## 购买过的程序
 
 1. 彩虹秒赞：[扫码自助下载最新源码](http://auth.wx.jaeapp.com/get/#)
-2. Typecho主题 - Mirages：[Mirages - 简陋的 Mirages 生活自理系列](https://store.get233.com)
-3. EleAdmin Pro & iframe多标签版：[我的订单 - EleAdmin](https://eleadmin.com/user/order) & [EleAdmin Pro | 更新日志](https://eleadmin.com/doc/eleadminpro/#/)
+2. Typecho主题 - Mirages：[Mirages - 简陋的 Mirages 生活自理系列](https://store.get233.com?utm_source=biuaxia.cn)
+3. EleAdmin Pro & iframe多标签版：[我的订单 - EleAdmin](https://eleadmin.com/user/order?utm_source=biuaxia.cn) & [EleAdmin Pro | 更新日志](https://eleadmin.com/doc/eleadminpro/#/)
 
 ## 有机会可以练爬虫的网站
 
