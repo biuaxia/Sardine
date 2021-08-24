@@ -228,6 +228,11 @@ widgets:
   - # Where should the widget be placed, left sidebar or right sidebar
     position: left
     type: tags
+  - # 谷歌广告
+    position: left
+    type: adsense
+    client_id: ca-pub-6674468670651268
+    slot_id: 5773003298
   # Profile widget configurations
   - # Where should the widget be placed, left sidebar or right sidebar
     position: right
@@ -280,6 +285,11 @@ widgets:
   #     slot_id: ''
 # Plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/
+  - # 谷歌广告
+    position: right
+    type: adsense
+    client_id: ca-pub-6674468670651268
+    slot_id: 8310987985
 plugins:
   # Enable page startup animations
   animejs: true
