@@ -6,9 +6,10 @@ updated: 2021-08-11 10:57:11
 
 ## 工具类
 
+- [慕课网](https://www.imooc.com/u/index/allcourses?utm_source=biuaxia.cn)
 - [regex101: build, test, and debug regex](https://regex101.com/)
 - [京东蓝鲸征信_了解企业从蓝鲸开始_企业信息查询_公司查询_工商查询_企业信用信息系统](https://lanjing.jd.com/)
-- [慕课网](https://www.imooc.com/u/index/allcourses?utm_source=biuaxia.cn)
+- [Home - CryptoTools.net](https://cryptotools.net?utm_source=biuaxia.cn)
 - [Go Playground](https://play.studygolang.com/?utm_source=biuaxia.cn)
 - [微信开发平台](https://mp.weixin.qq.com?utm_source=biuaxia.cn)
 - [免费考研资源网](http://qzbltushu.ys168.com?utm_source=biuaxia.cn)
