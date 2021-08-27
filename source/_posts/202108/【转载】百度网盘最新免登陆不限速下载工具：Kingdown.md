@@ -25,7 +25,7 @@ tags:
 
 去年还传出Pandownload作者被抓，当时市面上的百度网盘不限速下载几乎同时失效。
 
-> **[Pandownload作者被抓，更新软件跳过启动验证方法](https://fuliba2021.net/pandown.html)**。
+> [Pandownload作者被抓，更新软件跳过启动验证方法](https://fuliba2021.net/pandown.html)。
 
 之后的一段时间里，软件小妹的油猴脚本百度网盘不限速霸占了一段时间。
 
@@ -49,7 +49,7 @@ tags:
 
 下面是详细的视频使用教程，同时在软件官网还发布了多个好用的云盘解析加速网址
 
-> **kingdown使用教程：[https://www.bilibili.com/video/BV15g41157WT](https://www.bilibili.com/video/BV15g41157WT)**
+> kingdown使用教程：[https://www.bilibili.com/video/BV15g41157WT](https://www.bilibili.com/video/BV15g41157WT)
 
 **kingdown客户新版下载地址**
 
