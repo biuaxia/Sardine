@@ -7,28 +7,26 @@ updated: 2021-08-11 10:57:11
 ## 工具类
 
 - [慕课网](https://www.imooc.com/u/index/allcourses?utm_source=biuaxia.cn)
-- [regex101: build, test, and debug regex](https://regex101.com/)
-- [京东蓝鲸征信_了解企业从蓝鲸开始_企业信息查询_公司查询_工商查询_企业信用信息系统](https://lanjing.jd.com/)
-- [Home - CryptoTools.net](https://cryptotools.net?utm_source=biuaxia.cn)
+- [福利吧导航 | 福利世界一触即达](https://fuliba123.net?utm_source=biuaxia.cn)
+- [regex101: build, test, and debug regex](https://regex101.com?utm_source=biuaxia.cn)
+- [京东蓝鲸征信](https://lanjing.jd.com?utm_source=biuaxia.cn)
+- [CryptoTools](https://cryptotools.net?utm_source=biuaxia.cn)
 - [Go Playground](https://play.studygolang.com/?utm_source=biuaxia.cn)
 - [微信开发平台](https://mp.weixin.qq.com?utm_source=biuaxia.cn)
 - [免费考研资源网](http://qzbltushu.ys168.com?utm_source=biuaxia.cn)
-- [字幕库](http://zimuku.org?utm_source=biuaxia.cn)
-- [字幕-SubHD](https://subhd.tv?utm_source=biuaxia.cn)
 - [jwt解析](https://jwt.io?utm_source=biuaxia.cn)
 - [在线加解密](https://www.cmd5.com/hash.aspx?s=123456&utm_source=biuaxia.cn)
 - [Picx](https://picx.xpoet.cn/#/upload?utm_source=biuaxia.cn)
 - [IconFont](https://www.iconfont.cn?utm_source=biuaxia.cn)
 - [俄罗斯方块](http://v.bootstrapmb.com/2021/6/qma6610287?utm_source=biuaxia.cn)
-- [简介 | Lomorage文档](https://docs.lomorage.com/zh?utm_source=biuaxia.cn)
-- [Account | Cloudflare - Web Performance &amp; Security](https://dash.cloudflare.com?utm_source=biuaxia.cn)
-- [ColorSpace - Color Palettes Generator and Color Gradient Tool](https://mycolor.space?utm_source=biuaxia.cn)
-- [唯美女生 丨 一双发现美的眼睛！](https://www.vmgirls.com?utm_source=biuaxia.cn)
+- [Lomorage文档](https://docs.lomorage.com/zh?utm_source=biuaxia.cn)
+- [Cloudflare](https://dash.cloudflare.com?utm_source=biuaxia.cn)
+- [ColorSpace](https://mycolor.space?utm_source=biuaxia.cn)
 - [云段子-搞笑热评段子](http://www.yduanzi.com?utm_source=biuaxia.cn)
-- [亂數假文產生器 - Chinese Lorem Ipsum](http://www.richyli.com/tool/loremipsum?utm_source=biuaxia.cn)
+- [亂數假文產生器](http://www.richyli.com/tool/loremipsum?utm_source=biuaxia.cn)
 - [PDF转Word | 免费在线PDF转Word | PDF转Word转换器 | PDF转化速度快 | 首页](https://www.alltoall.net?utm_source=biuaxia.cn)
 - [ProcessOn - 免费在线作图，思维导图，流程图，实时协作](https://www.processon.com?utm_source=biuaxia.cn)
-- [极简简历模板PoleBrief_简历模板_个人简历模板_简历模板下载_简历模板免费下载_简历模板下载word格式](https://www.polebrief.com/index?utm_source=biuaxia.cn)
+- [极简简历模板PoleBrief](https://www.polebrief.com/index?utm_source=biuaxia.cn)
 - [Emoji cheat sheet for Vditor](https://ld246.com/emoji/index.html?utm_source=biuaxia.cn)
 - [pushplus(推送加) - 微信推送消息直达](http://www.pushplus.plus/push1.html?utm_source=biuaxia.cn)
 - [JSON-TO-GO](https://misakafs.github.io/json-to-go?utm_source=biuaxia.cn)
@@ -40,7 +38,7 @@ updated: 2021-08-11 10:57:11
 - [The free text converter for all your documents. – Alldocs](https://alldocs.app?utm_source=biuaxia.cn)
 - [自留地工牌生成器](https://avatar-flutter.vercel.app/#?utm_source=biuaxia.cn)
 - [Flowchart Fun - 在线文本生成流程图](https://flowchart.fun?utm_source=biuaxia.cn)
-- [Font Awesome](https://fontawesome.com?utm_source=biuaxia.cn)
+- [FontAwesome](https://fontawesome.com?utm_source=biuaxia.cn)
 
 ---
 
@@ -250,6 +248,8 @@ updated: 2021-08-11 10:57:11
 
 ## 在线影视
 
+- [字幕库](http://zimuku.org?utm_source=biuaxia.cn)
+- [字幕-SubHD](https://subhd.tv?utm_source=biuaxia.cn)
 - [分享交流下载字幕平台 - SubHD](https://subhd.tv?utm_source=biuaxia.cn)
 - [低端影视 - 超清在线视频站](https://ddrk.me?utm_source=biuaxia.cn)
 - [扫黑风暴第01集 - COKEMV影视 在线1080P电影](https://cokemv.me/vodplay/38016-1-1.html?utm_source=biuaxia.cn)：跳过片头设置为 `114` 秒
@@ -264,3 +264,4 @@ updated: 2021-08-11 10:57:11
 
 - [Acgur - Pixiv Illustration Update Ranking](https://acgur.com?utm_source=biuaxia.cn)
 - [The Legend of Bald - 又一个秃头站点](https://atlob.org?utm_source=biuaxia.cn)
+- [唯美女生](https://www.vmgirls.com?utm_source=biuaxia.cn)
