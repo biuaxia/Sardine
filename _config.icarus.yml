@@ -193,6 +193,32 @@ widgets:
     type: adsense
     client_id: ca-pub-6674468670651268
     slot_id: 5356880959
+  # Profile widget configurations
+  - # Where should the widget be placed, left sidebar or right sidebar
+    position: left
+    type: profile
+    # Author name
+    author: biuaxia
+    # Author title
+    author_title: Golang & Java Developer
+    # Author's current location
+    location: Earth, Solar System
+    # URL or path to the avatar image
+    avatar: /images/Icarus-avatar.svg
+    # Whether show the rounded avatar image
+    avatar_rounded: false
+    # Email address for the Gravatar
+    gravatar:
+    # URL or path for the follow button
+    follow_link: "https://github.com/biuaxia"
+    # Links to be shown on the bottom of the profile widget
+    social_links:
+      RSS:
+        icon: fas fa-rss
+        url: /atom.xml
+      Sitemap:
+        icon: fas fa-map
+        url: /sitemap.xml
   # Recent posts widget configurations
   - # Where should the widget be placed, left sidebar or right sidebar
     position: left
@@ -232,33 +258,7 @@ widgets:
     position: left
     type: adsense
     client_id: ca-pub-6674468670651268
-    slot_id: 5773003298
-  # Profile widget configurations
-  - # Where should the widget be placed, left sidebar or right sidebar
-    position: right
-    type: profile
-    # Author name
-    author: biuaxia
-    # Author title
-    author_title: Golang & Java Developer
-    # Author's current location
-    location: Earth, Solar System
-    # URL or path to the avatar image
-    avatar: /images/Icarus-avatar.svg
-    # Whether show the rounded avatar image
-    avatar_rounded: false
-    # Email address for the Gravatar
-    gravatar:
-    # URL or path for the follow button
-    follow_link: "https://github.com/biuaxia"
-    # Links to be shown on the bottom of the profile widget
-    social_links:
-      RSS:
-        icon: fas fa-rss
-        url: /atom.xml
-      Sitemap:
-        icon: fas fa-map
-        url: /sitemap.xml
+    slot_id: 577300329
   # Table of contents widget configurations
   - # Where should the widget be placed, left sidebar or right sidebar
     position: right
@@ -285,11 +285,6 @@ widgets:
   #     slot_id: ''
 # Plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/
-  - # 谷歌广告
-    position: right
-    type: adsense
-    client_id: ca-pub-6674468670651268
-    slot_id: 8310987985
 plugins:
   # Enable page startup animations
   animejs: true
