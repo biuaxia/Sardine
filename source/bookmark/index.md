@@ -58,8 +58,10 @@ updated: 2021-08-11 10:57:11
 
 ## 待阅读
 
-> 更新于：2021年8月16日
+> 更新于：2021年8月30日
 
+ - [Java迷宫小游戏，老程序员花一天时间完成，你可以吗？](https://juejin.cn/post/7002031406230536206?utm_source=biuaxia.cn)
+ - [Nginx系列：Nginx解决跨域和负载均衡 | 八月更文挑战](https://juejin.cn/post/7001696504255643678?utm_source=biuaxia.cn)
  - [Go 代码整洁之道](https://juejin.cn/post/6998560276610023438?utm_source=biuaxia.cn)
  - [linux笔记：极简方式安装mysql，建议收藏](https://juejin.cn/post/6999798922759634951?utm_source=biuaxia.cn)
  - [死锁的 4 种排查工具 ！](https://juejin.cn/post/6999790359530176519?utm_source=biuaxia.cn)
