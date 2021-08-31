@@ -6,7 +6,7 @@ category:
 tags: 
  - npm
  - nrm
-- Node
+ - Node
  - 代理
  - 镜像
  - 设置
