@@ -9,6 +9,7 @@ toc: true
 - [慕课网](https://www.imooc.com/u/index/allcourses?utm_source=biuaxia.cn)
 - [福利吧导航 | 福利世界一触即达](https://fuliba123.net?utm_source=biuaxia.cn)
 - [DaoCloud](http://get.daocloud.io?utm_source=biuaxia.cn)
+- [彩虹聚合登录](https://u.cccyun.cc/user/apps.php)
 - [regex101: build, test, and debug regex](https://regex101.com?utm_source=biuaxia.cn)
 - [京东蓝鲸征信](https://lanjing.jd.com?utm_source=biuaxia.cn)
 - [CryptoTools](https://cryptotools.net?utm_source=biuaxia.cn)
