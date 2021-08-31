@@ -19,7 +19,7 @@ tags:
 <!-- more -->
 
 
-via。[https://bbs.360.cn/thread-6400121-1-1.html](https://zvv.me/go/aHR0cHM6Ly9iYnMuMzYwLmNuL3RocmVhZC02NDAwMTIxLTEtMS5odG1s)
+via。[https://bbs.360.cn/thread-6400121-1-1.html](https://bbs.360.cn/thread-6400121-1-1.html)
 
 # 7-zip相关参数
 
