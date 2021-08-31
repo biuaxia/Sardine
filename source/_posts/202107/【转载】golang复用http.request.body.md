@@ -1,12 +1,19 @@
 title: 【转载】golang复用http.request.body
-date: '2021-07-06 11:14:22'
-updated: '2021-07-07 10:32:41'
+date: 2021-07-06 11:14:22'
+toc: true
 category:
  - 转载
  - Go
-tags: [转载, Go]
-permalink: /articles/2021/07/06/1625541262625.html
+tags: 
+ - 转载
+ - Go
+ - golang
+ - 复用
+ - http
+ - request
+ - body
 ---
+
 本文转载自：[golang复用http.request.body - Go语言中文网 - Golang中文社区](https://studygolang.com/articles/15641)
 
 ---

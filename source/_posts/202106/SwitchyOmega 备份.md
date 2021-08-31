@@ -1,13 +1,15 @@
 title: SwitchyOmega 备份
-date: '2021-06-22 20:39:55'
-updated: '2021-08-03 09:20:25'
+date: 2021-06-22 20:39:55
 category: 
  - 代理
 tags: [SwitchyOmega, proxy, 备份]
-permalink: /articles/2021/06/22/1624365595584.html
 ---
 
 在线恢复：<https://www.biuaxia.cn/OmegaOptions.bak>
+
+
+<!-- more -->
+
 
 编辑源代码：
 

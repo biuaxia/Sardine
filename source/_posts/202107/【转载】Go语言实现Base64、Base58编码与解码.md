@@ -1,18 +1,17 @@
 title: 【转载】Go语言实现Base64、Base58编码与解码
-date: '2021-07-26 09:51:49'
-updated: '2021-07-26 09:51:49'
+date: 2021-07-26 09:51:49
+toc: true
 category:
  - 转载
  - Go
 tags: [Go, Base64, 解码, 编码]
-permalink: /articles/2021/07/26/1627264309397.html
 ---
 
 本文转载自：[Go语言实现Base64、Base58编码与解码](https://juejin.cn/post/6988718600634761229?utm_source=gold_browser_extension)
 
 ---
 
-## 1. 常见的编码
+## 常见的编码
 
 base64:26个小写字母、26个大写字母、10个数字、/、+
 
@@ -22,11 +21,11 @@ base58(区块链)：去掉6个容易混淆的，去掉0，大写的O、大写的
 <!-- more -->
 
 
-## 2. go语言实现base64的编码与解码
+## go语言实现base64的编码与解码
 
-### 2.1 Base64编码原理
+### Base64编码原理
 
-### 2.2 实现Base64的编码与解码
+### 实现Base64的编码与解码
 
 base64
 
@@ -56,21 +55,22 @@ func main() {
 	ret := Base64Decoding(res)  //解码
 	fmt.Println(res,"解码成为：",ret)
 }
-
-/*
-结果：
-FanOne 编码成为： RmFuT25l
-RmFuT25l 解码称为： FanOne
-*/
 ```
 
-## 3. go语言实现base58编码与解码
+结果为
+
+```shell
+FanOne 编码成为： RmFuT25l
+RmFuT25l 解码称为： FanOne
+```
+
+## go语言实现base58编码与解码
 
 Base58编码表
 
 ![](https://b3logfile.com/file/2021/07/solo-fetchupload-2944112033814691389-fe687dad.png)
 
-### 3.1 base58的编码过程
+### base58的编码过程
 
 ![](https://b3logfile.com/file/2021/07/solo-fetchupload-2674335680101247606-32236a65.png)
 
@@ -86,7 +86,7 @@ Base58编码表
 3. 将4612462除以58，每次得到的余数就是对应的58进制，0用编码1来代表：
 4. 用余数的值去查表
 
-### 3.2 base58编解码具体实现
+### base58编解码具体实现
 
 ```go
 package main
@@ -163,6 +163,6 @@ func main() {
 }
 ```
 
-## 4. 最后
+## 最后
 
 ![](https://b3logfile.com/file/2021/07/solo-fetchupload-2433902292403564600-dc686c62.png)

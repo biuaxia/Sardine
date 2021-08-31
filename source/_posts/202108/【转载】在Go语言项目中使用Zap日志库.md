@@ -1,14 +1,18 @@
 title: 【转载】在Go语言项目中使用Zap日志库
-date: '2021-08-09 16:37:33'
-updated: '2021-08-09 16:37:33'
+date: 2021-08-09 16:37:33
+toc: true
 category:
  - 转载
  - Go
-tags: [转载, Go, zap, 日志]
-permalink: /articles/2021/08/09/1628499012054.html
+tags: 
+ - 转载
+ - Go
+ - zap
+ - 日志
 ---
 
 本文转载自：[在Go语言项目中使用Zap日志库 | 李文周的博客](https://www.liwenzhou.com/posts/Go/zap/)
+
 ---
 
 本文先介绍了Go语言原生的日志库的使用，然后详细介绍了非常流行的Uber开源的zap日志库，同时介绍了如何搭配Lumberjack实现日志的切割和归档。

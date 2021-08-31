@@ -1,7 +1,6 @@
 title: SpringBoot 获取项目所在目录 & 配置文件读取顺序
-date: '2021-06-21 16:22:12'
+date: 2021-06-21 16:22:12
 toc: true
-permalink: /articles/2021/06/21/1624263732476.html
 category: 
  - Java
 tags: 

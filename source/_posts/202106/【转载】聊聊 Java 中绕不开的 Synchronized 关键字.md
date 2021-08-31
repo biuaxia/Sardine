@@ -1,7 +1,6 @@
 title: 【转载】聊聊 Java 中绕不开的 Synchronized 关键字
-date: '2021-06-22 20:49:55'
+date: 2021-06-22 20:49:55
 toc: true
-permalink: /articles/2021/06/22/1624366194854.html
 category: 
  - 转载
  - Java

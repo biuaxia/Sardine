@@ -1,11 +1,16 @@
 title: Gradle SpringBoot 打包 jar
-date: '2021-06-21 16:29:50'
-updated: '2021-06-21 21:29:47'
+date: 2021-06-21 16:29:50
+toc: true
 category: 
  - Java
-tags: [SpringBoot, gradle, 打包, jar]
-permalink: /articles/2021/06/21/1624264190323.html
+tags: 
+ - Java
+ - SpringBoot
+ - Gradle
+ - 打包
+ - jar
 ---
+
 命令如下：
 
 ```bash

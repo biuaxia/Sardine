@@ -1,17 +1,14 @@
 title: linux常用命令大全
-date: '2021-06-18 22:25:13'
-updated: '2021-08-09 14:25:13'
+date: 2021-06-18 22:25:13
+toc: true
 category: 
  - Linux
-tags: [linux, 命令]
-toc: true
-permalink: /articles/2021/06/18/1624026313392.html
+tags: 
+ - Linux
+ - 常用
+ - 命令
+ - 大全
 ---
-
-提供PDF版本下载链接：<http://ddns.biuaxia.cn:8005/s/EPt5>。
-
-<!-- more -->
-
 
 ## 命令终端字段含义介绍
 
@@ -19,6 +16,10 @@ permalink: /articles/2021/06/18/1624026313392.html
 * 解释：当前用户名为root[@](https://hu60.cn/q.php/bbs.topic.100995.html#)[主机名为localhost](https://hu60.cn/q.php/user.info.0.html) 当前所在目录为 ~ 家目录 # 当前用户身份是超级管理员，root超级管理员家目录：/root
 * 普通用户提示符为 $，普通用户的家目录：/homt/用户名同名，lisi用户的家目录：/home/lisi
 [lisi[@](https://hu60.cn/q.php/bbs.topic.100995.html#)[localhost](https://hu60.cn/q.php/user.info.0.html) ~]$
+
+
+<!-- more -->
+
 
 ## Linux系统基本概念
 

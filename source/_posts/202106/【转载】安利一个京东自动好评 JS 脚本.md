@@ -1,6 +1,5 @@
 title: 【转载】安利一个京东自动好评 JS 脚本
-date: '2021-06-18 23:46:29'
-permalink: /articles/2021/06/18/1624031189077.html
+date: 2021-06-18 23:46:29
 toc: true
 category: 
  - 转载

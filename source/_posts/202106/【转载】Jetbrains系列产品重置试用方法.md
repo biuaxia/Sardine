@@ -1,7 +1,6 @@
 title: 【转载】Jetbrains系列产品重置试用方法
-date: '2021-06-19 06:31:40'
+date: 2021-06-19 06:31:40
 toc: true
-permalink: /articles/2021/06/19/1624055500009.html
 category: 
  - 转载
 tags: 

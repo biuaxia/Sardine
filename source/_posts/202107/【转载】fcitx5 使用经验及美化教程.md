@@ -1,11 +1,19 @@
 title: '【转载】fcitx5 使用经验及美化教程（自己制作皮肤）'
-date: '2021-07-28 09:51:49'
-updated: '2021-07-28 21:14:49'
+date: 2021-07-28 09:51:49
+toc: true
 category:
  - 转载
  - Linux
-tags: [转载, Linux, fcitx5, 皮肤, 经验, 美化, 教程]
-permalink: /articles/2021/07/28/1627478175440.html
+tags: 
+ - 转载
+ - Linux
+ - fcitx5
+ - 使用
+ - 经验
+ - 美化
+ - 教程
+ - 制作
+ - 皮肤
 ---
 
 本文转载自：[fcitx5 使用经验及美化教程（自己制作皮肤） - Linux/Unix - 论坛](https://hu60.cn/q.php/bbs.topic.100994.html)

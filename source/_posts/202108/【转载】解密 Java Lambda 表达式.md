@@ -1,6 +1,5 @@
 title: 【转载】解密 Java Lambda 表达式
 date: 2021-08-14 08:35:12
-permalink: /articles/2021/08/14/1628901312880.html
 toc: true
 category:
  - 转载

@@ -1,7 +1,6 @@
 title: 【转载】CentOS下配置redis允许远程连接
-date: '2021-06-18 23:04:22'
+date: 2021-06-18 23:04:22
 toc: true
-permalink: /articles/2021/06/18/1624028661849.html
 category: 
  - 转载
  - Linux

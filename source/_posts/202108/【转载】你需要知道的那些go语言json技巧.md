@@ -1,15 +1,17 @@
 title: 【转载】你需要知道的那些go语言json技巧
-date: '2021-08-09 16:33:33'
-updated: '2021-08-09 16:33:33'
+date: 2021-08-09 16:33:33
+toc: true
 category:
  - 转载
  - Go
-tags: [转载, Go, Json]
-toc: true
-permalink: /articles/2021/08/09/1628498161064.html
+tags: 
+ - 转载
+ - Go
+ - Json
 ---
 
 本文转载自：[你需要知道的那些go语言json技巧 | 李文周的博客](https://www.liwenzhou.com/posts/Go/json_tricks_in_go/)
+
 ---
 
 本文总结了我平时在项目中遇到的那些关于go语言JSON数据与结构体之间相互转换的问题及解决办法。

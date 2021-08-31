@@ -1,14 +1,21 @@
 title: '【转载】结构体转map[string]interface{}的若干方法'
-date: '2021-08-09 16:34:33'
-updated: '2021-08-09 16:34:33'
+date: 2021-08-09 16:34:33
+toc: true
 category:
  - 转载
  - Go
-tags: [转载, Go, Map, Struct, String, Interface, 方法]
-permalink: /articles/2021/08/09/1628498212054.html
+tags: 
+ - 转载
+ - Go
+ - Map
+ - Struct
+ - String
+ - Interface
+ - 方法
 ---
 
 本文转载自：[结构体转map[string]interface{}的若干方法 | 李文周的博客](https://www.liwenzhou.com/posts/Go/struct2map/)
+
 ---
 
 本文介绍了Go语言中将结构体转成`map[string]interface{}`时你需要了解的“坑”，也有你需要知道的若干方法。

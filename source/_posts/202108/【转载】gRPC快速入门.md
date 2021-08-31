@@ -1,7 +1,6 @@
 title: 【转载】gRPC快速入门
-date: '2021-08-09 16:36:33'
+date: 2021-08-09 16:36:33
 toc: true
-permalink: /articles/2021/08/09/1628498928054.html
 category:
  - 转载
  - Go

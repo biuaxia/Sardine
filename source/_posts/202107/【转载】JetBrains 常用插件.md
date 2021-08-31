@@ -1,11 +1,15 @@
 title: 【转载】JetBrains 常用插件
-date: '2021-07-06 11:15:08'
-updated: '2021-07-07 10:32:29'
+date: 2021-07-06 11:15:08
+toc: true
 category:
  - 转载
-tags: [转载]
-permalink: /articles/2021/07/06/1625541308816.html
+tags: 
+ - 转载
+ - Jetbrains
+ - 常用
+ - 插件
 ---
+
 本文转载自：[JetBrains 常用插件 - bleem](https://mritd.com/2021/06/06/jetbrains-plugins/)
 
 ---

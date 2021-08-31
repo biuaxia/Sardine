@@ -1,7 +1,6 @@
 title: 【转载】使用 Hexo 和 Github 快速搭建个人博客
-date: '2021-06-18 22:16:32'
+date: 2021-06-18 22:16:32
 toc: true
-permalink: /articles/2021/06/18/1624025792741.html
 category: 
  - 转载
  - Hexo

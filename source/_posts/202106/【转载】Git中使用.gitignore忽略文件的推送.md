@@ -1,7 +1,6 @@
 title: 【转载】Git中使用.gitignore忽略文件的推送
-date: '2021-06-18 21:54:50'
+date: 2021-06-18 21:54:50
 toc: true
-permalink: /articles/2021/06/18/1624024490636.html
 category: 
  - 转载
 tags: 

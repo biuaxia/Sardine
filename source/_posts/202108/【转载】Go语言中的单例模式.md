@@ -1,7 +1,6 @@
 title: 【转载】Go语言中的单例模式
-date: '2021-08-09 16:35:33'
+date: 2021-08-09 16:35:33
 toc: true
-permalink: /articles/2021/08/09/1628498563054.html
 category:
  - 转载
  - Go

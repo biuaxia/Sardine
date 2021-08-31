@@ -1,10 +1,21 @@
 title: 【转载】更新数据库时报错 Data truncation Incorrect datetime value
-date: '2021-07-13 10:44:46'
-updated: '2021-07-13 10:44:46'
+date: 2021-07-13 10:44:46
+toc: true
 category:
  - 转载
-tags: [MySQL, 错误, 解决]
-permalink: /articles/2021/07/13/1626144286389.html
+tags: 
+ - 转载
+ - 更新
+ - 数据库
+ - 报错
+ - Data
+ - truncation
+ - incorrect
+ - datetime
+ - value
+ - MySQL
+ - 错误
+ - 解决
 ---
 ## 解决办法
 

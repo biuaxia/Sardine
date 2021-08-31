@@ -1,11 +1,16 @@
 title: 【转载】golang设置桌面壁纸
-date: '2021-07-06 11:14:45'
-updated: '2021-07-07 10:32:36'
+date: 2021-07-06 11:14:45
+toc: true
 category:
  - 转载
  - Go
-tags: [转载, Go]
-permalink: /articles/2021/07/06/1625541285156.html
+tags: 
+ - 转载
+ - Go
+ - golang
+ - 设置
+ - 桌面
+ - 壁纸
 ---
 
 本文转载自：[golang设置桌面壁纸 - Go语言中文网 - Golang中文社区](https://studygolang.com/topics/11815) & [Golang版更换windows 壁纸为 bing每日背景图 - Go语言中文网 - Golang中文社区](https://studygolang.com/articles/31251)

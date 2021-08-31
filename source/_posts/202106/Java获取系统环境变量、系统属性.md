@@ -1,7 +1,6 @@
 title: Java获取系统环境变量、系统属性
-date: '2021-06-21 15:44:17'
-toc: truue
-permalink: /articles/2021/06/21/1624261456912.html
+date: 2021-06-21 15:44:17
+toc: true
 category: 
  - Java
 tags: 

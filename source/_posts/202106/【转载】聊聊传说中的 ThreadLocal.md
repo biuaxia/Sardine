@@ -1,7 +1,6 @@
 title: 【转载】聊聊传说中的 ThreadLocal
-date: '2021-06-18 23:00:59'
+date: 2021-06-18 23:00:59
 toc: true
-permalink: /articles/2021/06/18/1624028459713.html
 category: 
  - 转载
  - Java

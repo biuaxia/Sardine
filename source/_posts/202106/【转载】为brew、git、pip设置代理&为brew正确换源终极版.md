@@ -1,7 +1,6 @@
 title: 【转载】为brew、git、pip设置代理&为brew正确换源终极版
-date: '2021-06-18 21:57:00'
+date: 2021-06-18 21:57:00
 toc: true
-permalink: /articles/2021/06/18/1624024619981.html
 category: 
  - 转载
 tags: 

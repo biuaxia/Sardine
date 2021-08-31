@@ -1,7 +1,6 @@
 title: npm设置和取消代理的方法
-date: '2021-06-18 22:23:10'
+date: 2021-06-18 22:23:10
 toc: true
-permalink: /articles/2021/06/18/1624026190410.html
 category:
  - Linux
  - 代理

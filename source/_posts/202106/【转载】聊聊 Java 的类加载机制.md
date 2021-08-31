@@ -1,7 +1,6 @@
 title: 【转载】聊聊 Java 的类加载机制
-date: '2021-06-18 22:58:50'
+date: 2021-06-18 22:58:50
 toc: true
-permalink: /articles/2021/06/18/1624028330228.html
 category: 
  - 转载
  - Java

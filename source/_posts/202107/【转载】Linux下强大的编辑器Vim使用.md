@@ -5,7 +5,6 @@ tags: [转载, Linux, Vim]
 category:
  - 转载
  - Linux
-permalink: /articles/2021/07/26/1627276281592.html
 ---
 
 本文转载自：[Linux下强大的编辑器Vim使用 - 笨猫博客](https://www.nbmao.com/archives/4846)

@@ -1,11 +1,12 @@
 title: docker访问宿主机MySQL
-date: '2021-06-18 22:34:04'
-updated: '2021-06-18 22:34:04'
+date: 2021-06-18 22:34:04
+toc: true
 category: 
  - Docker
-tags: [docker]
-permalink: /articles/2021/06/18/1624026844425.html
+tags: 
+ - docker
 ---
+
 有时MySQL安装在宿主机中，而服务在docker容器中，此时可以通过通过以下两张方式访问
 
 ## 方法一
@@ -15,6 +16,10 @@ permalink: /articles/2021/06/18/1624026844425.html
 `--net host`这个参数，让容器运行在宿主机相同的网络
 
 此时可以通过`127.0.0.1`直接连接MySQL
+
+
+<!-- more -->
+
 
 ## 方法二
 

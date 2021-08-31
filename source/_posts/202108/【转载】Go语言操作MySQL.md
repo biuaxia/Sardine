@@ -1,7 +1,6 @@
 title: 【转载】Go语言操作MySQL
-date: '2021-08-11 10:52:59'
+date: 2021-08-11 10:52:59
 toc: true
-permalink: /articles/2021/08/11/1628650386128.html
 category:
  - 转载
  - Go

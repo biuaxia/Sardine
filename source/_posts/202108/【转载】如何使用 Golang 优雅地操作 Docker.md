@@ -1,11 +1,14 @@
 title: '【转载】如何使用 Golang 优雅地操作 Docker'
-date: '2021-08-09 10:33:00'
-updated: '2021-08-09 10:33:00'
+date: 2021-08-09 10:33:00
+toc: true
 category:
  - 转载
  - Go
-tags: [转载, Go, Docker]
-permalink: /articles/2021/08/06/1628476497302.html
+tags: 
+ - 转载
+ - Go
+ - golang
+ - Docker
 ---
 
 本文转载自：[如何使用 Golang 优雅地操作 Docker - 知乎](https://zhuanlan.zhihu.com/p/360242317)

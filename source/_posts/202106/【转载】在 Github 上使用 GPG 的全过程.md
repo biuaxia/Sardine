@@ -1,7 +1,6 @@
 title: 【转载】在 Github 上使用 GPG 的全过程
-date: '2021-06-21 09:01:58'
+date: 2021-06-21 09:01:58
 toc: true
-permalink: /articles/2021/06/21/1624237318842.html
 category: 
  - 转载
 tags: 

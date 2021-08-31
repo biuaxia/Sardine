@@ -1,7 +1,6 @@
 title: 【转载】Travis CI 和 Github Pages 实现 Hexo 博客的自动化部署
-date: '2021-06-18 16:14:54'
+date: 2021-06-18 16:14:54
 toc: true
-permalink: /articles/2021/06/18/1624004094601.html
 category: 
  - 转载
  - Hexo
