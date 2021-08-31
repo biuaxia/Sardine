@@ -3,12 +3,10 @@ date: 2021-06-18 22:23:10
 toc: true
 category:
  - Linux
- - 代理
- - 镜像
- - Node
 tags: 
  - npm
  - nrm
+- Node
  - 代理
  - 镜像
  - 设置
