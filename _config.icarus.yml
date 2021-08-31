@@ -192,7 +192,7 @@ widgets:
     position: left
     type: adsense
     client_id: ca-pub-6674468670651268
-    slot_id: 5356880959
+    slot_id: 3235034517
   # Profile widget configurations
   - # Where should the widget be placed, left sidebar or right sidebar
     position: left
@@ -258,7 +258,7 @@ widgets:
     position: left
     type: adsense
     client_id: ca-pub-6674468670651268
-    slot_id: 8310987985
+    slot_id: 4356544498
   # Table of contents widget configurations
   - # Where should the widget be placed, left sidebar or right sidebar
     position: right
@@ -266,10 +266,10 @@ widgets:
     # Whether to show the index of each heading
     index: true
   -
-    position: left
+    position: right
     type: adsense
     client_id: ca-pub-6674468670651268
-    slot_id: 5773003298
+    slot_id: 8310987985
   # Google FeedBurner email subscription widget configurations
   # -
   #     # Where should the widget be placed, left sidebar or right sidebar
