@@ -2,8 +2,7 @@ title: MySQL5.7创建用户并授权，设置允许远程连接
 date: 2021-06-18 22:32:28
 toc: true
 category: 
- - Linux
- - MySQL
+ - 数据库
 tags: 
  - MySQL
  - 远程

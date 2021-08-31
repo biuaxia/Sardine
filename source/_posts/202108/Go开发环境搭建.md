@@ -2,9 +2,10 @@ title: Go开发环境搭建
 date: 2021-08-27 11:33:00
 toc: true
 category:
- - Go
+ - Golang
 tags:
  - Go
+ - Golang
  - 开发
  - 环境
  - 搭建

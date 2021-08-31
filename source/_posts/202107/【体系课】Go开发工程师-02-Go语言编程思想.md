@@ -2,7 +2,7 @@ title: 【体系课】Go开发工程师-02-Go语言编程思想
 date: 2021-07-13 16:43:21
 toc: true
 category:
- - Go
+ - Golang
 tags:
  - Go
  - Golang
