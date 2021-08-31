@@ -1,7 +1,7 @@
 title: Go开发环境搭建
 date: 2021-08-27 11:33:00
 toc: true
-perrmalink: /articles/2021/08/27/1630035245666.html
+permalink: /articles/2021/08/27/1630035245666.html
 category:
  - Go
 tags:
