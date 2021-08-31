@@ -265,7 +265,7 @@ widgets:
     type: toc
     # Whether to show the index of each heading
     index: true
-  -
+  - # 谷歌广告
     position: right
     type: adsense
     client_id: ca-pub-6674468670651268
