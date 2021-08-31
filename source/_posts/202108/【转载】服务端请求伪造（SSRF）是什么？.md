@@ -2,7 +2,7 @@ title: 【转载】服务端请求伪造（SSRF）是什么？
 date: 2021-08-14 09:01:57
 toc: true
 category:
- - 转载
+ - 分享
 tags:
  - 服务端
  - 伪造

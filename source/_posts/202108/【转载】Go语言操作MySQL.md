@@ -2,8 +2,7 @@ title: 【转载】Go语言操作MySQL
 date: 2021-08-11 10:52:59
 toc: true
 category:
- - 转载
- - Go
+ - Golang
 tags:
  - 转载
  - Go

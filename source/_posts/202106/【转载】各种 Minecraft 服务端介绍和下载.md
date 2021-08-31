@@ -2,7 +2,7 @@ title: 【转载】各种 Minecraft 服务端介绍和下载
 date: 2021-06-18 23:45:20
 toc: true
 category: 
- - 转载
+ - 游戏
 tags: 
  - 转载
  - Minecraft

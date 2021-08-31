@@ -2,7 +2,7 @@ title: 【转载】我希望多年前就知道的 Nginx 概念
 date: 2021-08-14 09:32:45
 toc: true
 category:
- - 转载
+ - 分享
 tags:
  - 转载
  - nginx

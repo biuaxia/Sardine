@@ -1,8 +1,7 @@
 title: 【转载】聊聊传说中的 ThreadLocal
 date: 2021-06-18 23:00:59
 toc: true
-category: 
- - 转载
+category
  - Java
 tags: 
  - 转载

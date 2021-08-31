@@ -1,10 +1,12 @@
 ---
 title: 【转载】Linux下强大的编辑器Vim使用
 date: 2021-07-26 11:54:02
-tags: [转载, Linux, Vim]
 category:
- - 转载
  - Linux
+tags:
+ - 转载 
+ - Linux
+ - Vim
 ---
 
 本文转载自：[Linux下强大的编辑器Vim使用 - 笨猫博客](https://www.nbmao.com/archives/4846)

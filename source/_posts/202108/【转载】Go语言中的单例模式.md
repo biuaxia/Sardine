@@ -2,8 +2,7 @@ title: 【转载】Go语言中的单例模式
 date: 2021-08-09 16:35:33
 toc: true
 category:
- - 转载
- - Go
+ - Golang
 tags: 
  - 转载
  - Go

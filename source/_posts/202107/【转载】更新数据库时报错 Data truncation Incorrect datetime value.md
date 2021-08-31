@@ -2,7 +2,7 @@ title: 【转载】更新数据库时报错 Data truncation Incorrect datetime v
 date: 2021-07-13 10:44:46
 toc: true
 category:
- - 转载
+ - 数据库
 tags: 
  - 转载
  - 更新

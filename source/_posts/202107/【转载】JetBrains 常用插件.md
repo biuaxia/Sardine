@@ -2,7 +2,7 @@ title: 【转载】JetBrains 常用插件
 date: 2021-07-06 11:15:08
 toc: true
 category:
- - 转载
+ - Jetbrains
 tags: 
  - 转载
  - Jetbrains

@@ -2,7 +2,6 @@ title: 【转载】六种方式，教你在SpringBoot初始化时搞点事情！
 date: 2021-08-24 15:19:00
 toc: true
 category:
- - 转载
  - Java
 tags:
  - 转载

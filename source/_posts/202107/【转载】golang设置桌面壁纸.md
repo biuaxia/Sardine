@@ -2,8 +2,7 @@ title: 【转载】golang设置桌面壁纸
 date: 2021-07-06 11:14:45
 toc: true
 category:
- - 转载
- - Go
+ - Golang
 tags: 
  - 转载
  - Go
