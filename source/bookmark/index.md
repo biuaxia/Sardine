@@ -271,3 +271,4 @@ toc: true
 - [Acgur - Pixiv Illustration Update Ranking](https://acgur.com?utm_source=biuaxia.cn)
 - [The Legend of Bald - 又一个秃头站点](https://atlob.org?utm_source=biuaxia.cn)
 - [唯美女生](https://www.vmgirls.com?utm_source=biuaxia.cn)
+- [今日热榜](https://tophub.today?utm_source=biuaxia.cn)
