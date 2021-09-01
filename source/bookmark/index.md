@@ -41,6 +41,7 @@ toc: true
 - [自留地工牌生成器](https://avatar-flutter.vercel.app/#?utm_source=biuaxia.cn)
 - [Flowchart Fun - 在线文本生成流程图](https://flowchart.fun?utm_source=biuaxia.cn)
 - [FontAwesome](https://fontawesome.com?utm_source=biuaxia.cn)
+- [Google AdSense](https://www.google.com/adsense)
 
 ---
 
