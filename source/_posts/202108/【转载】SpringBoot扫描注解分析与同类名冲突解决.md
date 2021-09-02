@@ -24,14 +24,16 @@ tags:
 
 ---
 
-我们在开发`springboot`项目时候，创建好SpringBoot项目就可以通过启动类直间启动，运行一个web项目，非常方便简单，不像我们之前通过`Spring+SpringMvc`要运行启动一个web项目还需要要配置各种包扫描和`tomcat`才能启动
+我们在开发 `SpringBoot` 项目时候，创建好 `SpringBoot` 项目就可以通过启动类直接启动，运行一个 `web` 项目，非常方便简单。
 
-我将应用分成了parent+common+component+app这种模式
+不像我们之前通过 `Spring+SpringMvc` 要运行启动一个 `web` 项目还需要配置各种包扫描和 `tomcat` 才能启动。
 
-1. parent是一个单纯的pom文件，存放项目的一些公共依赖
-2. common则是一个没有启动类的SpringBoot项目，存放项目的核心公共代码
-3. component各种组件功能服务模块，用的时候直接引用插拔方式实现
-4. app则是一个实际的应用项目，包含一个SpringBoot启动类，提供各种实际的功能。
+我将应用分成了 `parent+common+component+app` 这种模式
+
+1. parent 是一个单纯的pom文件，存放项目的一些公共依赖
+2. common 则是一个没有启动类的 `SpringBoot` 项目，存放项目的核心公共代码
+3. component 各种组件功能服务模块，用的时候直接引用插拔方式实现
+4. app 则是一个实际的应用项目，包含一个SpringBoot启动类，提供各种实际的功能。
 
 ![](https://b3logfile.com/file/2021/08/solo-fetchupload-3926770392394474232-785cdd23.webp)
 
@@ -41,7 +43,7 @@ tags:
 
 ![](https://b3logfile.com/file/2021/08/solo-fetchupload-3983595921017405791-d5a9e375.webp)
 
-其中`kmall-admin`和`kmall-api`则是一个实际的应用项目，包含一个SpringBoot启动类
+其中 `kmall-admin` 和 `kmall-api` 则是一个实际的应用项目，包含一个SpringBoot启动类
 
 > 但是我在启动项目时候发现 有些模块并未成功注入，配置类也没有生效。即SpringBoot并没有扫描到这些文件
 
@@ -61,7 +63,7 @@ SpringBoot 启动类上，配置扫描包路径有三种方式，最近看到一
 @SpringBootApplication(scanBasePackages ={"a","b"})
 @ComponentScan(basePackages = {"a","b","c"})
 @MapperScan({"XXX"})
-public class XXApplication extends SpringBootServletInitializer 
+public class XXApplication extends SpringBootServletInitializer {
 }
 ```
 
@@ -182,7 +184,7 @@ public class App {
 }
 ```
 
-如果如果mapper类没有在Spring Boot主程序可以扫描的包或者子包下面，可以使用如下方式进行配置：
+如果 `mapper` 类没有在 `SpringBoot` 主程序可以扫描的包或者子包下面，可以使用如下方式进行配置：
 
 ```java
 @SpringBootApplication  
@@ -225,6 +227,7 @@ public class App {
        }
    }
    ```
+   
 2. 通过`@ComponentScan`指定`basePackages`属性指定组件扫描路径
    
    ```java
@@ -253,11 +256,11 @@ public class App {
    }
    ```
 
-> 当然我们看到其中扫描中还指定了属性`nameGenerator`是为了解决在多模块，多包名，下`相同类名，扫描注入冲突问题`
+> 当然我们看到其中扫描中还指定了属性 `nameGenerator` 是为了解决在多模块，多包名下 `相同类名，扫描注入冲突` 问题。
 
-spring提供两种`beanName`生成策略，基于注解的sprong-boot默认使用的是AnnotationBeanNameGenerator，它生成beanName的策略就是，取当前类名（不是全限定类名）作为beanName。由此，如果出现不同包结构下同样的类名称，肯定会出现冲突
+spring提供两种`beanName`生成策略，基于注解的 `SpringBoot` 默认使用的是AnnotationBeanNameGenerator，它生成beanName的策略就是，取当前类名（不是全限定类名）作为beanName。由此，如果出现不同包结构下同样的类名称，肯定会出现冲突
 
-> 解决方法：我们可以自己写一个类实现 `org.springframework.beans.factory.support.BeanNameGeneraot接口` 重新定义beanName生成策略，继承AnnotationBeanNameGenerator，重写generateBeanName
+> 解决方法：我们可以自己写一个类实现 `org.springframework.beans.factory.support.BeanNameGeneraot` 接口，重新定义beanName生成策略，继承AnnotationBeanNameGenerator，重写generateBeanName
 
 同样 解决mybatis不同包下面同名mapper bean名重复的问题
 
@@ -302,7 +305,7 @@ public class UniqueNameGenerator extends AnnotationBeanNameGenerator {
 }
 ```
 
-这种是限定全类名，也就是`包名+类名`
+这种是限定全类名，也就是 `包名+类名`。
 
 ```java
 package com;
