@@ -260,7 +260,7 @@ public class App {
 
 spring提供两种`beanName`生成策略，基于注解的 `SpringBoot` 默认使用的是AnnotationBeanNameGenerator，它生成beanName的策略就是，取当前类名（不是全限定类名）作为beanName。由此，如果出现不同包结构下同样的类名称，肯定会出现冲突
 
-> 解决方法：我们可以自己写一个类实现 `org.springframework.beans.factory.support.BeanNameGeneraot` 接口，重新定义beanName生成策略，继承AnnotationBeanNameGenerator，重写generateBeanName
+> 解决方法：我们可以自己写一个类实现 `org.springframework.beans.factory.support.BeanNameGenerator` 接口，重新定义beanName生成策略，继承AnnotationBeanNameGenerator，重写generateBeanName
 
 同样 解决mybatis不同包下面同名mapper bean名重复的问题
 
