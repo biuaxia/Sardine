@@ -216,6 +216,8 @@ toc: true
 - [抖音解析-搏天api](https://api.btstu.cn/doc/dyjx.php)
 - [网易云音乐解析-搏天api](https://api.btstu.cn/doc/wyy.php)
 - [云段子，重复请求获取不同段子](http://www.yduanzi.com/duanzi/getduanzi)
+- [每天60秒读懂世界 - 知乎官方API](https://www.zhihu.com/api/v4/columns/c_1261258401923026944/articles?utm_source=biuaxia.cn)
+- [知乎 API 整理 – 逸飞的技术日志](https://yifei.me/note/460/#%E4%B8%93%E6%A0%8F%E5%92%8C%E6%96%87%E7%AB%A0?utm_source=biuaxia.cn)
 
 ## Docker
 
