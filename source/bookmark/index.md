@@ -179,6 +179,12 @@ toc: true
 - [beego: 简约 & 强大并存的 Go 应用框架](https://beego.me/docs/intro/)
 - [框架介绍 - GoFrame官网 - 类似PHP-Laravel, Java-SpringBoot的Go企业级开发框架](https://goframe.org/display/gf)
 - [go-swagger/go-swagger: Swagger 2.0 implementation for go](https://github.com/go-swagger/go-swagger)
+- [Line | Develop using Fyne](https://developer.fyne.io/tour/canvas/line.html)
+- [Go 每日一库之 fyne - SegmentFault 思否](https://segmentfault.com/a/1190000022961915)
+- [lusingander/fyne-theme-generator: WYSIWYG theme editor for Fyne](https://github.com/lusingander/fyne-theme-generator)
+- [lusingander/fyne-font-example: Sample application that uses different fonts in Fyne](https://github.com/lusingander/fyne-font-example)
+- [在 Fyne 中处理日语字体 | blog - lusingander](https://lusingander.netlify.app/posts/200614-fyne-font/)
+- [在 Fyne 中处理图标和图像| blog - lusingander](https://lusingander.netlify.app/posts/200613-fyne-resourece/)
 
 ### Java
 
