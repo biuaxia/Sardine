@@ -44,6 +44,7 @@ toc: true
 - [Google AdSense](https://www.google.com/adsense)
 - [卡密生成器](https://www.toolnb.com/tools/kamicreate.html)
 - [免费商用字体字体转换](http://www.zku.net/fonts-bq-124.html?biaoqian_id=124&page=2)
+- [Releases · xanderfrangos/twinkle-tray](https://github.com/xanderfrangos/twinkle-tray/releases)
 
 ---
 
