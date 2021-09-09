@@ -41,10 +41,15 @@ toc: true
 - [自留地工牌生成器](https://avatar-flutter.vercel.app/#?utm_source=biuaxia.cn)
 - [在线文本生成流程图](https://flowchart.fun?utm_source=biuaxia.cn)
 - [FontAwesome](https://fontawesome.com?utm_source=biuaxia.cn)
-- [Google AdSense](https://www.google.com/adsense)
 - [卡密生成器](https://www.toolnb.com/tools/kamicreate.html)
 - [免费商用字体字体转换](http://www.zku.net/fonts-bq-124.html?biaoqian_id=124&page=2)
 - [Releases · xanderfrangos/twinkle-tray](https://github.com/xanderfrangos/twinkle-tray/releases)
+
+---
+
+- [Google AdSense](https://www.google.com/adsense)
+- [Google Analytics](https://analytics.google.com/analytics/web/#/p271862647/reports/reportinghub)
+- [百度统计](https://tongji.baidu.com/web/10000355355/overview/index?siteId=16711784)
 
 ---
 
@@ -151,6 +156,12 @@ toc: true
  - [[译]解密 Java Lambda 表达式](https://juejin.cn/post/6976973764277846023)
  - [SpringBoot包扫描之多模块多包名扫描和同类名扫描冲突解决｜8月更文挑战](https://juejin.cn/post/6999428902275940382?utm_source=biuaxia.cn)
  - [六种方式，教你在SpringBoot初始化时搞点事情！](https://juejin.cn/post/6999419046697369613?utm_source=biuaxia.cn)
+ - [@Aysnc注解其实也就这么回事。 - 掘金](https://juejin.cn/post/7004673495774789640?utm_source=biuaxia.cn)
+ - [原来这就是比 ThreadLocal 更快的玩意? - 掘金](https://juejin.cn/post/7005084861975232549?utm_source=biuaxia.cn)
+ - [大厂的 SDK 写法，偷学到了！ - 掘金](https://juejin.cn/post/7004695364896817183?utm_source=biuaxia.cn)
+ - [mica-ip2region 最好用的 Spring boot ip 转地址 stater - 掘金](https://juejin.cn/post/7005382674244173838?utm_source=biuaxia.cn)
+ - [Java Springboot+Vue+MyBatis音乐播放系统 - 掘金](https://juejin.cn/post/7005414319680667679?utm_source=biuaxia.cn)
+ - [还在用MyBatis写CRUD?这款神器帮你5分钟写后台管理基本功能（内有抽奖） - 掘金](https://juejin.cn/post/7005365532887089189?utm_source=biuaxia.cn)
 
 ## Developers
 
@@ -190,6 +201,7 @@ toc: true
 
 ### Java
 
+- 【强推】：[mica-auto 使用注解自动生成 java spi 和 Spring boot 的配置 | 如梦技术](https://www.dreamlu.net/mica2x/index.html)
 - [芋道源码 —— 纯源码解析博客](https://www.iocoder.cn)
 - [聊聊-Java-的类加载机制二](https://nicksxs.me/2021/06/13/%E8%81%8A%E8%81%8A-Java-%E7%9A%84%E7%B1%BB%E5%8A%A0%E8%BD%BD%E6%9C%BA%E5%88%B6%E4%BA%8C)
 - [云原生时代，Java的危与机-InfoQ](https://www.infoq.cn/article/rqfww2r2zpyqiolc1wbe)
