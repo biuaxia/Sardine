@@ -12,11 +12,9 @@ tags:
 
 查找答案时请善用搜索功能。
 
-
 <!-- more -->
 
-
-## 考核一、👦 新手入门
+## 👦 新手入门
 
 请严格按照下面步骤搭建环境，出现问题时第一时间排除环境方面的原因。
 
@@ -31,23 +29,19 @@ tags:
 
 如果不知道如何下载或者百度也帮不到你，可以直接从百度云盘下载 JDK+Eclipse+Tomcat 的**整合包**。
 
-> `biuaxia`更新于 __2021年6月2日16点02分__
-
 > 链接：`https://pan.baidu.com/s/1lMJ2oeUDFpNVrs3eRkcWfw`
 
 > 提取码：6ix1
 
 环境搭建好后，请将下面的 GKP 项目导入到 IDE 中（可以是 Eclipse，也可以是 IDEA）。
 
-> `biuaxia`更新于 __2021年6月2日16点12分__
-
 > 链接：`https://pan.baidu.com/s/1pLy3OJIB60yGO4OgIY8Ljg`
 
 > 提取码：4ft3
 
-以web项目启动，启动后默认的访问账号和密码是：admin/1
+以web项目启动，启动后默认的访问账号和密码是：`admin`/`1`
 
-## 考核二、
+## 🔍 问答
 
 ### 🆘 IDEA Build 报错 OutOfMemoryError ？
 
@@ -71,7 +65,7 @@ tags:
 
 ### IDEA 热部署很慢？
 
-查看项目配置，是否为如图所示：
+依次检查项目的下列三个配置。
 
 #### Project compiler output
 
@@ -98,8 +92,6 @@ tags:
 ![image.png](https://b3logfile.com/file/2021/09/image-9a075785.png)
 
 只需要配置 `src` 目录为 `Source Folders` 即可。
-
-## 🔍 问答
 
 ### 修改主题样式?
 
