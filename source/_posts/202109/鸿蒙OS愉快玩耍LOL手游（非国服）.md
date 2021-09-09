@@ -133,7 +133,7 @@ tags:
 
 ![image.png](https://b3logfile.com/file/2021/09/image-0c2b9630.png)
 
-搜索 `biu加速器`，点击右侧的开关按钮，修改为：
+搜索 `biubiu加速器`，点击右侧的开关按钮，修改为：
 
 ![image.png](https://b3logfile.com/file/2021/09/image-66dc7dec.png)
 
