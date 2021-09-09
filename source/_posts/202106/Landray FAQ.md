@@ -69,6 +69,36 @@ tags:
 
 ![](https://b3logfile.com/file/2021/06/solo-fetchupload-521307315504617139-90a24903.png )
 
+### IDEA 热部署很慢？
+
+查看项目配置，是否为如图所示：
+
+#### Project compiler output
+
+![image.png](https://b3logfile.com/file/2021/09/image-788ca0ae.png)
+
+检查路径是否为：`C:\Users\biuaxia\Desktop\eclipse-workspace\SPRJ20210326_SCSYST\WebContent\WEB-INF\classes`，`WEB-INF\classes` 文件夹。
+
+#### Module compiler output
+
+![image.png](https://b3logfile.com/file/2021/09/image-de7e1172.png)
+
+选中 `Inherit project compile output path(继承项目编译输出路径)` 即可。
+
+#### Artifacts output directory
+
+![image.png](https://b3logfile.com/file/2021/09/image-bd29b26c.png)
+
+检查路径是否为：`C:\Users\biuaxia\Desktop\eclipse-workspace\SPRJ20210326_SCSYST\WebContent\WEB-INF\classes\artifacts\ekp_Web_exploded` ，`WEB-INF\classes\artifacts\ekp_Web_exploded` 文件夹。
+
+### IDEA 配置项目的文件夹类型
+
+如图所示即可。
+
+![image.png](https://b3logfile.com/file/2021/09/image-9a075785.png)
+
+只需要配置 `src` 目录为 `Source Folders` 即可。
+
 ## 🔍 问答
 
 ### 修改主题样式?
