@@ -43,7 +43,7 @@ toc: true
 - [FontAwesome](https://fontawesome.com?utm_source=biuaxia.cn)
 - [卡密生成器](https://www.toolnb.com/tools/kamicreate.html)
 - [免费商用字体字体转换](http://www.zku.net/fonts-bq-124.html?biaoqian_id=124&page=2)
-- [Releases · xanderfrangos/twinkle-tray](https://github.com/xanderfrangos/twinkle-tray/releases)
+- [朋友圈转发截图生成工具](https://akarin.dev/WechatMomentScreenshot/)
 
 ---
 
@@ -258,6 +258,7 @@ toc: true
 - [core-lib/xjar: Spring Boot JAR 安全加密运行工具，支持的原生JAR。](https://github.com/core-lib/xjar?utm_source=biuaxia.cn)
 - [kangvcar/InfoSpider: INFO-SPIDER 是一个集众多数据源于一身的爬虫工具箱🧰，旨在安全快捷的帮助用户拿回自己的数据，工具代码开源，流程透明。支持数据源包括GitHub、QQ邮箱、网易邮箱、阿里邮箱、新浪邮箱、Hotmail邮箱、Outlook邮箱、京东、淘宝、支付宝、中国移动、中国联通、中国电信、知乎、哔哩哔哩、网易云音乐、QQ好友、QQ群、生成朋友圈相册、浏览器浏览历史、12306、博客园、CSDN博客、开源中国博客、简书。](https://github.com/kangvcar/InfoSpider?utm_source=biuaxia.cn)
 - [jeessy2/ddns-go: 简单好用的DDNS。自动更新域名解析到公网IP(支持阿里云、腾讯云dnspod、Cloudflare、华为云)](https://github.com/jeessy2/ddns-go#webhook)
+- [xanderfrangos/twinkle-tray: Easily manage the brightness of your monitors in Windows from the system tray](https://github.com/xanderfrangos/twinkle-tray)
 
 ## Hexo
 
