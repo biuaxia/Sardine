@@ -200,6 +200,18 @@ toc: true
 - [在 Fyne 中处理日语字体 | blog - lusingander](https://lusingander.netlify.app/posts/200614-fyne-font/)
 - [在 Fyne 中处理图标和图像| blog - lusingander](https://lusingander.netlify.app/posts/200613-fyne-resourece/)
 
+#### go下gRPC开发体验
+
+首先下载 [Releases · protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf/releases)，下载完成记得将路径添加到环境变量中。
+
+通过执行 `protoc --version` 进行验证。
+
+然后下载 go 的依赖包：
+
+```golang
+go get github.com/golang/protobuf/protoc-gen-go
+```
+
 ### Java
 
 - 【强推】：[mica-auto 使用注解自动生成 java spi 和 Spring boot 的配置 | 如梦技术](https://www.dreamlu.net/mica2x/index.html)
@@ -212,6 +224,11 @@ toc: true
 #### 开发工具
 
 - [MybatisX 快速开发插件 | MyBatis-Plus](https://mp.baomidou.com/guide/mybatisx-idea-plugin.html)
+- [Kite - Free AI Coding Assistant and Code Auto-Complete Plugin](https://www.kite.com/)最新版本下载地址：
+
+  - Linux: <https://linux.kite.com/dls/linux/current>
+  - Windows: <https://release.kite.com/dls/windows/current>
+  - MacOS: <https://release.kite.com/dls/mac/current>
 
 #### 异常解决
 
