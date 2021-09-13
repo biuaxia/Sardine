@@ -180,6 +180,7 @@ toc: true
 - [DataEase - 人人可用的开源数据可视化分析工具 - 官网](https://dataease.io/)
 - [IntelliJ IDEA Tips & Tricks: 多个光标 - IntelliJ IDEA Tutorial](https://einverne.gitbook.io/intellij-idea-tutorial/tips-multiple-cursors)
 - [许可证 - 木兰宽松许可证, 第2版](http://license.coscl.org.cn/MulanPSL2/)
+- [go下grpc开发体验 · 语雀](https://www.yuque.com/bobby-zpcyu/fgg66n/poci7g)
 
 ### Golang
 
