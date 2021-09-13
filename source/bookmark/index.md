@@ -262,6 +262,7 @@ go get github.com/golang/protobuf/protoc-gen-go
 
 - [宝塔面板docker搭建NocoDB – 将MySQL/PostgreSQL/SQL Server/SQLite/MariaDB 转换为电子表格。 - 大鸟博客](https://www.daniao.org/14186.html)
 - [宝塔面板Cloudreve+Aria2配置离线下载 - 大鸟博客](https://www.daniao.org/13249.html)
+- [容器镜像服务 - 阿里云](https://cr.console.aliyun.com/cn-hangzhou/instances/mirrors)
 
 ## Landray
 
