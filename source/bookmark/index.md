@@ -321,6 +321,11 @@ go get github.com/golang/protobuf/protoc-gen-go
 - [低端影视 - 超清在线视频站](https://ddrk.me?utm_source=biuaxia.cn)
 - [扫黑风暴第01集 - COKEMV影视 在线1080P电影](https://cokemv.me/vodplay/38016-1-1.html?utm_source=biuaxia.cn)：跳过片头设置为 `114` 秒
 
+## 小游戏
+
+- [RPG文字游戏 - 中型村落](http://adarkroom.doublespeakgames.com/?lang=zh_cn)
+- [塔防策略游戏](https://yorg.io/)
+
 ## 购买过的程序
 
 1. 彩虹秒赞：[扫码自助下载最新源码](http://auth.wx.jaeapp.com/get/#)
