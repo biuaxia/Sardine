@@ -213,6 +213,10 @@ toc: true
 go get github.com/golang/protobuf/protoc-gen-go
 ```
 
+#### gRPC
+
+- [Language Guide (proto3)  |  Protocol Buffers  |  Google Developers](https://developers.google.com/protocol-buffers/docs/proto3#default)
+
 ### Java
 
 - 【强推】：[mica-auto 使用注解自动生成 java spi 和 Spring boot 的配置 | 如梦技术](https://www.dreamlu.net/mica2x/index.html)
