@@ -66,7 +66,17 @@ toc: true
 
 - <https://misakanode.cf/Clash.yml>
 
-## 待阅读
+## 学习
+
+### 慕课
+
+- [教辅资料-Go开发工程师-慕课网就业班](https://class.imooc.com/sc/108/material?utm_source=biuaxia.cn)
+- [class-108/bobby-resources: bobby老师课程的源码 - 慕课网Git](https://git.imooc.com/class-108/bobby-resources?utm_source=biuaxia.cn)
+- [class-108/learngo: Go语言基础知识部分源码 - 慕课网Git](https://git.imooc.com/class-108/learngo?utm_source=biuaxia.cn)
+- [class-108/coolcar: 租辆酷车项目源码 - 慕课网Git](https://git.imooc.com/class-108/coolcar?utm_source=biuaxia.cn)
+- [1. protobuf官方文档参考丨慕课网教程](https://www.imooc.com/wiki/go/161.html?utm_source=biuaxia.cn)
+
+### 待阅读
 
 > 更新于：2021年8月30日
 
@@ -149,7 +159,7 @@ toc: true
  - [[译] 字体加载策略全面指南](https://juejin.cn/post/6844903439491661837?utm_source=biuaxia.cn)
  - [Java 不可变类的整洁之道](https://juejin.cn/post/6844903437998505991?utm_source=biuaxia.cn)
 
-## 已阅读
+### 已阅读
 
 > 更新于：2021年8月16日
 
