@@ -253,6 +253,7 @@ go get github.com/golang/protobuf/protoc-gen-go
 ### Javascript
 
 - [cdnjs - free and open source CDN built to make life easier for developers](https://cdnjs.com)
+- [Demo 示例 - Vditor](https://b3log.org/vditor/demo/index.html)
 
 ### Apis
 
@@ -294,6 +295,7 @@ go get github.com/golang/protobuf/protoc-gen-go
 - [kangvcar/InfoSpider: INFO-SPIDER 是一个集众多数据源于一身的爬虫工具箱🧰，旨在安全快捷的帮助用户拿回自己的数据，工具代码开源，流程透明。支持数据源包括GitHub、QQ邮箱、网易邮箱、阿里邮箱、新浪邮箱、Hotmail邮箱、Outlook邮箱、京东、淘宝、支付宝、中国移动、中国联通、中国电信、知乎、哔哩哔哩、网易云音乐、QQ好友、QQ群、生成朋友圈相册、浏览器浏览历史、12306、博客园、CSDN博客、开源中国博客、简书。](https://github.com/kangvcar/InfoSpider?utm_source=biuaxia.cn)
 - [jeessy2/ddns-go: 简单好用的DDNS。自动更新域名解析到公网IP(支持阿里云、腾讯云dnspod、Cloudflare、华为云)](https://github.com/jeessy2/ddns-go#webhook)
 - [xanderfrangos/twinkle-tray: Easily manage the brightness of your monitors in Windows from the system tray](https://github.com/xanderfrangos/twinkle-tray)
+- [Vanessa219/vditor at v3.8.5](https://github.com/Vanessa219/vditor/tree/v3.8.5)
 
 ## Hexo
 
