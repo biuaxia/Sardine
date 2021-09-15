@@ -1,0 +1,151 @@
+title: protobuf和grpc进阶
+date: 2021-09-14 15:05:00
+toc: true
+category:
+ - Golang
+ - gPRC
+tags:
+ - Golang
+ - gPRC
+ - Go
+ - protobuf
+ - proto
+ - 类型
+ - 默认值
+ - 命令
+ - package
+ - 同步
+ - 坑
+---
+
+## protobuf的基本类型和默认值
+
+参考下表：
+
+标量消息字段可以具有以下类型之一–该表显示了文件中指定的类型，以及自动生成的类中相应的类型：`.proto`。
+
+
+<!-- more -->
+
+
+| .proto Type | Notes                                                                      | C++ Type | Java/Kotlin Type$^{[1]}$ | Python Type$^{[3]}$ | Go Type | Ruby Type                      | C# Type    | PHP Type               | Dart Type |
+| ------------- | ---------------------------------------------------------------------------- | ---------- | -------------------------- | --------------------- | --------- | -------------------------------- | ------------ | ------------------------ | ----------- |
+| double      |                                                                            | double   | double                   | float               | float64 | Float                          | double     | float                  | double    |
+| float       |                                                                            | float    | float                    | float               | float32 | Float                          | float      | float                  | double    |
+| int32       | 使用可变长度编码。编码负数效率低下–如果您的字段可能有负值，请改用sint32。 | int32    | int                      | int                 | int32   | Fixnum or Bignum (as required) | int        | integer                | int       |
+| int64       | 使用可变长度编码。编码负数效率低下–如果您的字段可能有负值，请改用sint64。 | int64    | long                     | int/long$^{[4]}$    | int64   | Bignum                         | long       | integer/string$^{[6]}$ | Int64     |
+| uint32      | 使用可变长度编码。                                                         | uint32   | int$^{[2]}$              | int/long$^{[4]}$    | uint32  | Fixnum or Bignum (as required) | uint       | integer                | int       |
+| uint64      | 使用可变长度编码。                                                         | uint64   | long$^{[2]}$             | int/long$^{[4]}$    | uint64  | Bignum                         | ulong      | integer/string$^{[6]}$ | Int64     |
+| sint32      | 使用可变长度编码。有符号整数值。它们比常规的int32s更有效地编码负数。       | int32    | int                      | int                 | int32   | Fixnum or Bignum (as required) | int        | integer                | int       |
+| sint64      | 使用可变长度编码。有符号整数值。它们比常规的int64s更有效地编码负数。       | int64    | long                     | int/long$^{[4]}$    | int64   | Bignum                         | long       | integer/string$^{[6]}$ | Int64     |
+| fixed32     | 总是四个字节。如果值通常大于2$^{28}$，则比uint32更有效。                   | uint32   | int$^{[2]}$              | int/long$^{[4]}$    | uint32  | Fixnum or Bignum (as required) | uint       | integer                | int       |
+| fixed64     | 总是八个字节。如果值通常大于2$^{56}$，则比uint64更有效。                   | uint64   | long$^{[2]}$             | int/long$^{[4]}$    | uint64  | Bignum                         | ulong      | integer/string$^{[6]}$ | Int64     |
+| sfixed32    | 总是四个字节。                                                             | int32    | int                      | int                 | int32   | Fixnum or Bignum (as required) | int        | integer                | int       |
+| sfixed64    | 总是八个字节。                                                             | int64    | long                     | int/long$^{[4]}$    | int64   | Bignum                         | long       | integer/string$^{[6]}$ | Int64     |
+| bool        |                                                                            | bool     | boolean                  | bool                | bool    | TrueClass/FalseClass           | bool       | boolean                | bool      |
+| string      | 字符串必须始终包含UTF-8编码或7位ASCII文本，且长度不能超过2$^{32}$。        | string   | String                   | str/unicode$^{[5]}$ | string  | String (UTF-8)                 | string     | string                 | String    |
+| bytes       | 可能包含任意顺序的字节数据，但不超过2$^{32}$。                             | string   | ByteString               | str                 | []byte  | String (ASCII-8BIT)            | ByteString | string                 | List      |
+
+你可以在文章[Protocol Buffer 编码](https://developers.google.com/protocol-buffers/docs/encoding?hl=zh-cn)中，找到更多“序列化消息时各种类型如何编码”的信息。
+
+- $^{[1]}$ Kotlin 使用来自 Java 的相应类型，即使是未签名的类型，以确保混合 Java/Kotlin 代码库的兼容性。
+- $^{[2]}$ 在 Java 中，未签名的 32 位和 64 位整数使用其签名的对应器进行表示，顶部位只需存储在符号位中即可。
+- $^{[3]}$ 在所有情况下，将值设置为字段将执行类型检查，以确保其有效。
+- $^{[4]}$ 64 位或未签名的 32 位整数在解码时始终表示，但如果在设置字段时给出了国际数字，则可以是国际。在所有情况下，值必须与设置时所表示的类型相符。请参阅 [2]。
+- $^{[5]}$ Python 字符串在解码上表示为单码，但如果给出 ASCII 字符串（这可能会更改），则可以进行 str。
+- $^{[6]} $整数用于 64 位机器，字符串用于 32 位机器。
+
+## option go_package的作用
+
+我们在定义一个.proto文件时，需要申明这个文件属于哪个包,主要是为了规范整合以及避免重复，这个概念在其他语言中也存在，比如php中的`namespace`的概念，go中的 `package`概念。
+
+所以，我们根据实际的分类情况，给每1个proto文件都定义1个包，一般这个包和proto所在的文件夹名子，保持一致。
+
+比如例子中，文件在`proto文件夹`中，那我们用的package 就为： `proto`;
+
+`option` 单独看这个名字，就知道是选项和配置的意思，常见的选项是配置 `go_package`
+
+```protobuf
+option go_package = ".;proto";
+```
+
+现在protoc命令生成go包的时候，如果这一行没加上，会提示错误：
+
+```protobuf
+➜  proto git:(master) ✗ protoc --go_out=:. hello.proto
+2020/05/21 15:59:40 WARNING: Missing 'go_package' option in "hello.proto", please specify:
+        option go_package = ".;proto";
+A future release of protoc-gen-go will require this be specified.
+See https://developers.google.com/protocol-buffers/docs/reference/go-generated#package for more information.
+```
+
+所以，这个`go_package`和上面那个`package proto;`有啥区别呢？有点蒙啊。
+
+尝试这样改一下：
+
+```protobuf
+syntax = "proto3";
+
+package protoB;
+
+option go_package = ".;protoA";
+```
+
+看下生成的go语言包的package到底是啥？打开，生成后的go文件：
+
+```go
+# vi hello.pb.go
+
+package protoA
+
+...
+```
+
+发现是`protoA`，说明，go的package是受`option go_package`影响的。所以，在我们没有申请这一句的时候，系统就会用proto文件的package名字，为提示，让你也加上相同的go_package名字了。
+
+再来看一下，这个 `=".;proto"` 是啥意思。改一下：
+
+```protobuf
+option go_package = "./protoA";
+```
+
+执行后，发现，生成了一个`protoA`文件夹。里面的 `hello.pb.go` 文件的 `package` 也是 `protoA`。
+
+所以，`.;`表示的是就在本目录下的意思么？？？行吧。
+
+再来看一下，我们改成1个绝对的路径目录：
+
+```protobuf
+option go_package = "/";
+```
+
+所以，总结一下：
+
+```protobuf
+package protoB; // 这个用来设定proto文件自身的package
+
+option go_package = ".;protoA";  // 这个用来生成的go文件package。一般情况下，可以把这2个设置成一样
+```
+
+## proto文件同步时的坑
+
+简而言之就是客户端与服务端所使用的 `proto` 文件中对象属性的序号不同，导致业务逻辑混乱，且无法排查。
+
+例如：
+
+```go
+message StreamReqData{
+    string name = 1;
+    string url = 2;
+}
+```
+
+`protobuf` 在序列化时的逻辑大概为：
+
+`name = "biuaxia", -> 17biuaxia`，其中的 1 为属性 name 的序号，7 为内容长度。
+
+同理，`url = "biuaxia.cn", -> 210biuaxia.cn`。
+
+如果服务端与客户端的 proto 文件中属性的序号不同则会造成难以排查的问题。
+
+对此最好的解决办法就是不要修改 proto 文件，而是接收针对 proto 文件的统一分发。
