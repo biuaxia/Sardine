@@ -2,20 +2,22 @@ title: protobuf和grpc进阶
 date: 2021-09-14 15:05:00
 toc: true
 category:
- - Golang
- - gPRC
-tags:
- - Golang
- - gPRC
- - Go
- - protobuf
- - proto
- - 类型
- - 默认值
- - 命令
- - package
- - 同步
- - 坑
+
+- Golang
+- gPRC
+  tags:
+- Golang
+- gPRC
+- Go
+- protobuf
+- proto
+- 类型
+- 默认值
+- 命令
+- package
+- 同步
+- 坑
+
 ---
 
 ## protobuf的基本类型和默认值
@@ -24,9 +26,7 @@ tags:
 
 标量消息字段可以具有以下类型之一–该表显示了文件中指定的类型，以及自动生成的类中相应的类型：`.proto`。
 
-
 <!-- more -->
-
 
 | .proto Type | Notes                                                                      | C++ Type | Java/Kotlin Type$^{[1]}$ | Python Type$^{[3]}$ | Go Type | Ruby Type                      | C# Type    | PHP Type               | Dart Type |
 | ------------- | ---------------------------------------------------------------------------- | ---------- | -------------------------- | --------------------- | --------- | -------------------------------- | ------------ | ------------------------ | ----------- |
@@ -149,3 +149,71 @@ message StreamReqData{
 如果服务端与客户端的 proto 文件中属性的序号不同则会造成难以排查的问题。
 
 对此最好的解决办法就是不要修改 proto 文件，而是接收针对 proto 文件的统一分发。
+
+## proto文件中import另一个proto
+
+例如 hello.proto 引用 base.proto。
+
+hello.proto 文件如下：
+
+```protobuf
+syntax = "proto3";
+
+option go_package = "../proto";
+
+service Greeter {
+    rpc Ping(Empty) returns (Pong);
+}
+```
+
+base.proto 文件如下：
+
+```protobuf
+syntax = "proto3";
+
+message Empty {
+}
+
+message Pong {
+    string id = 1;
+}
+```
+
+直接生成或IDE中可以看到 `hello.proto` 的第6行(即 Empty 和 Pong)会报错，可以通过 `import` 关键字来实现。
+
+修改 hello.proto 在其第三行追加内容：
+
+```protobuf
+syntax = "proto3";
+
+import "base.proto";
+
+option go_package = "../proto";
+
+service Greeter {
+    rpc Ping(Empty) returns (Pong);
+}
+```
+
+> 注意：import 文件时，后面的内容为当前文件的相对目录。
+
+也可以用于引入带包结构的 proto 文件且使用，例如：
+
+```protobuf
+syntax = "proto3";
+
+import "base.proto";
+import "google/protobuf/empty.proto";
+
+option go_package = "../proto";
+
+service Greeter {
+    rpc Ping(google.protobuf.Empty) returns (Pong);
+}
+```
+
+> 注意：外部文件需要写完整的包名，本地文件不需要。
+
+想要查询 proto 自带有哪些数据可以通过 Idea 查看下图的位置，将红色的位置追加上 `.proto` 文件即可。
+
+![image.png](https://b3logfile.com/file/2021/09/image-3e80a50f.png)
