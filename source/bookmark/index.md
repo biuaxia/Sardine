@@ -342,3 +342,7 @@ go get github.com/golang/protobuf/protoc-gen-go
 ## 准备借鉴的产品
 
 - [柯林CMS - 产品设计手册](http://www.kelink.com/help/)
+
+## Todo
+
+- 使Hexo支持Markdown拓展语法(上下标、脚注等): [hexojs/hexo-renderer-markdown-it: Markdown-it is a Markdown parser, done right. A faster and CommonMark compliant alternative for Hexo.](https://github.com/hexojs/hexo-renderer-markdown-it)
