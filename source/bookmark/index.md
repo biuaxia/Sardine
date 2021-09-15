@@ -338,3 +338,7 @@ go get github.com/golang/protobuf/protoc-gen-go
 - [The Legend of Bald - 又一个秃头站点](https://atlob.org?utm_source=biuaxia.cn)
 - [唯美女生](https://www.vmgirls.com?utm_source=biuaxia.cn)
 - [今日热榜](https://tophub.today?utm_source=biuaxia.cn)
+
+## 准备借鉴的产品
+
+- [柯林CMS - 产品设计手册](http://www.kelink.com/help/)
