@@ -28,32 +28,25 @@ tags:
 <!-- more -->
 
 
-| .proto Type | Notes                                                                      | C++ Type | Java/Kotlin Type$^{[1]}$ | Python Type$^{[3]}$ | Go Type | Ruby Type                      | C# Type    | PHP Type               | Dart Type |
+| .proto Type | Notes                                                                      | C++ Type | Java/Kotlin Type[^1] | Python Type[^3] | Go Type | Ruby Type                      | C# Type    | PHP Type               | Dart Type |
 | ------------- | ---------------------------------------------------------------------------- | ---------- | -------------------------- | --------------------- | --------- | -------------------------------- | ------------ | ------------------------ | ----------- |
 | double      |                                                                            | double   | double                   | float               | float64 | Float                          | double     | float                  | double    |
 | float       |                                                                            | float    | float                    | float               | float32 | Float                          | float      | float                  | double    |
 | int32       | 使用可变长度编码。编码负数效率低下–如果您的字段可能有负值，请改用sint32。 | int32    | int                      | int                 | int32   | Fixnum or Bignum (as required) | int        | integer                | int       |
-| int64       | 使用可变长度编码。编码负数效率低下–如果您的字段可能有负值，请改用sint64。 | int64    | long                     | int/long$^{[4]}$    | int64   | Bignum                         | long       | integer/string$^{[6]}$ | Int64     |
-| uint32      | 使用可变长度编码。                                                         | uint32   | int$^{[2]}$              | int/long$^{[4]}$    | uint32  | Fixnum or Bignum (as required) | uint       | integer                | int       |
-| uint64      | 使用可变长度编码。                                                         | uint64   | long$^{[2]}$             | int/long$^{[4]}$    | uint64  | Bignum                         | ulong      | integer/string$^{[6]}$ | Int64     |
+| int64       | 使用可变长度编码。编码负数效率低下–如果您的字段可能有负值，请改用sint64。 | int64    | long                     | int/long[^4]    | int64   | Bignum                         | long       | integer/string[^6] | Int64     |
+| uint32      | 使用可变长度编码。                                                         | uint32   | int[^2]              | int/long[^4]    | uint32  | Fixnum or Bignum (as required) | uint       | integer                | int       |
+| uint64      | 使用可变长度编码。                                                         | uint64   | long[^2]             | int/long[^4]    | uint64  | Bignum                         | ulong      | integer/string[^6] | Int64     |
 | sint32      | 使用可变长度编码。有符号整数值。它们比常规的int32s更有效地编码负数。       | int32    | int                      | int                 | int32   | Fixnum or Bignum (as required) | int        | integer                | int       |
-| sint64      | 使用可变长度编码。有符号整数值。它们比常规的int64s更有效地编码负数。       | int64    | long                     | int/long$^{[4]}$    | int64   | Bignum                         | long       | integer/string$^{[6]}$ | Int64     |
-| fixed32     | 总是四个字节。如果值通常大于2$^{28}$，则比uint32更有效。                   | uint32   | int$^{[2]}$              | int/long$^{[4]}$    | uint32  | Fixnum or Bignum (as required) | uint       | integer                | int       |
-| fixed64     | 总是八个字节。如果值通常大于2$^{56}$，则比uint64更有效。                   | uint64   | long$^{[2]}$             | int/long$^{[4]}$    | uint64  | Bignum                         | ulong      | integer/string$^{[6]}$ | Int64     |
+| sint64      | 使用可变长度编码。有符号整数值。它们比常规的int64s更有效地编码负数。       | int64    | long                     | int/long[^4]    | int64   | Bignum                         | long       | integer/string[^6] | Int64     |
+| fixed32     | 总是四个字节。如果值通常大于2^28^，则比uint32更有效。                   | uint32   | int[^2]              | int/long[^4]    | uint32  | Fixnum or Bignum (as required) | uint       | integer                | int       |
+| fixed64     | 总是八个字节。如果值通常大于2^56^，则比uint64更有效。                   | uint64   | long[^2]             | int/long[^4]    | uint64  | Bignum                         | ulong      | integer/string[^6] | Int64     |
 | sfixed32    | 总是四个字节。                                                             | int32    | int                      | int                 | int32   | Fixnum or Bignum (as required) | int        | integer                | int       |
-| sfixed64    | 总是八个字节。                                                             | int64    | long                     | int/long$^{[4]}$    | int64   | Bignum                         | long       | integer/string$^{[6]}$ | Int64     |
+| sfixed64    | 总是八个字节。                                                             | int64    | long                     | int/long[^4]    | int64   | Bignum                         | long       | integer/string[^6] | Int64     |
 | bool        |                                                                            | bool     | boolean                  | bool                | bool    | TrueClass/FalseClass           | bool       | boolean                | bool      |
-| string      | 字符串必须始终包含UTF-8编码或7位ASCII文本，且长度不能超过2$^{32}$。        | string   | String                   | str/unicode$^{[5]}$ | string  | String (UTF-8)                 | string     | string                 | String    |
-| bytes       | 可能包含任意顺序的字节数据，但不超过2$^{32}$。                             | string   | ByteString               | str                 | []byte  | String (ASCII-8BIT)            | ByteString | string                 | List      |
+| string      | 字符串必须始终包含UTF-8编码或7位ASCII文本，且长度不能超过2^32^。        | string   | String                   | str/unicode[^5] | string  | String (UTF-8)                 | string     | string                 | String    |
+| bytes       | 可能包含任意顺序的字节数据，但不超过2^32^。                             | string   | ByteString               | str                 | []byte  | String (ASCII-8BIT)            | ByteString | string                 | List      |
 
 你可以在文章[Protocol Buffer 编码](https://developers.google.com/protocol-buffers/docs/encoding?hl=zh-cn)中，找到更多“序列化消息时各种类型如何编码”的信息。
-
-- $^{[1]}$ Kotlin 使用来自 Java 的相应类型，即使是未签名的类型，以确保混合 Java/Kotlin 代码库的兼容性。
-- $^{[2]}$ 在 Java 中，未签名的 32 位和 64 位整数使用其签名的对应器进行表示，顶部位只需存储在符号位中即可。
-- $^{[3]}$ 在所有情况下，将值设置为字段将执行类型检查，以确保其有效。
-- $^{[4]}$ 64 位或未签名的 32 位整数在解码时始终表示，但如果在设置字段时给出了国际数字，则可以是国际。在所有情况下，值必须与设置时所表示的类型相符。请参阅 [2]。
-- $^{[5]}$ Python 字符串在解码上表示为单码，但如果给出 ASCII 字符串（这可能会更改），则可以进行 str。
-- $^{[6]} $整数用于 64 位机器，字符串用于 32 位机器。
 
 ## option go_package的作用
 
@@ -217,3 +210,10 @@ service Greeter {
 想要查询 proto 自带有哪些数据可以通过 Idea 查看下图的位置，将红色的位置追加上 `.proto` 文件即可。
 
 ![image.png](https://b3logfile.com/file/2021/09/image-3e80a50f.png)
+
+[^1]: Kotlin 使用来自 Java 的相应类型，即使是未签名的类型，以确保混合 Java/Kotlin 代码库的兼容性。
+[^2]: 在 Java 中，未签名的 32 位和 64 位整数使用其签名的对应器进行表示，顶部位只需存储在符号位中即可。
+[^3]: 在所有情况下，将值设置为字段将执行类型检查，以确保其有效。
+[^4]: 64 位或未签名的 32 位整数在解码时始终表示，但如果在设置字段时给出了国际数字，则可以是国际。在所有情况下，值必须与设置时所表示的类型相符。请参阅 [^3]。
+[^5]: Python 字符串在解码上表示为单码，但如果给出 ASCII 字符串（这可能会更改），则可以进行 str。
+[^6]: `$` 整数用于 64 位机器，字符串用于 32 位机器。

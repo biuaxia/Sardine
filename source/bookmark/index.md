@@ -303,6 +303,7 @@ go get github.com/golang/protobuf/protoc-gen-go
 - [使用 gulp 压缩 Hexo 博客文件（兼容 ES6 标准） | Ming&#39;s Blog](https://blog.inkuang.com/2021/405)
 - [D0n9X1n/hexo-blog-encrypt: Yet, just another hexo plugin for security.](https://github.com/D0n9X1n/hexo-blog-encrypt)
 - [XPoet/hexo-theme-keep: A simple and elegant theme for Hexo. It makes you more focused on writing.](https://github.com/XPoet/hexo-theme-keep)
+- 使Hexo支持Markdown拓展语法(上下标、脚注等): [hexojs/hexo-renderer-markdown-it: Markdown-it is a Markdown parser, done right. A faster and CommonMark compliant alternative for Hexo.](https://github.com/hexojs/hexo-renderer-markdown-it)
 
 ### 主题推荐
 
@@ -343,6 +344,3 @@ go get github.com/golang/protobuf/protoc-gen-go
 
 - [柯林CMS - 产品设计手册](http://www.kelink.com/help/)
 
-## Todo
-
-- 使Hexo支持Markdown拓展语法(上下标、脚注等): [hexojs/hexo-renderer-markdown-it: Markdown-it is a Markdown parser, done right. A faster and CommonMark compliant alternative for Hexo.](https://github.com/hexojs/hexo-renderer-markdown-it)
