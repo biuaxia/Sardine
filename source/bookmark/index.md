@@ -222,7 +222,7 @@ toc: true
 - [GORM 指南 | GORM - The fantastic ORM library for Golang, aims to be developer friendly.](https://gorm.io/zh_CN/docs)
 - [go-admin](https://doc.go-admin.dev)
 - [beego: 简约 & 强大并存的 Go 应用框架](https://beego.me/docs/intro/)
-- [框架介绍 - GoFrame官网 - 类似PHP-Laravel, Java-SpringBoot的Go企业级开发框架](https://goframe.org/display/gf)
+- [GoFrame官网 - 类似PHP-Laravel, Java-SpringBoot的Go企业级开发框架](https://goframe.org/display/gf/Go+Module#GoModule-%E4%BD%BF%E7%94%A8%E5%91%BD%E4%BB%A4%E8%A1%8C)
 - [go-swagger/go-swagger: Swagger 2.0 implementation for go](https://github.com/go-swagger/go-swagger)
 - [go下grpc开发体验 · 语雀](https://www.yuque.com/bobby-zpcyu/fgg66n/poci7g)
 - [Language Guide (proto3)  |  Protocol Buffers  |  Google Developers](https://developers.google.com/protocol-buffers/docs/proto3#default)
