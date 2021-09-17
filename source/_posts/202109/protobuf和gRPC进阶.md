@@ -1,12 +1,12 @@
-title: protobuf和grpc进阶
+title: protobuf和gRPC进阶
 date: 2021-09-14 15:05:00
 toc: true
 category:
 - Golang
-- gPRC
+- gRPC
 tags:
 - Golang
-- gPRC
+- gRPC
 - Go
 - protobuf
 - proto
