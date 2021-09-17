@@ -267,11 +267,12 @@ widgets:
     type: toc
     # Whether to show the index of each heading
     index: true
-  - # 谷歌广告
-    position: right
-    type: adsense
-    client_id: ca-pub-6674468670651268
-    slot_id: 8310987985
+  # 移除右侧广告，用以放出底部返回顶部按钮
+  # - # 谷歌广告
+  #   position: right
+  #   type: adsense
+  #   client_id: ca-pub-6674468670651268
+  #   slot_id: 8310987985
   # Google FeedBurner email subscription widget configurations
   # -
   #     # Where should the widget be placed, left sidebar or right sidebar
