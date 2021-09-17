@@ -49,7 +49,9 @@ toc: true
 - [在线Cron表达式生成器](https://cron.qqe2.com)
 - [在线Cron表达式生成器](https://qqe2.com/cron)
 - [时间戳(Unix timestamp)转换工具](https://tool.lu/timestamp)
-
+- [robots文件生成](https://tool.chinaz.com/robots)
+- [网站多地ping](https://ping.chinaz.com/www.biuaxia.cn)
+- [网站测速工具](https://tool.chinaz.com/sitespeed)
 ---
 
 - [Google AdSense](https://www.google.com/adsense)
