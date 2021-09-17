@@ -199,23 +199,33 @@ toc: true
 
 ### Golang
 
+#### Golang图书资料文档
+
+- [Go 语言中文开源图书、资料或文档 - Go语言中文网 - Golang中文社区](http://books.studygolang.com/)
 - [Go 语言后端开发 · 语雀](https://www.yuque.com/keep_running/go)
+- [xxjwxc/uber_go_guide_cn: Uber Go 语言编码规范中文版. The Uber Go Style Guide .](https://github.com/xxjwxc/uber_go_guide_cn)
+- [Go入门指南 · 看云](https://www.kancloud.cn/kancloud/the-way-to-go)
+
+#### Golang工具
+
 - [The Go Playground](https://play.golang.org)
 - [Elastic: An Elasticsearch client for Go](https://olivere.github.io/elastic/#getting-started)
-- [xxjwxc/uber_go_guide_cn: Uber Go 语言编码规范中文版. The Uber Go Style Guide .](https://github.com/xxjwxc/uber_go_guide_cn)
-- [GORM 指南 | GORM - The fantastic ORM library for Golang, aims to be developer friendly.](https://gorm.io/zh_CN/docs)
-- [go-admin](https://doc.go-admin.dev)
-- [Go入门指南 · 看云](https://www.kancloud.cn/kancloud/the-way-to-go)
-- [beego: 简约 & 强大并存的 Go 应用框架](https://beego.me/docs/intro/)
-- [框架介绍 - GoFrame官网 - 类似PHP-Laravel, Java-SpringBoot的Go企业级开发框架](https://goframe.org/display/gf)
-- [go-swagger/go-swagger: Swagger 2.0 implementation for go](https://github.com/go-swagger/go-swagger)
-- [Line | Develop using Fyne](https://developer.fyne.io/tour/canvas/line.html)
+- [Fyne](https://developer.fyne.io/tour/canvas/line.html)
 - [Go 每日一库之 fyne - SegmentFault 思否](https://segmentfault.com/a/1190000022961915)
 - [lusingander/fyne-theme-generator: WYSIWYG theme editor for Fyne](https://github.com/lusingander/fyne-theme-generator)
 - [lusingander/fyne-font-example: Sample application that uses different fonts in Fyne](https://github.com/lusingander/fyne-font-example)
 - [在 Fyne 中处理日语字体 | blog - lusingander](https://lusingander.netlify.app/posts/200614-fyne-font/)
 - [在 Fyne 中处理图标和图像| blog - lusingander](https://lusingander.netlify.app/posts/200613-fyne-resourece/)
+
+#### Golang框架及开源组件
+
+- [GORM 指南 | GORM - The fantastic ORM library for Golang, aims to be developer friendly.](https://gorm.io/zh_CN/docs)
+- [go-admin](https://doc.go-admin.dev)
+- [beego: 简约 & 强大并存的 Go 应用框架](https://beego.me/docs/intro/)
+- [框架介绍 - GoFrame官网 - 类似PHP-Laravel, Java-SpringBoot的Go企业级开发框架](https://goframe.org/display/gf)
+- [go-swagger/go-swagger: Swagger 2.0 implementation for go](https://github.com/go-swagger/go-swagger)
 - [go下grpc开发体验 · 语雀](https://www.yuque.com/bobby-zpcyu/fgg66n/poci7g)
+- [Language Guide (proto3)  |  Protocol Buffers  |  Google Developers](https://developers.google.com/protocol-buffers/docs/proto3#default)
 
 #### go下gRPC开发体验
 
@@ -228,10 +238,6 @@ toc: true
 ```golang
 go get github.com/golang/protobuf/protoc-gen-go
 ```
-
-#### gRPC
-
-- [Language Guide (proto3)  |  Protocol Buffers  |  Google Developers](https://developers.google.com/protocol-buffers/docs/proto3#default)
 
 ### Java
 
