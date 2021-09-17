@@ -229,6 +229,7 @@ widgets:
     type: links
     # Names and URLs of the sites
     links:
+      Powered by CloudBase Webify: "https://webify.cloudbase.net?utm_source=biuaxia.cn"
       Hexo: "https://hexo.io"
       # 固链
       妖火网: "https://yaohuo.me/waplogin.aspx"
@@ -238,7 +239,7 @@ widgets:
       # 固链 End
       # Hu60 友链
       虎绿林: "https://hu60.cn/q.php/index.index.html?utm_source=biuaxia.cn"
-      嗨客导航_纯净的浏览器主页: "https://hik.win?utm_source=biuaxia.cn"
+      嗨客导航: "https://hik.win?utm_source=biuaxia.cn"
       ZNGG在线工具: "https://zn.gg?utm_source=biuaxia.cn"
       # Hu60 友链 End
       # 备案
