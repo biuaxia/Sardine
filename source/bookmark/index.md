@@ -83,8 +83,16 @@ toc: true
 
 ### 待阅读
 
-> 更新于：2021年8月30日
+> 更新于：2021年9月17日
 
+ - [一招搞定 Spring Boot 可视化监控！ - 掘金](https://juejin.cn/post/7007971438082654245?utm_source=biuaxia.cn)
+ - [中秋到了，是时候给你的二维码加个月饼了 - 掘金](https://juejin.cn/post/7008502685532061727?utm_source=biuaxia.cn)
+ - [【奇淫技巧】Linux | 查找文件，无所遁形 - 掘金](https://juejin.cn/post/7008308593548066823?utm_source=biuaxia.cn)
+ - [还在从零开始搭建项目？推荐一款高颜值的前后端分离脚手架！ - 掘金](https://juejin.cn/post/7005369107818217486?utm_source=biuaxia.cn)
+ - [用好 Java 中的枚举，让你的工作效率飞起来！ - 掘金](https://juejin.cn/post/7007970382028210190?utm_source=biuaxia.cn)
+ - [一文搞懂回滚和持久化 - 掘金](https://juejin.cn/post/7007945074080235534?utm_source=biuaxia.cn)
+ - [Go 专栏｜并发编程：goroutine，channel 和 sync - 掘金](https://juejin.cn/post/7008499575870717982?utm_source=biuaxia.cn)
+ - [雪花算法，什么情况下发生 ID 冲突？ - 掘金](https://juejin.cn/post/7007589343602671653?utm_source=biuaxia.cn)
  - [重学 Java 设计模式：实战代理模式「模拟mybatis-spring中定义DAO接口，使用代理类方式操作数据库原理实现场景」 - 阅读清单 - 云+社区 - 腾讯云](https://cloud.tencent.com/developer/inventory/502/article/1658802)
  - [Java迷宫小游戏，老程序员花一天时间完成，你可以吗？](https://juejin.cn/post/7002031406230536206?utm_source=biuaxia.cn)
  - [Nginx系列：Nginx解决跨域和负载均衡 | 八月更文挑战](https://juejin.cn/post/7001696504255643678?utm_source=biuaxia.cn)
