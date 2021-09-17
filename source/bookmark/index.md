@@ -85,6 +85,7 @@ toc: true
 
 > 更新于：2021年8月30日
 
+ - [重学 Java 设计模式：实战代理模式「模拟mybatis-spring中定义DAO接口，使用代理类方式操作数据库原理实现场景」 - 阅读清单 - 云+社区 - 腾讯云](https://cloud.tencent.com/developer/inventory/502/article/1658802)
  - [Java迷宫小游戏，老程序员花一天时间完成，你可以吗？](https://juejin.cn/post/7002031406230536206?utm_source=biuaxia.cn)
  - [Nginx系列：Nginx解决跨域和负载均衡 | 八月更文挑战](https://juejin.cn/post/7001696504255643678?utm_source=biuaxia.cn)
  - [Go 代码整洁之道](https://juejin.cn/post/6998560276610023438?utm_source=biuaxia.cn)
