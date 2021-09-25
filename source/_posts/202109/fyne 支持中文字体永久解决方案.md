@@ -58,7 +58,7 @@ func main() {
 }
 ```
 
-现在想要 fyne 支持中文需要详细阅读官方文档([Text | Develop using Fyne](https://developer.fyne.io/tour/canvas/text.html))才能够得到答。
+现在想要 fyne 支持中文需要详细阅读官方文档([Text | Develop using Fyne](https://developer.fyne.io/tour/canvas/text.html))才能够得到答案。
 
 ## fyne 的中文支持
 
@@ -134,11 +134,11 @@ func main() {
 
 fyne提供了默认的主题，由于主题的可设置项包括了字体，于是可以通过自定义主题来使用任何的字体。
 
-自定主题可以通过实现[主题接口](https://pkg.go.dev/fyne.io/fyne#Theme)来得到。
+自定义主题可以通过实现[主题接口](https://pkg.go.dev/fyne.io/fyne#Theme)来得到。
 
 ### 字体与 go 代码的捆绑
 
-例如将字体`常规体` 和 `粗体` 进行绑定。
+例如将字体 `常规体` 和 `粗体` 进行绑定。
 
 命令为：
 
@@ -149,11 +149,11 @@ fyne bundle -append STLITI-bold.ttf >> bundle.go
 
 #### `fyne bundle` 命令
 
-在 GUI 应用程序中，您可能希望使用图像作为按钮的图标。 如果要分发应用程序，当然，您希望将资源文件（如图像文件）合并为单个二进制文件。
+在 GUI 应用程序中，想要使用图像作为按钮的图标。 如果要分发应用程序就可以将资源文件（如图像文件）合并为单个二进制文件。
 
 Fyne 为此提供了执行此操作的机制和有用的命令。
 
-`fyne bundle` 通过使用命令，可以将资源文件（如图像）转换为 Fyne 可以处理的数据（具有字节原始数据的结构）。
+`fyne bundle` 通过使用命令，将资源文件（如图像）转换为 Fyne 可以处理的数据（具有字节原始数据的结构）。
 
 具体可以参考：[https://github.com/fyne-io/fyne/tree/master/cmd/fyne](https://github.com/fyne-io/fyne/tree/master/cmd/fyne)
 
