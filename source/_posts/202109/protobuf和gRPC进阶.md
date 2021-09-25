@@ -143,7 +143,7 @@ message StreamReqData{
 
 对此最好的解决办法就是不要修改 proto 文件，而是接收针对 proto 文件的统一分发。
 
-## proto文件中import另一个proto
+## proto文件嵌套引用
 
 例如 hello.proto 引用 base.proto。
 
@@ -210,6 +210,66 @@ service Greeter {
 想要查询 proto 自带有哪些数据可以通过 Idea 查看下图的位置，将红色的位置追加上 `.proto` 文件即可。
 
 ![image.png](https://b3logfile.com/file/2021/09/image-3e80a50f.png)
+
+## message嵌套
+
+可以直接嵌套，如：
+
+```protobuf
+syntax = "proto3";
+
+option go_package = "../proto";
+
+message Hello {
+    message Result {
+        string code = 1;
+        string msg = 2;
+    }
+    
+    string ret = 1;
+    Result msg = 2;
+    Result data = 3;
+}
+```
+
+> 注意：import 嵌套会导致被 import 的 proto 文件包含的 message 不被生成。解决办法就是再手动生成被 proto 的文件。
+
+## 使用枚举类型
+
+直接定义，如：
+
+```protobuf
+syntax = "proto3";
+
+option go_package = "../proto";
+
+enum Gender{
+    MALE = 1;
+    FEMALE = 2;
+}
+
+message Request {
+    Gender g = 1;
+}
+```
+
+即可。
+
+## 使用 Map
+
+使用示例：
+
+```protobuf
+syntax = "proto3";
+
+option go_package = "../proto";
+
+message Request {
+    map<string, string> mp = 1;
+}
+```
+
+> 注意：一定要和泛型一样指定 key 和 value 的类型
 
 [^1]: Kotlin 使用来自 Java 的相应类型，即使是未签名的类型，以确保混合 Java/Kotlin 代码库的兼容性。
 [^2]: 在 Java 中，未签名的 32 位和 64 位整数使用其签名的对应器进行表示，顶部位只需存储在符号位中即可。
