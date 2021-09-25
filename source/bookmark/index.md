@@ -52,6 +52,7 @@ toc: true
 - [robots文件生成](https://tool.chinaz.com/robots)
 - [网站多地ping](https://ping.chinaz.com/www.biuaxia.cn)
 - [网站测速工具](https://tool.chinaz.com/sitespeed)
+- [git-for-windows Mirror](https://npm.taobao.org/mirrors/git-for-windows/)
 ---
 
 - [Google AdSense](https://www.google.com/adsense)
