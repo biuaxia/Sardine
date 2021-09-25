@@ -167,7 +167,7 @@ toc: true
  - [[译] 在 Apache 和 Nginx 日志里检测爬虫机器人](https://juejin.cn/post/6844903473247436808?utm_source=biuaxia.cn)
  - [[译] 跨站请求伪造已死！](https://juejin.cn/post/6844903469720010766?utm_source=biuaxia.cn)
  - [[译] 这项浏览器调整使 Facebook 收到的网络请求减少了 60%](https://juejin.cn/post/6844903465701883912?utm_source=biuaxia.cn)
- - [［译］GitHub 是如何阻止网络暴力的](https://juejin.cn/post/6844903458798043144?utm_source=biuaxia.cn)
+ - [[译] GitHub 是如何阻止网络暴力的](https://juejin.cn/post/6844903458798043144?utm_source=biuaxia.cn)
  - [[译]Webhook 该做和不该做的: 我们在整合超过 100 个 API 中所学到的](https://juejin.cn/post/6844903455702663176?utm_source=biuaxia.cn)
  - [[译] 承载了巨大访问量的热门游戏 Pokémon GO 的后端架构是什么？](https://juejin.cn/post/6844903447901257736?utm_source=biuaxia.cn)
  - [[译] 为什么我们要用网页端组件去构建服务器？该怎么做？](https://juejin.cn/post/6844903440116613128?utm_source=biuaxia.cn)
@@ -202,6 +202,8 @@ toc: true
 - [DataEase - 人人可用的开源数据可视化分析工具 - 官网](https://dataease.io/)
 - [IntelliJ IDEA Tips & Tricks: 多个光标 - IntelliJ IDEA Tutorial](https://einverne.gitbook.io/intellij-idea-tutorial/tips-multiple-cursors)
 - [专家推荐榜 - 阅读清单 - 云+社区 - 腾讯云](https://cloud.tencent.com/developer/inventories/8)
+- [Telegram Info](https://tginfo.me/)
+- [Telegram Limits — Telegram Info](https://limits.tginfo.me/en)
 
 ---
 
