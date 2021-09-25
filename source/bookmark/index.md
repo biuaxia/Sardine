@@ -8,6 +8,7 @@ toc: true
 
 - [慕课网](https://www.imooc.com/u/index/allcourses?utm_source=biuaxia.cn)
 - [福利吧导航](https://fuliba123.net?utm_source=biuaxia.cn)
+- [搜素材网](http://www.sousc.cn/)
 - [Vditor](https://ld246.com/guide/markdown?utm_source=biuaxia.cn)
 - [DaoCloud](http://get.daocloud.io?utm_source=biuaxia.cn)
 - [彩虹聚合登录](https://u.cccyun.cc/user/apps.php)
