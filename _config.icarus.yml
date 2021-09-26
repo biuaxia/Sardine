@@ -221,7 +221,7 @@ widgets:
         url: /sitemap.xml
       Email: 
         icon: fas fa-envelope
-        url: biuaxia@qq.com
+        url: mailto:biuaxia@qq.com
   # Recent posts widget configurations
   - # Where should the widget be placed, left sidebar or right sidebar
     position: left
