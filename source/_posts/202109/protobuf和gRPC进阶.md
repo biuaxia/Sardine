@@ -373,6 +373,106 @@ func main() {
 }
 ```
 
+## metadata 机制
+
+可以理解为http的请求头，用于携带 token 等请求信息，与业务信息隔开理解即可。
+
+> 注意：引入的包为 `"google.golang.org/grpc/metadata"`。
+
+使用示例-客户端：
+
+```go
+package main
+
+import (
+	"context"
+	"fmt"
+	"time"
+
+	"google.golang.org/grpc"
+	"google.golang.org/grpc/metadata"
+	"google.golang.org/protobuf/types/known/timestamppb"
+
+	"biuaxia.cn/demo/grpc_test/proto"
+)
+
+func main() {
+	conn, err := grpc.Dial("localhost:1234", grpc.WithInsecure())
+	if err != nil {
+		panic(err)
+	}
+	defer conn.Close()
+
+	c := proto.NewGreeterClient(conn)
+
+	// md := metadata.Pairs("timestamp", time.Now().Format("2006-01-02 15:04:05.000"))
+	md := metadata.New(map[string]string{
+		"name": "biuaxia",
+	})
+	ctx := metadata.NewOutgoingContext(context.Background(), md)
+
+	reply, err := c.SayHello(ctx, &proto.HelloRequest{
+		Name:    "biuaxia",
+		AddTime: timestamppb.New(time.Now()),
+	})
+	if err != nil {
+		panic(err)
+	}
+
+	fmt.Println(reply.Message)
+}
+```
+
+使用示例-服务端：
+
+```go
+package main
+
+import (
+	"context"
+	"fmt"
+	"net"
+
+	"google.golang.org/grpc"
+	"google.golang.org/grpc/metadata"
+
+	"biuaxia.cn/demo/grpc_test/proto"
+)
+
+type Server struct {
+}
+
+func (s *Server) SayHello(ctx context.Context, request *proto.HelloRequest) (*proto.HelloReply, error) {
+	md, ok := metadata.FromIncomingContext(ctx)
+	if !ok {
+		fmt.Println("get metadata failed")
+	}
+	fmt.Println("get metadata:", md)
+	time := request.AddTime.AsTime().Format("2006-01-02 15:04:05.000")
+	return &proto.HelloReply{
+		Message: "hello " + request.Name + "_" + time,
+	}, nil
+}
+
+func main() {
+	s := grpc.NewServer()
+	proto.RegisterGreeterServer(s, &Server{})
+
+	listen, err := net.Listen("tcp", "localhost:1234")
+	if err != nil {
+		panic(err)
+	}
+
+	_ = s.Serve(listen)
+}
+```
+
+运行截图：
+
+![服务端.png](https://b3logfile.com/file/2021/09/Snipaste_2021-09-26_12-04-59-d56dd1a7.png)
+
+![客户端.png](https://b3logfile.com/file/2021/09/Snipaste_2021-09-26_12-05-30-72dc1d14.png)
+
 [^1]: Kotlin 使用来自 Java 的相应类型，即使是未签名的类型，以确保混合 Java/Kotlin 代码库的兼容性。
 
 [^2]: 在 Java 中，未签名的 32 位和 64 位整数使用其签名的对应器进行表示，顶部位只需存储在符号位中即可。
