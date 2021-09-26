@@ -381,7 +381,7 @@ comment:
     type: gitalk
     client_id: 6cf4270669c13d91f481
     client_secret: b14459676a94c8012ebfa430435282d45968932f
-    repo: Sardine
+    repo: blog
     owner: biuaxia
     admin:
         - biuaxia
