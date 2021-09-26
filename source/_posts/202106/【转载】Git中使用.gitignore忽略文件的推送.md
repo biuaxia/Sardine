@@ -1,5 +1,6 @@
 title: 【转载】Git中使用.gitignore忽略文件的推送
 date: 2021-06-18 21:54:50
+commens: false
 toc: true
 category: 
  - Git

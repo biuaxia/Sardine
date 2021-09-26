@@ -2,11 +2,12 @@ title: 解决ZipUtil.unzip invalid CEN header (bad entry name)
 date: 2021-08-31 12:00:54
 toc: true
 category:
- - Java
+ - 技巧
 tags:
- - Java
+ - 技巧
  - 解决
  - 错误
+ - 7-zip
 ---
 
 7-zip压缩的zip文件里面带有中文文件名的，在其他平台上解压后中文文件名乱码。在网上查找了下资料，使用7-zip压缩zip文件，可以使用参数cu=on，强制文件名以utf-8格式编码，在其他平台上解压后正常。

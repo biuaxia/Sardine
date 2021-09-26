@@ -1,5 +1,6 @@
 title: 【转载】这么玩 Ubuntu 才叫酷炫！
 date: 2021-09-01 17:52:00
+commens: false
 toc: true
 category:
  - Linux
