@@ -1,6 +1,6 @@
 title: 【转载】Linux下强大的编辑器Vim使用
 date: 2021-07-26 11:54:02
-commens: false
+comment: false
 category:
  - Linux
 tags:

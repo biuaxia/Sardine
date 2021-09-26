@@ -1,6 +1,6 @@
 title: 【转载】SpringBoot扫描注解分析与同类名冲突解决
 date: 2021-08-24 15:02:22
-commens: false
+comment: false
 toc: true
 category:
  - Java

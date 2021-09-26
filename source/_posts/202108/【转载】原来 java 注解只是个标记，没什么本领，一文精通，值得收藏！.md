@@ -1,6 +1,6 @@
 title: 【转载】原来 java 注解只是个标记，没什么本领，一文精通，值得收藏！
 date: 2021-08-16 09:18:01
-commens: false
+comment: false
 toc: true
 category:
  - Java

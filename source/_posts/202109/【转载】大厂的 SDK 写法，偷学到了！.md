@@ -1,6 +1,6 @@
 title: 【转载】大厂的 SDK 写法，偷学到了！
 date: 2021-09-09 10:13:00
-commens: false
+comment: false
 toc: true
 category:
  - Java

@@ -1,6 +1,6 @@
 title: 【转载】更新数据库时报错 Data truncation Incorrect datetime value
 date: 2021-07-13 10:44:46
-commens: false
+comment: false
 toc: true
 category:
  - 数据库

@@ -1,6 +1,6 @@
 title: 【转载】当 Docker 遇到 Intellij IDEA，再次解放了生产力~
 date: 2021-08-06 16:51:49
-commens: false
+comment: false
 toc: true
 category:
  - Java

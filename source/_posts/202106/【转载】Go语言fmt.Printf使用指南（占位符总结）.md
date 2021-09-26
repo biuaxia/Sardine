@@ -1,6 +1,6 @@
 title: 【转载】Go语言fmt.Printf使用指南（占位符总结）
 date: 2021-06-19 11:58:25
-commens: false
+comment: false
 toc: true
 category: 
  - Golang

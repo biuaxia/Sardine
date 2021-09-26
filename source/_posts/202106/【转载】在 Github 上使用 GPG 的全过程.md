@@ -1,6 +1,6 @@
 title: 【转载】在 Github 上使用 GPG 的全过程
 date: 2021-06-21 09:01:58
-commens: false
+comment: false
 toc: true
 category: 
  - Git

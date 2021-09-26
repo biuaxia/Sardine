@@ -1,6 +1,6 @@
 title: 【转载】Go语言基础之并发
 date: 2021-08-09 16:39:33
-commens: false
+comment: false
 toc: true
 category:
  - Golang

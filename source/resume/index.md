@@ -1,7 +1,7 @@
 ---
 title: 简历
 date: 2021-08-31 12:12:12
-commens: false
+comment: false
 toc: true
 theme: xray
 password: dgr

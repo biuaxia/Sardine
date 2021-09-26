@@ -1,6 +1,6 @@
 title: 【转载】Docker镜像原理
 date: 2021-08-16 09:24:01
-commens: false
+comment: false
 toc: true
 category:
  - Docker

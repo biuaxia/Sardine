@@ -1,6 +1,6 @@
 title: 【转载】Go语言操作MySQL
 date: 2021-08-11 10:52:59
-commens: false
+comment: false
 toc: true
 category:
  - Golang
