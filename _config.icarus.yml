@@ -208,7 +208,7 @@ widgets:
     # Whether show the rounded avatar image
     avatar_rounded: false
     # Email address for the Gravatar
-    gravatar:
+    gravatar: 
     # URL or path for the follow button
     follow_link: "https://github.com/biuaxia"
     # Links to be shown on the bottom of the profile widget
@@ -219,6 +219,9 @@ widgets:
       Sitemap:
         icon: fas fa-map
         url: /sitemap.xml
+      Email: 
+        icon: fas fa-envelope
+        url: biuaxia@qq.com
   # Recent posts widget configurations
   - # Where should the widget be placed, left sidebar or right sidebar
     position: left
