@@ -2,10 +2,9 @@ title: protobuf和gRPC进阶
 date: 2021-09-14 15:05:00
 toc: true
 category:
-
 - Golang
 - gRPC
-  tags:
+tags:
 - Golang
 - gRPC
 - Go
@@ -25,7 +24,6 @@ category:
 - 引用
 - 对象
 - 属性
-
 ---
 
 ## protobuf 的基本类型和默认值
@@ -34,7 +32,9 @@ category:
 
 标量消息字段可以具有以下类型之一–该表显示了文件中指定的类型，以及自动生成的类中相应的类型：`.proto`。
 
+
 <!-- more -->
+
 
 | .proto Type | Notes                                                                      | C++ Type | Java/Kotlin Type[^1] | Python Type[^3] | Go Type | Ruby Type                      | C# Type    | PHP Type           | Dart Type |
 | ----------- | -------------------------------------------------------------------------- | -------- | -------------------- | --------------- | ------- | ------------------------------ | ---------- | ------------------ | --------- |
