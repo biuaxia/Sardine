@@ -12,6 +12,7 @@ toc: true
 - [搜素材网](http://www.sousc.cn/)
 - [Vditor](https://ld246.com/guide/markdown?utm_source=biuaxia.cn)
 - [DaoCloud](http://get.daocloud.io?utm_source=biuaxia.cn)
+- [Vercel](https://vercel.com/)
 - [彩虹聚合登录](https://u.cccyun.cc/user/apps.php)
 - [免费在线作图，思维导图，流程图，实时协作](https://www.processon.com?utm_source=biuaxia.cn)
 - [regex101](https://regex101.com?utm_source=biuaxia.cn)
@@ -24,7 +25,6 @@ toc: true
 - [在线加解密](https://www.cmd5.com/hash.aspx?s=123456&utm_source=biuaxia.cn)
 - [Picx](https://picx.xpoet.cn/#/upload?utm_source=biuaxia.cn)
 - [IconFont](https://www.iconfont.cn?utm_source=biuaxia.cn)
-- [俄罗斯方块](http://v.bootstrapmb.com/2021/6/qma6610287?utm_source=biuaxia.cn)
 - [Lomorage文档](https://docs.lomorage.com/zh?utm_source=biuaxia.cn)
 - [Cloudflare](https://dash.cloudflare.com?utm_source=biuaxia.cn)
 - [ColorSpace](https://mycolor.space?utm_source=biuaxia.cn)
@@ -41,25 +41,38 @@ toc: true
 - [考试酷(examcoo)](https://www.examcoo.com/index/ku?utm_source=biuaxia.cn)
 - [生成奥利奥](https://ljl.li/oreooo?utm_source=biuaxia.cn)
 - [The free text converter for all your documents. – Alldocs](https://alldocs.app?utm_source=biuaxia.cn)
+- [git-for-windows Mirror](https://npm.taobao.org/mirrors/git-for-windows/)
 - [自留地工牌生成器](https://avatar-flutter.vercel.app/#?utm_source=biuaxia.cn)
 - [在线文本生成流程图](https://flowchart.fun?utm_source=biuaxia.cn)
 - [FontAwesome](https://fontawesome.com?utm_source=biuaxia.cn)
 - [卡密生成器](https://www.toolnb.com/tools/kamicreate.html)
 - [免费商用字体字体转换](http://www.zku.net/fonts-bq-124.html?biaoqian_id=124&page=2)
 - [朋友圈转发截图生成工具](https://akarin.dev/WechatMomentScreenshot/)
-- [Vercel](https://vercel.com/)
 - [在线Cron表达式生成器](https://cron.qqe2.com)
 - [在线Cron表达式生成器](https://qqe2.com/cron)
 - [时间戳(Unix timestamp)转换工具](https://tool.lu/timestamp)
 - [robots文件生成](https://tool.chinaz.com/robots)
 - [网站多地ping](https://ping.chinaz.com/www.biuaxia.cn)
 - [网站测速工具](https://tool.chinaz.com/sitespeed)
-- [git-for-windows Mirror](https://npm.taobao.org/mirrors/git-for-windows/)
+- [神奇海螺试验场](https://lab.magiconch.com/)
+- [蒸汽波图片生成器](https://lab.magiconch.com/vaporwave/)
+- [能不能好好说话？(拼音首字母缩写释义工具)](https://lab.magiconch.com/nbnhhsh)
+- [在线切九宫格、四宫格](https://lab.magiconch.com/v/sns-image)
+- [让我康康！(在线图片鉴黄工具)](https://lab.magiconch.com/nsfw/)
+- [粘土人列表](http://gsc-nendorids.sojo.im/)
+- [汉语现诗语料库](https://www.chinese-poetry.org/)
+- [中文诗歌](https://shici.store/huajianji/)
 ---
 
 - [Google AdSense](https://www.google.com/adsense)
 - [Google Analytics](https://analytics.google.com/analytics/web/#/p271862647/reports/reportinghub)
 - [百度统计](https://tongji.baidu.com/web/10000355355/overview/index?siteId=16711784)
+
+---
+
+- [在线 DOS 游戏](https://dos.zczc.cz/)
+- [扫雷](https://lab.magiconch.com/v/mine-sweeper)
+- [俄罗斯方块](http://v.bootstrapmb.com/2021/6/qma6610287?utm_source=biuaxia.cn)
 
 ---
 
