@@ -467,6 +467,12 @@ func main() {
 }
 ```
 
+运行截图：
+
+![服务端.png](https://b3logfile.com/file/2021/09/Snipaste_2021-09-26_12-04-59-d56dd1a7.png)
+
+![客户端.png](https://b3logfile.com/file/2021/09/Snipaste_2021-09-26_12-05-30-72dc1d14.png)
+
 ## 拦截器
 
 使用示例-服务端：
@@ -484,38 +490,36 @@ import (
 	"awesomeProject/grpc/interceptor/main/proto"
 )
 
-
 type Server struct{}
 
 func (s *Server) SayHello(ctx context.Context, request *proto.HelloRequest) (*proto.HelloReply,
-	error){
+	error) {
 	return &proto.HelloReply{
-		Message: "hello "+request.Name,
+		Message: "hello " + request.Name,
 	}, nil
 }
 
 func interceptor(ctx context.Context, req interface{}, info *grpc.UnaryServerInfo, handler grpc.UnaryHandler) (resp interface{}, err error) {
-// 继续处理请求
-fmt.Println("接收到新请求")
-res, err := handler(ctx, req)
-fmt.Println("请求处理完成")
-return res, err
+	// 继续处理请求
+	fmt.Println("接收到新请求")
+	res, err := handler(ctx, req)
+	fmt.Println("请求处理完成")
+	return res, err
 }
 
-
-func main(){
+func main() {
 	var opts []grpc.ServerOption
 	opts = append(opts, grpc.UnaryInterceptor(interceptor))
 
 	g := grpc.NewServer(opts...)
 	proto.RegisterGreeterServer(g, &Server{})
 	lis, err := net.Listen("tcp", "0.0.0.0:50051")
-	if err != nil{
-		panic("failed to listen:"+err.Error())
+	if err != nil {
+		panic("failed to listen:" + err.Error())
 	}
 	err = g.Serve(lis)
-	if err != nil{
-		panic("failed to start grpc:"+err.Error())
+	if err != nil {
+		panic("failed to start grpc:" + err.Error())
 	}
 }
 ```
@@ -709,12 +713,6 @@ func main() {
 ```
 
 > `grpc/interceptor/samples/auth_verify/client/client.go:46` 被注释的内容是原生的调用方式，47 行是 grpc 自己封装的方式；需要对象实现 `google.golang.org/grpc/credentials/credentials.go` 下 `PerRPCCredentials` 接口的 `GetRequestMetadata(ctx context.Context, uri ...string) (map[string]string, error)` 和 `RequireTransportSecurity() bool` 方法。
-
-运行截图：
-
-![服务端.png](https://b3logfile.com/file/2021/09/Snipaste_2021-09-26_12-04-59-d56dd1a7.png)
-
-![客户端.png](https://b3logfile.com/file/2021/09/Snipaste_2021-09-26_12-05-30-72dc1d14.png)
 
 [^1]: Kotlin 使用来自 Java 的相应类型，即使是未签名的类型，以确保混合 Java/Kotlin 代码库的兼容性。
 
