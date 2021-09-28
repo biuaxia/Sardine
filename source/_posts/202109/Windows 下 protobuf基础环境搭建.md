@@ -68,3 +68,11 @@ go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@latest
 ```
 
 再次尝试即可。
+
+## 参考资料
+
+- [protocol buffers - protoc-gen-go-grpc: program not found or is not executable - Stack Overflow](https://stackoverflow.com/questions/60578892/protoc-gen-go-grpc-program-not-found-or-is-not-executable)
+- [Go Generated Code  |  Protocol Buffers  |  Google Developers](https://developers.google.com/protocol-buffers/docs/reference/go-generated)
+- [protocolbuffers/protobuf-go: Go support for Google's protocol buffers](https://github.com/protocolbuffers/protobuf-go)
+- [protocolbuffers/protobuf: Protocol Buffers - Google's data interchange format](https://github.com/protocolbuffers/protobuf)
+- [Language Guide  |  Protocol Buffers  |  Google Developers](https://developers.google.com/protocol-buffers/docs/overview)
