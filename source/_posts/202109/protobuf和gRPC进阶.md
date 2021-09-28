@@ -467,6 +467,249 @@ func main() {
 }
 ```
 
+## 拦截器
+
+使用示例-服务端：
+
+```go
+package main
+
+import (
+	"context"
+	"fmt"
+	"net"
+
+	"google.golang.org/grpc"
+
+	"awesomeProject/grpc/interceptor/main/proto"
+)
+
+
+type Server struct{}
+
+func (s *Server) SayHello(ctx context.Context, request *proto.HelloRequest) (*proto.HelloReply,
+	error){
+	return &proto.HelloReply{
+		Message: "hello "+request.Name,
+	}, nil
+}
+
+func interceptor(ctx context.Context, req interface{}, info *grpc.UnaryServerInfo, handler grpc.UnaryHandler) (resp interface{}, err error) {
+// 继续处理请求
+fmt.Println("接收到新请求")
+res, err := handler(ctx, req)
+fmt.Println("请求处理完成")
+return res, err
+}
+
+
+func main(){
+	var opts []grpc.ServerOption
+	opts = append(opts, grpc.UnaryInterceptor(interceptor))
+
+	g := grpc.NewServer(opts...)
+	proto.RegisterGreeterServer(g, &Server{})
+	lis, err := net.Listen("tcp", "0.0.0.0:50051")
+	if err != nil{
+		panic("failed to listen:"+err.Error())
+	}
+	err = g.Serve(lis)
+	if err != nil{
+		panic("failed to start grpc:"+err.Error())
+	}
+}
+```
+
+使用示例-客户端：
+
+```go
+package main
+
+import (
+	"context"
+	"fmt"
+	"time"
+
+	"google.golang.org/grpc"
+
+	"awesomeProject/grpc/interceptor/main/proto"
+)
+
+func interceptor(ctx context.Context, method string, req, reply interface{}, cc *grpc.ClientConn, invoker grpc.UnaryInvoker, opts ...grpc.CallOption) error {
+	start := time.Now()
+	err := invoker(ctx, method, req, reply, cc, opts...)
+	fmt.Printf("method=%s req=%v rep=%v duration=%s error=%v\n", method, req, reply, time.Since(start), err)
+	return err
+}
+
+func main(){
+	//stream
+	var opts []grpc.DialOption
+
+	opts = append(opts, grpc.WithInsecure())
+	// 指定客户端interceptor
+	opts = append(opts, grpc.WithUnaryInterceptor(interceptor))
+
+	conn, err := grpc.Dial("localhost:50051", opts...)
+	if err != nil {
+		panic(err)
+	}
+	defer conn.Close()
+
+	c := proto.NewGreeterClient(conn)
+	r, err := c.SayHello(context.Background(), &proto.HelloRequest{Name:"bobby"})
+	if err != nil {
+		panic(err)
+	}
+	fmt.Println(r.Message)
+}
+```
+
+### 验证请求信息
+
+使用示例-服务端：
+
+```go
+package main
+
+import (
+	proto2 "awesomeProject/grpc/interceptor/samples/auth_verify/proto"
+	"context"
+	"fmt"
+	"google.golang.org/grpc/codes"
+	"google.golang.org/grpc/metadata"
+	"google.golang.org/grpc/status"
+	"net"
+
+	"google.golang.org/grpc"
+)
+
+type Server struct{}
+
+func (s *Server) SayHello(ctx context.Context, request *proto2.HelloRequest) (*proto2.HelloReply,
+	error) {
+	return &proto2.HelloReply{
+		Message: "hello " + request.Name,
+	}, nil
+}
+
+func interceptor(ctx context.Context, req interface{}, info *grpc.UnaryServerInfo, handler grpc.UnaryHandler) (resp interface{}, err error) {
+	md, ok := metadata.FromIncomingContext(ctx)
+	if !ok {
+		fmt.Println("get metadata failed")
+		return resp, status.Error(codes.Unauthenticated, "无授权认证信息")
+	}
+
+	var (
+		appkey    string
+		appsecret string
+	)
+
+	if val, ok := md["appkey"]; ok {
+		appkey = val[0]
+	}
+	if val, ok := md["appsecret"]; ok {
+		appsecret = val[0]
+	}
+
+	if appkey != "vditor" || appsecret != "b1d0d1ad98acdd5d7d846d" {
+		return resp, status.Error(codes.Unauthenticated, "授权认证信息有误")
+	}
+
+	fmt.Println("get metadata:", md)
+
+	// 继续处理请求
+	fmt.Println("接收到新请求")
+	res, err := handler(ctx, req)
+	fmt.Println("请求处理完成")
+	return res, err
+}
+
+func main() {
+	var opts []grpc.ServerOption
+	opts = append(opts, grpc.UnaryInterceptor(interceptor))
+
+	g := grpc.NewServer(opts...)
+	proto2.RegisterGreeterServer(g, &Server{})
+	lis, err := net.Listen("tcp", "0.0.0.0:50051")
+	if err != nil {
+		panic("failed to listen:" + err.Error())
+	}
+	err = g.Serve(lis)
+	if err != nil {
+		panic("failed to start grpc:" + err.Error())
+	}
+}
+```
+
+使用示例-客户端：
+
+```go
+package main
+
+import (
+	proto2 "awesomeProject/grpc/interceptor/samples/auth_verify/proto"
+	"context"
+	"fmt"
+	"time"
+
+	"google.golang.org/grpc"
+	"google.golang.org/grpc/metadata"
+)
+
+func interceptor(ctx context.Context, method string, req, reply interface{}, cc *grpc.ClientConn, invoker grpc.UnaryInvoker, opts ...grpc.CallOption) error {
+	start := time.Now()
+
+	md := metadata.New(map[string]string{
+		"appkey":    "vditor",
+		"appsecret": "b1d0d1ad98acdd5d7d846d",
+	})
+	ctx = metadata.NewOutgoingContext(context.Background(), md)
+
+	err := invoker(ctx, method, req, reply, cc, opts...)
+	fmt.Printf("method=%s req=%v rep=%v duration=%s error=%v\n", method, req, reply, time.Since(start), err)
+	return err
+}
+
+type customCredential struct {
+}
+
+func (c customCredential) GetRequestMetadata(ctx context.Context, uri ...string) (map[string]string, error) {
+	return map[string]string{
+		"appkey":    "vditor",
+		"appsecret": "b1d0d1ad98acdd5d7d846d",
+	}, nil
+}
+
+func (c customCredential) RequireTransportSecurity() bool {
+	return false
+}
+
+func main() {
+	var opts []grpc.DialOption
+
+	opts = append(opts, grpc.WithInsecure())
+	// 指定客户端interceptor
+	//opts = append(opts, grpc.WithUnaryInterceptor(interceptor))
+	opts = append(opts, grpc.WithPerRPCCredentials(customCredential{}))
+
+	conn, err := grpc.Dial("localhost:50051", opts...)
+	if err != nil {
+		panic(err)
+	}
+	defer conn.Close()
+
+	c := proto2.NewGreeterClient(conn)
+	r, err := c.SayHello(context.Background(), &proto2.HelloRequest{Name: "bobby"})
+	if err != nil {
+		panic(err)
+	}
+	fmt.Println(r.Message)
+}
+```
+
+> `grpc/interceptor/samples/auth_verify/client/client.go:46` 被注释的内容是原生的调用方式，47 行是 grpc 自己封装的方式；需要对象实现 `google.golang.org/grpc/credentials/credentials.go` 下 `PerRPCCredentials` 接口的 `GetRequestMetadata(ctx context.Context, uri ...string) (map[string]string, error)` 和 `RequireTransportSecurity() bool` 方法。
+
 运行截图：
 
 ![服务端.png](https://b3logfile.com/file/2021/09/Snipaste_2021-09-26_12-04-59-d56dd1a7.png)
