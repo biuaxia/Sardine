@@ -1,4 +1,4 @@
-title: 
+title: Windows 下 protobuf基础环境搭建
 date: 2021-09-28 16:08:00
 category:
 - Golang
@@ -9,20 +9,12 @@ tags:
 - Go
 - protobuf
 - proto
-- 类型
-- 默认值
 - 命令
 - package
-- 同步
-- 坑
-- Map
-- 枚举
-- 泛型
-- message
-- 嵌套
-- 引用
-- 对象
-- 属性
+- Windows
+- 可执行
+- 环境
+- 变量
 ---
 
 ## Windows 安装 protoc 可执行文件到环境变量
