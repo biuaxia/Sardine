@@ -54,7 +54,7 @@ go install google.golang.org/protobuf/cmd/protoc-gen-go
 例如想要根据当前目录下的 `helloworld.proto` 文件来生成 `go` 文件，命令为：
 
 ```shell
-protoc --go_out=. --go-grpc_out=. --go-grpc_opt=require_unimplemented_servers=false .\helloworld.prot
+protoc --go_out=. --go-grpc_out=. --go-grpc_opt=require_unimplemented_servers=false .\helloworld.proto
 ```
 
 ## 常见问题
