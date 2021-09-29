@@ -74,6 +74,7 @@ toc: true
 - [Flash 保存计划](https://flash.zczc.cz/)
 - [扫雷](https://lab.magiconch.com/v/mine-sweeper)
 - [俄罗斯方块](http://v.bootstrapmb.com/2021/6/qma6610287?utm_source=biuaxia.cn)
+- [一键自动搭建游戏脚本](http://www.wchunh.top?utm_source=biuaxia.cn)
 
 ---
 
