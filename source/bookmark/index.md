@@ -62,6 +62,7 @@ toc: true
 - [粘土人列表](http://gsc-nendorids.sojo.im/)
 - [汉语现诗语料库](https://www.chinese-poetry.org/)
 - [中文诗歌](https://shici.store/huajianji/)
+- [用诗经 楚辞 唐诗 宋词起名字](http://xiaosang.net/gushi_namer/)
 ---
 
 - [Google AdSense](https://www.google.com/adsense)
