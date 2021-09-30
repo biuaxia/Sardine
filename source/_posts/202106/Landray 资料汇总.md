@@ -41,6 +41,7 @@ tags:
 15. [临时许可下载（仅限蓝凌员工内部使用，请勿外传！）](http://product.landray.com.cn/prod/scm/downloadLicense.jsp)
 16. [蓝凌机器授权](http://product.landray.com.cn/moduleindex.jsp?nav=/prod/scm/tree.jsp&main=%2Fprod%2Fscm%2Fprod_scm_project%2FprodScmProject.do%3Fmethod%3Dlist%26myProd%3Dtrue%26s_path%3D!%7Bmessage(prod-scm%3AprodScmProject.myProd)%7D&j_module=true)
 17. [复用平台](http://mall.landray.com.cn/core01/km/reuse/km_reuse_redevelop/kmReuseRedevelop.do?method=goodsList)
+18. [2021年蓝凌软件二次开发管理制度（试行） - 规范制度](http://java.landray.com.cn/km/institution/km_institution_knowledge/kmInstitutionKnowledge.do?method=view&fdId=177fc4acbec58d6b39b74ee42bab413b&s_css=default)
 
 ## 📘 产品申请
 
