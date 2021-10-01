@@ -63,6 +63,7 @@ toc: true
 - [汉语现诗语料库](https://www.chinese-poetry.org/)
 - [中文诗歌](https://shici.store/huajianji/)
 - [用诗经 楚辞 唐诗 宋词起名字](http://xiaosang.net/gushi_namer/)
+- [Download MOD SKIN LOL 2020 | League Skin](http://leagueskin.net/p/download-mod-skin-2020-chn)
 ---
 
 - [Google AdSense](https://www.google.com/adsense)
