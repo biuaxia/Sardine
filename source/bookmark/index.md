@@ -223,6 +223,7 @@ toc: true
 - [专家推荐榜 - 阅读清单 - 云+社区 - 腾讯云](https://cloud.tencent.com/developer/inventories/8)
 - [Telegram Info](https://tginfo.me/)
 - [Telegram Limits — Telegram Info](https://limits.tginfo.me/en)
+- [ES6 入门教程 - ECMAScript 6入门](https://es6.ruanyifeng.com/)
 
 ---
 
