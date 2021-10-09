@@ -322,6 +322,9 @@ go get github.com/golang/protobuf/protoc-gen-go
 - [同济互联API接口文档](https://www.kancloud.cn/wei1044/api88/1662866)
 - [接口列表 - 用户控制台 - 同济互联](https://api88.net/user/api-list)
 - [接口列表 - 用户控制台 - 明伟数据](http://apijk.cn/user/api-list)
+- [历史上的今天](https://idays-cdn.2q10.com/app/idays/on_this_day)
+- [黄历](http://tools.2345.com/frame/api/GetLunarInfo?date=20211001)，注意要携带 date 参数，内容为Ymd格式的日期
+- [知乎每天60秒读懂世界](https://www.zhihu.com/api/v4/columns/c_1261258401923026944/items)
 
 ## Docker
 
