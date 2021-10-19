@@ -205,8 +205,9 @@ toc: true
 
 ### 已阅读
 
-> 更新于：2021年8月16日
+> 更新于：2021年10月19日
 
+ - [Linux 主机安装 | Discuz! Q 官方文档](https://discuz.com/docs/Linux%20%E4%B8%BB%E6%9C%BA.html#%E5%9F%BA%E4%BA%8E%E5%AE%9D%E5%A1%94)
  - [[译]解密 Java Lambda 表达式](https://juejin.cn/post/6976973764277846023)
  - [SpringBoot包扫描之多模块多包名扫描和同类名扫描冲突解决｜8月更文挑战](https://juejin.cn/post/6999428902275940382?utm_source=biuaxia.cn)
  - [六种方式，教你在SpringBoot初始化时搞点事情！](https://juejin.cn/post/6999419046697369613?utm_source=biuaxia.cn)
