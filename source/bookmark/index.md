@@ -9,12 +9,14 @@ toc: true
 
 - [慕课网](https://www.imooc.com/u/index/allcourses?utm_source=biuaxia.cn)
 - [福利吧导航](https://fuliba123.net?utm_source=biuaxia.cn)
+- [DeepL翻译：全世界最准确的翻译](https://www.deepl.com/translator)
 - [搜素材网](http://www.sousc.cn/)
 - [Vditor](https://ld246.com/guide/markdown?utm_source=biuaxia.cn)
 - [DaoCloud](http://get.daocloud.io?utm_source=biuaxia.cn)
 - [Vercel](https://vercel.com/)
 - [彩虹聚合登录](https://u.cccyun.cc/user/apps.php)
 - [免费在线作图，思维导图，流程图，实时协作](https://www.processon.com?utm_source=biuaxia.cn)
+- [免费FRP](https://frp.104300.xyz?utm_source=biuaxia.cn)
 - [regex101](https://regex101.com?utm_source=biuaxia.cn)
 - [京东蓝鲸征信](https://lanjing.jd.com?utm_source=biuaxia.cn)
 - [CryptoTools](https://cryptotools.net?utm_source=biuaxia.cn)
@@ -64,6 +66,9 @@ toc: true
 - [中文诗歌](https://shici.store/huajianji/)
 - [用诗经 楚辞 唐诗 宋词起名字](http://xiaosang.net/gushi_namer/)
 - [Download MOD SKIN LOL 2020 | League Skin](http://leagueskin.net/p/download-mod-skin-2020-chn)
+- [WindowGrid | WindowGrid is a modern window management program for Windows.](http://windowgrid.net/)
+- [Ninite - Install or Update Multiple Apps at Once](https://ninite.com/)
+- [CloudDrive - 将 115、阿里云盘、WebDAV 挂载为本地电脑硬盘[Windows/Docker] - 小众软件](https://www.appinn.com/clouddrive/)
 ---
 
 - [Google AdSense](https://www.google.com/adsense)
@@ -259,6 +264,7 @@ toc: true
 - [go-swagger/go-swagger: Swagger 2.0 implementation for go](https://github.com/go-swagger/go-swagger)
 - [go下grpc开发体验 · 语雀](https://www.yuque.com/bobby-zpcyu/fgg66n/poci7g)
 - [Language Guide (proto3)  |  Protocol Buffers  |  Google Developers](https://developers.google.com/protocol-buffers/docs/proto3#default)
+- [GfEasy: GfEasyAdmin的服务端，提供接口。超强CRUD，一分钟干完的事，就不干一天！快速crud开发框架，甚至于一行代码不用敲；自动根据数据库表结构自动生成crud代码；低代码开发框架；至少减少百分90%工作量；可快速把现有系统转成GfEasy版本；后端使用GoFrame开发;后台前端使用 cool-admin-vue；后台使用自适应布局，手机、PC完美使用。](https://gitee.com/jasonlaw1015/GfEasy)
 
 #### go下gRPC开发体验
 
@@ -280,6 +286,7 @@ go get github.com/golang/protobuf/protoc-gen-go
 - [云原生时代，Java的危与机-InfoQ](https://www.infoq.cn/article/rqfww2r2zpyqiolc1wbe)
 - [从零开始，手写 Spring IOC - 链滴](https://ld246.com/article/1624354513057)
 - [Spring Boot 2 实战：使用 Flyway 管理你数据库的版本变更 - SegmentFault 思否](https://segmentfault.com/a/1190000020850220)
+- [x-SealBuilderTool: 印章生成工具，可快速生成各种样式印章](https://gitee.com/xwintop/x-SealBuilderTool)
 
 #### 开发工具
 
@@ -299,6 +306,10 @@ go get github.com/golang/protobuf/protoc-gen-go
 - - [TypeScript 和 JavaScript 的在线编辑器](https://www.typescriptlang.org/zh/play?#code/PTAEiJrQ5+MU3NAYlUAqBPADgUwMoGMBOBLFAF1EA47QBTlAudUBh-gKBFEE34wejNAAOUCo5QTb9ADeUAXjQbPlAaP6BMxSqAwJUDVcoBiVQGbagAzlEqTLgLFAIW6BFf0CbXoCAGGnTCAKg0D3yoFO5E4CDNQNBygSDlAs56BO00Dw+oH95QBSugYO1AWP-79oUAFpQdkBYOUAseUAWD0B5dUBvuUBVeUAcOUB-SNU5BXRsfCJQVUAGdXtdegCgtkBleUAYrLSlTOJAW+jAVZtANz1AODlAaojALrkJXPzfIvZXQDi5QGlbQFXo4MAYFUqMlVABQEXowHxzQHylQF+A1UBMm0BG710aLAB7ADsAZ2IAQ32AUQAPE4BbFAAbNAA1E-wTgCNH0ABeUAAiAASaHu912oAA6rscPcACZ-HYHQ67R4AOlBAHMABRnK63B7PV54D6PACUenopkAnQ6Ab8VAFBy9lUoEAOASALk9ANHygFwCUCANCNmYAG00A36kcqgmQBhcoBjyMAL2aALE1AM6K-RqgAAo1SAQ-lAPYG2nh9G5gFAAwAESoATNIYgGy5QAXNoApxIagBQ5QAA+oBpzTcVEALqZscgUVSANDlADKugF+EwB6Ov0uLo-EA)
 - [cdnjs - free and open source CDN built to make life easier for developers](https://cdnjs.com)
 - [Demo 示例 - Vditor](https://b3log.org/vditor/demo/index.html)
+- [MacOS Web UI: 一套基于Vue3和ElementUI实现类似MacOS风格的WebUI，尽可能还原MacOS相关的设计，目前正在开发中。](https://gitee.com/hamm/mac-ui)
+- [rubick: 基于 electron 的开源工具箱，自由集成丰富插件，打造极致的桌面端效能工具](https://gitee.com/monkeyWang/rubick)
+- [omi: Omi - 前端跨框架跨平台框架 基于 Web Components 并支持 IE8+(omio)，小程序(omi-kbone) 和 任意前端框架集成](https://gitee.com/Tencent/omi)
+- [GfEasyAdmin: GfEasyAdmin的前端，提供接口。超强CRUD，一分钟干完的事，就不干一天！快速crud开发框架，甚至于一行代码不用敲；自动根据数据库表结构自动生成crud代码；低代码开发框架；至少减少百分90%工作量；可快速把现有系统转成GfEasy版本；后端使用GoFrame开发;后台前端使用 cool-admin-vue；后台使用自适应布局，手机、PC完美使用。](https://gitee.com/jasonlaw1015/GfEasyAdmin)
 
 ### Apis
 
@@ -347,6 +358,7 @@ go get github.com/golang/protobuf/protoc-gen-go
 - [jeessy2/ddns-go: 简单好用的DDNS。自动更新域名解析到公网IP(支持阿里云、腾讯云dnspod、Cloudflare、华为云)](https://github.com/jeessy2/ddns-go#webhook)
 - [xanderfrangos/twinkle-tray: Easily manage the brightness of your monitors in Windows from the system tray](https://github.com/xanderfrangos/twinkle-tray)
 - [Vanessa219/vditor at v3.8.5](https://github.com/Vanessa219/vditor/tree/v3.8.5)
+- [JasonStein/Notepads: A modern, lightweight text editor with a minimalist design.](https://github.com/JasonStein/Notepads)
 
 ## Hexo
 
