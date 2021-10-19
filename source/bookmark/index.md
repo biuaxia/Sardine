@@ -10,6 +10,8 @@ toc: true
 - [慕课网](https://www.imooc.com/u/index/allcourses?utm_source=biuaxia.cn)
 - [福利吧导航](https://fuliba123.net?utm_source=biuaxia.cn)
 - [DeepL翻译：全世界最准确的翻译](https://www.deepl.com/translator)
+- [Qwerty Learner](https://qwerty.kaiyi.cool/)
+- [Lofi Club | Enjoy Hip hop beats to Relax or Study! 🎧🎵](https://loficlub.vercel.app/)
 - [搜素材网](http://www.sousc.cn/)
 - [Vditor](https://ld246.com/guide/markdown?utm_source=biuaxia.cn)
 - [DaoCloud](http://get.daocloud.io?utm_source=biuaxia.cn)
