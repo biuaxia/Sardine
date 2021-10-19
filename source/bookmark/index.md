@@ -201,6 +201,7 @@ toc: true
  - [Web 开发者的 HTTP/2 性能优化指南](https://juejin.cn/post/6844903427126853645?utm_source=biuaxia.cn)
  - [[译] 字体加载策略全面指南](https://juejin.cn/post/6844903439491661837?utm_source=biuaxia.cn)
  - [Java 不可变类的整洁之道](https://juejin.cn/post/6844903437998505991?utm_source=biuaxia.cn)
+ - [Creating Your First Plugin | IntelliJ Platform Plugin SDK](https://plugins.jetbrains.com/docs/intellij/getting-started.html)
 
 ### 已阅读
 
