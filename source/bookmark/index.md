@@ -350,6 +350,7 @@ go get github.com/golang/protobuf/protoc-gen-go
 ## Landray
 
 - [论坛](http://java.landray.com.cn/km/forum/indexCriteria.jsp?timestamp=1621656930950#cri.q=categoryId:122baca0c696f0939e9af9a460b97bd5)：漏洞发布等
+- [复用平台](http://mall.landray.com.cn/core01/mall.jsp)
 
 ## Github仓库推荐
 
