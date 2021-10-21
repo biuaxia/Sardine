@@ -12,6 +12,7 @@ toc: true
 - [DeepL翻译：全世界最准确的翻译](https://www.deepl.com/translator)
 - [Qwerty Learner](https://qwerty.kaiyi.cool/)
 - [Lofi Club | Enjoy Hip hop beats to Relax or Study! 🎧🎵](https://loficlub.vercel.app/)
+- [MySQL数据库设计大全 - 果创云](http://open.yesapi.cn/list.html)
 - [搜素材网](http://www.sousc.cn/)
 - [Vditor](https://ld246.com/guide/markdown?utm_source=biuaxia.cn)
 - [DaoCloud](http://get.daocloud.io?utm_source=biuaxia.cn)
