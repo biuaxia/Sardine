@@ -404,7 +404,7 @@ go get github.com/golang/protobuf/protoc-gen-go
 
 ## 购买过的程序
 
-1. 彩虹秒赞：[扫码自助下载最新源码](http://auth.wx.jaeapp.com/get/#)
+1. [彩虹云任务V7全新商业版简介及购买说明 - 缤纷彩虹天地](http://blog.cccyun.cn/post-164.html)
 2. Typecho主题 - Mirages：[Mirages - 简陋的 Mirages 生活自理系列](https://store.get233.com?utm_source=biuaxia.cn)
 3. EleAdmin Pro & iframe多标签版：[我的订单 - EleAdmin](https://eleadmin.com/user/order?utm_source=biuaxia.cn) & [EleAdmin Pro | 更新日志](https://eleadmin.com/doc/eleadminpro/#/)
 
