@@ -15,6 +15,10 @@ tags:
 - 操作
 ---
 
+本文转载自：[java8 快速实现List转map 、分组、过滤等操作_IT小白-CSDN博客_java8 list转map](https://blog.csdn.net/lu930124/article/details/77595585)
+
+---
+
 利用java8新特性，可以用简洁高效的代码来实现一些数据处理。
 
 定义1个Apple对象：
