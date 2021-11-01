@@ -1,5 +1,6 @@
 title: 【转载】java8 快速实现List转map、分组、过滤等操作
 date: 2021-11-01 11:29:00
+toc: true
 category:
 - Java
 tags:
