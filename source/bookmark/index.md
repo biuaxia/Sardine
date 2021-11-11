@@ -278,6 +278,7 @@ toc: true
 - [envoyproxy/protoc-gen-validate: protoc plugin to generate polyglot message validators](https://github.com/envoyproxy/protoc-gen-validate)
 - [protobuf 编译工具安装与使用 | Go 技术论坛](https://learnku.com/articles/39972)
 - [Overview - Gui with Gio](https://jonegil.github.io/gui-with-gio/)
+- [gin-gonic/gin: Gin is a HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance -- up to 40 times faster. If you need smashing performance, get yourself some Gin.](https://github.com/gin-gonic/gin)
 
 #### go下gRPC开发体验
 
@@ -300,6 +301,7 @@ go get github.com/golang/protobuf/protoc-gen-go
 - [从零开始，手写 Spring IOC - 链滴](https://ld246.com/article/1624354513057)
 - [Spring Boot 2 实战：使用 Flyway 管理你数据库的版本变更 - SegmentFault 思否](https://segmentfault.com/a/1190000020850220)
 - [x-SealBuilderTool: 印章生成工具，可快速生成各种样式印章](https://gitee.com/xwintop/x-SealBuilderTool)
+- [kekingcn/kkFileView: spring-boot打造文件文档在线预览项目](https://github.com/kekingcn/kkFileView)
 
 #### 开发工具
 
