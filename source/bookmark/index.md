@@ -279,6 +279,7 @@ toc: true
 - [protobuf 编译工具安装与使用 | Go 技术论坛](https://learnku.com/articles/39972)
 - [Overview - Gui with Gio](https://jonegil.github.io/gui-with-gio/)
 - [gin-gonic/gin: Gin is a HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance -- up to 40 times faster. If you need smashing performance, get yourself some Gin.](https://github.com/gin-gonic/gin)
+- [文档 | Gin Web Framework](https://gin-gonic.com/zh-cn/docs/)
 
 #### go下gRPC开发体验
 
