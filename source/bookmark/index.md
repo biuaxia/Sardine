@@ -264,6 +264,7 @@ toc: true
 - [lusingander/fyne-font-example: Sample application that uses different fonts in Fyne](https://github.com/lusingander/fyne-font-example)
 - [在 Fyne 中处理日语字体 | blog - lusingander](https://lusingander.netlify.app/posts/200614-fyne-font/)
 - [在 Fyne 中处理图标和图像| blog - lusingander](https://lusingander.netlify.app/posts/200613-fyne-resourece/)
+- [打包神器 GoReleaser - GoReleaser](https://goreleaser.com/)
 
 #### Golang框架及开源组件
 
