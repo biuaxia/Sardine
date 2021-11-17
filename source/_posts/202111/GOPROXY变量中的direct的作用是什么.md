@@ -20,7 +20,7 @@ tags:
 
 ---
 
-目前在使用这个项目搭建go代理的时候发现，GORPOXY变量设置为 https://goproxy.cn,direct 的话，golang.org 下的包不会走代理而是直连最终超时，而去掉direct的话就一切正常。以下是构建代理程序的代码，是我哪里搞错了吗？]
+目前在使用这个项目搭建go代理的时候发现，GORPOXY变量设置为 https://goproxy.cn,direct 的话，golang.org 下的包不会走代理而是直连最终超时，而去掉direct的话就一切正常。以下是构建代理程序的代码，是我哪里搞错了吗？
 
 ![Snipaste](https://b3logfile.com/file/2021/11/d8bc0dc251dc4f97a7a70eab660a0570.png)
 
