@@ -98,7 +98,10 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 # theme: landscape
-theme: icarus
+# theme: icarus
+# theme: aircloud
+# theme: minima
+theme: cactus
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -107,11 +110,11 @@ deploy:
 
 # Search
 ## See: https://github.com/theme-next/hexo-generator-searchdb
-search:
-  path: search.json
-  field: post
-  content: true
-  format: striptags
+# search:
+#   path: search.json
+#   field: post
+#   content: true
+#   format: striptags
 
 # Feed Atom
 # npm install hexo-generator-feed
@@ -142,4 +145,3 @@ markdown:
     permalink: true
     permalinkClass: header-anchor
     permalinkSymbol: ¶
-

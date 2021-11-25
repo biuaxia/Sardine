@@ -1,0 +1,154 @@
+# Hexo Configuration
+## Docs: https://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Site
+title: biuaxia Blog
+subtitle: 无欲速，无见小利；欲速则不达，见小利则大事不成。
+author: biuaxia
+language: zh
+timezone: Asia/Shanghai
+
+# URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+url: https://www.biuaxia.cn/
+root: /
+permalink: :year/:month/:day/:hour/:minute/:second.html
+permalink_defaults:
+pretty_urls:
+  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
+  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+
+#Custom Setting Start
+
+# Site settings
+# 网站综合内容设置：
+SEOTitle: biuaxia's blog
+email: biuaxia@qq.com
+description: "biuaxia的博客"
+keyword: "hexo,blog,java,golang"
+
+# SNS settings
+# 一些社交平台地址，支持以下几种：
+# weibo_username:     3286578617
+# zhihu_username:     ai-er-lan-xue-da
+github_username:    biuaxia
+# twitter_username:   iconie_alloy
+# facebook_username:  xiaotao.nie.5
+# linkedin_username:  小涛-聂-80964aba
+
+# Build settings
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+sidebar-avatar: images/Icarus-avatar.svg      # use absolute URL, seeing it's used in both `/` and `/about/`
+# 头像圆角
+avatar_style:
+  radius: true
+
+# Friends
+# 友情链接
+friends: [
+    {
+        title: "CloudBase-webify",
+        href: "https://webify.cloudbase.net?utm_source=biuaxia.cn"
+    },{
+        title: "Newlearnerの小站",
+        href: "https://www.newlearner.site?utm_source=biuaxia.cn"
+    },{
+        title: "李文周的博客",
+        href: "https://www.liwenzhou.com?utm_source=biuaxia.cn"
+    },{
+        title: "虎绿林论坛",
+        href: "https://hu60.cn/q.php/index.index.html?utm_source=biuaxia.cn"
+    },{
+        title: "嗨客导航",
+        href: "https://hik.win?utm_source=biuaxia.cn"
+    },{
+        title: "ZNGG在线工具",
+        href: "https://zn.gg?utm_source=biuaxia.cn"
+    },{
+        title: "蜀ICP备19024339号-1",
+        href: "http://www.beian.miit.gov.cn?utm_source=biuaxia.cn"
+    }
+]
+
+#comment:
+#  type: gitment
+#  id: your-id-created-by-https://github.com/settings/applications/new
+#  secret: your-secret-created-by-https://github.com/settings/applications/new
+#  owner: aircloud
+#  repo: hexo-aircloud-blog
+
+comment:
+   type: disqus
+   script: 'https://biuaxia-blog.disqus.com/embed.js'
+
+# donate:
+#   img: img/donate.jpg
+#   content: 感谢鼓励
+
+# The following content is not recommended to modify
+# 搜索数据文件路径设置，不建议改动：
+search:
+  path: search.json
+  field: post
+
+# 文章样式(是否首行缩进,default默认，0不缩进)：
+post_style:
+  indent: 0
+
+# Custom Setting End
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+
+# Writing
+new_post_name: :title.md # File name of new posts
+default_layout: post
+titlecase: false # Transform title into titlecase
+external_link: true # Open external links in new tab
+filename_case: 0
+render_drafts: false
+post_asset_folder: true
+relative_link: false
+future: true
+highlight:
+  enable: true
+  line_number: true
+  auto_detect: true
+  tab_replace:
+
+# Category & Tag
+default_category: uncategorized
+category_map:
+tag_map:
+
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+
+# Pagination
+## Set per_page to 0 to disable pagination
+per_page: 10
+pagination_dir: page
+
+# Extensions
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
+theme: aircloud
+
+# Deployment
+## Docs: https://hexo.io/docs/deployment.html
+#deploy:
+#  type: git
+#  repo: your repo url
+#  branch: master
