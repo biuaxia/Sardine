@@ -96,13 +96,13 @@ logo:
 #   - gravatar: whether to create a favicon from your Gravatar
 favicon:
   desktop:
-    url: /images/Icarus-logo.png
+    url: /images/Icarus-logo.svg
     gravatar: false
   android:
-    url: /images/Icarus-logo.png
+    url: /images/Icarus-logo.svg
     gravatar: false
   apple:
-    url: /images/Icarus-logo.png
+    url: /images/Icarus-logo.svg
     gravatar: false
 
 # The color scheme that should be used to highlight codeblocks.
