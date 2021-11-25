@@ -460,7 +460,7 @@ fmt.Printf("Found multiple documents (array of pointers): %#v\n", results)
 
 #### 删除文档
 
-最后，可以使用`collection.DeleteOne()`或`collection.DeleteMany()`删除文档。如果你传递`bson.D{{}}`作为过滤器参数，它将匹配数据集中的所有文档。还可以使用`collection. drop()`删除整个数据集。
+最后，可以使用 `collection.DeleteOne()` 或 `collection.DeleteMany()` 删除文档。如果你传递 `bson.D{\{\}}` 作为过滤器参数，它将匹配数据集中的所有文档。还可以使用 `collection. drop()` 删除整个数据集。
 
 ```go
 // 删除名字是小黄的那个

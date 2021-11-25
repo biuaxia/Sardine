@@ -107,7 +107,7 @@ favicon:
 
 # The color scheme that should be used to highlight codeblocks.
 # See source/css/_highlight for a list of all available color schemes.
-# highlight: rainbow
+# highlight: docco
 
 # Set the color scheme.
 # Available color schemes are 'dark', 'light', 'classic' and 'white'.
@@ -143,8 +143,8 @@ mathjax:
   
 # Fill in your Disqus Comments Shortname to enable Disqus comments.
 disqus:
-  enabled: false
-  shortname: cactus-1
+  enabled: true
+  shortname: biuaxia-blog
 
 # Fill in your Utterances data to enable Utterances comments
 utterances:
