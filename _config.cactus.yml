@@ -2,11 +2,6 @@
 # Content
 ##############################################################################
 
-# Link to a page that gives an overview of all your projects.
-# This can be an external link (e.g., to you GitHub profile) or to another
-# page within your website.
-projects_url: http://github.com/biuaxia/Sardine
-
 # Set the page direction to RTL or LTR. default is LTR. (if you set it 'rtl', the 'vazir' font will be loaded.)
 direction: ltr
 # Configure the navigation menu.
@@ -22,7 +17,7 @@ nav:
   search: /search
   sitemap: /sitemap.xml
   RSS: /atom.xml
-  projects: projects_url
+  projects: http://github.com/biuaxia/Sardine
 
 # Links to your social media accounts.
 # The keys should correspond to Fontawesome icon names
