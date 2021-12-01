@@ -25,23 +25,24 @@ tags:
 ## 📘 开发常用资料
 
 1. [蓝凌J产品工程开发专用License](http://product.landray.com.cn/prod/scm/prod_scm_page_config/prodScmPageConfig.do?method=view&fdId=1399ad69919fc532f85b6ad4271a9d4d)
-2. [产品使用JDK与TOMCAT版本说明](http://product.landray.com.cn/prod/scm/prod_scm_page_config/prodScmPageConfig.do?method=view&fdId=17288dacf290031909e1930408f8405a&s_css=default)
-3. [新工程开发环境-Eclipse、以及环境搭建指南](http://product.landray.com.cn/prod/scm/prod_scm_page_config/prodScmPageConfig.do?method=view&fdId=1739a29d816ecd85d6d0fe541ccb9e68&s_css=default)
-4. [工程开发环境-Eclipse](http://product.landray.com.cn/prod/scm/prod_scm_page_config/prodScmPageConfig.do?method=view&fdId=14362f25ce9062402351f1147f58c9ab&s_css=office2007)
-5. [产品开发环境-RTC、以及环境搭建指南](http://product.landray.com.cn/prod/scm/prod_scm_page_config/prodScmPageConfig.do?method=view&fdId=14362f692a78af295cdcf3d41ec8f10d&s_css=office2007) 和相关规范
-6. [新标准产品开发环境eclipse2019以及环境搭建指南](http://product.landray.com.cn/prod/scm/prod_scm_page_config/prodScmPageConfig.do?method=view&fdId=170c22a21d664e0b671250046bf8426e&s_css=default)
-7. [产品Eclipse插件](http://product.landray.com.cn/prod/scm/prod_scm_page_config/prodScmPageConfig.do?method=view&fdId=14b711534fe7ec549ef1f7f47cb8fe04)
-8. [签名功能使用手册](http://product.landray.com.cn/prod/scm/prod_scm_page_config/prodScmPageConfig.do?method=view&fdId=14b72130d670406eb21919f48a0ab7d9)
-9. [定制项目代码合并使用手册（在线升级，new，使用升级id）](http://product.landray.com.cn/prod/scm/prod_scm_page_config/prodScmPageConfig.do?method=view&fdId=15c3470f3f286fa109f71884578aa6b8)
-10. [定制项目代码合并使用手册（使用升级包）](http://product.landray.com.cn/prod/scm/prod_scm_page_config/prodScmPageConfig.do?method=view&fdId=14b721530deef699206503742eeb08aa)
-11. [扩展点编辑器使用手册](http://product.landray.com.cn/prod/scm/prod_scm_page_config/prodScmPageConfig.do?method=view&fdId=14b7240ad7035df3965c7f7459094315)
-12. [光盘win32部署环境](http://product.landray.com.cn/prod/scm/prod_scm_page_config/prodScmPageConfig.do?method=view&fdId=14d7430b9c1c237e03352024dd7b10a3&s_css=default)
-13. [Xmodel插件](http://product.landray.com.cn/prod/scm/prod_scm_page_config/prodScmPageConfig.do?method=view&fdId=14eaa52c1ea0bb4035e8e2b43c5a128f&s_css=default)
-14. [蓝凌JAVA项目SVN管理规范与使用指引V2.0](http://product.landray.com.cn/prod/scm/prod_scm_page_config/prodScmPageConfig.do?method=view&fdId=15428d7e632f5cfe160f5124a39b81f3&s_css=default)
-15. [临时许可下载（仅限蓝凌员工内部使用，请勿外传！）](http://product.landray.com.cn/prod/scm/downloadLicense.jsp)
-16. [蓝凌机器授权](http://product.landray.com.cn/moduleindex.jsp?nav=/prod/scm/tree.jsp&main=%2Fprod%2Fscm%2Fprod_scm_project%2FprodScmProject.do%3Fmethod%3Dlist%26myProd%3Dtrue%26s_path%3D!%7Bmessage(prod-scm%3AprodScmProject.myProd)%7D&j_module=true)
-17. [复用平台](http://mall.landray.com.cn/core01/km/reuse/km_reuse_redevelop/kmReuseRedevelop.do?method=goodsList)
-18. [2021年蓝凌软件二次开发管理制度（试行） - 规范制度](http://java.landray.com.cn/km/institution/km_institution_knowledge/kmInstitutionKnowledge.do?method=view&fdId=177fc4acbec58d6b39b74ee42bab413b&s_css=default)
+2. [产品EKP 开发工具 IDEA 版本（含各版本插件）](http://product.landray.com.cn/prod/scm/prod_scm_page_config/prodScmPageConfig.do?method=view&fdId=17665f0ef7d358eb3cb2a1745589160b&s_css=default)
+3. [产品使用JDK与TOMCAT版本说明](http://product.landray.com.cn/prod/scm/prod_scm_page_config/prodScmPageConfig.do?method=view&fdId=17288dacf290031909e1930408f8405a&s_css=default)
+4. [新工程开发环境-Eclipse、以及环境搭建指南](http://product.landray.com.cn/prod/scm/prod_scm_page_config/prodScmPageConfig.do?method=view&fdId=1739a29d816ecd85d6d0fe541ccb9e68&s_css=default)
+5. [工程开发环境-Eclipse](http://product.landray.com.cn/prod/scm/prod_scm_page_config/prodScmPageConfig.do?method=view&fdId=14362f25ce9062402351f1147f58c9ab&s_css=office2007)
+6. [产品开发环境-RTC、以及环境搭建指南](http://product.landray.com.cn/prod/scm/prod_scm_page_config/prodScmPageConfig.do?method=view&fdId=14362f692a78af295cdcf3d41ec8f10d&s_css=office2007) 和相关规范
+7. [新标准产品开发环境eclipse2019以及环境搭建指南](http://product.landray.com.cn/prod/scm/prod_scm_page_config/prodScmPageConfig.do?method=view&fdId=170c22a21d664e0b671250046bf8426e&s_css=default)
+8. [产品Eclipse插件](http://product.landray.com.cn/prod/scm/prod_scm_page_config/prodScmPageConfig.do?method=view&fdId=14b711534fe7ec549ef1f7f47cb8fe04)
+9. [签名功能使用手册](http://product.landray.com.cn/prod/scm/prod_scm_page_config/prodScmPageConfig.do?method=view&fdId=14b72130d670406eb21919f48a0ab7d9)
+10. [定制项目代码合并使用手册（在线升级，new，使用升级id）](http://product.landray.com.cn/prod/scm/prod_scm_page_config/prodScmPageConfig.do?method=view&fdId=15c3470f3f286fa109f71884578aa6b8)
+11. [定制项目代码合并使用手册（使用升级包）](http://product.landray.com.cn/prod/scm/prod_scm_page_config/prodScmPageConfig.do?method=view&fdId=14b721530deef699206503742eeb08aa)
+12. [扩展点编辑器使用手册](http://product.landray.com.cn/prod/scm/prod_scm_page_config/prodScmPageConfig.do?method=view&fdId=14b7240ad7035df3965c7f7459094315)
+13. [光盘win32部署环境](http://product.landray.com.cn/prod/scm/prod_scm_page_config/prodScmPageConfig.do?method=view&fdId=14d7430b9c1c237e03352024dd7b10a3&s_css=default)
+14. [Xmodel插件](http://product.landray.com.cn/prod/scm/prod_scm_page_config/prodScmPageConfig.do?method=view&fdId=14eaa52c1ea0bb4035e8e2b43c5a128f&s_css=default)
+15. [蓝凌JAVA项目SVN管理规范与使用指引V2.0](http://product.landray.com.cn/prod/scm/prod_scm_page_config/prodScmPageConfig.do?method=view&fdId=15428d7e632f5cfe160f5124a39b81f3&s_css=default)
+16. [临时许可下载（仅限蓝凌员工内部使用，请勿外传！）](http://product.landray.com.cn/prod/scm/downloadLicense.jsp)
+17. [蓝凌机器授权](http://product.landray.com.cn/moduleindex.jsp?nav=/prod/scm/tree.jsp&main=%2Fprod%2Fscm%2Fprod_scm_project%2FprodScmProject.do%3Fmethod%3Dlist%26myProd%3Dtrue%26s_path%3D!%7Bmessage(prod-scm%3AprodScmProject.myProd)%7D&j_module=true)
+18. [复用平台](http://mall.landray.com.cn/core01/km/reuse/km_reuse_redevelop/kmReuseRedevelop.do?method=goodsList)
+19. [2021年蓝凌软件二次开发管理制度（试行） - 规范制度](http://java.landray.com.cn/km/institution/km_institution_knowledge/kmInstitutionKnowledge.do?method=view&fdId=177fc4acbec58d6b39b74ee42bab413b&s_css=default)
 
 ## 📘 产品申请
 
