@@ -22,6 +22,11 @@ tags:
 <!-- more -->
 
 
+## 📕 工程常用资料
+
+- [蓝凌实施100问1126（上传） - 维基知识库](https://java.landray.com.cn/kms/wiki/kms_wiki_main/kmsWikiMain.do?method=view&forwardStr=stylepage&fdId=17d5b201a4d1cb1dede9195482ab84cd&utm_source=mkpaas&lang=zh-cn)
+- [蓝凌实施100问（20211126） - 文档知识库](https://java.landray.com.cn/kms/multidoc/kms_multidoc_knowledge/kmsMultidocKnowledge.do?method=view&fdId=17c969c5a2f9554d915564e489686892)
+
 ## 📘 开发常用资料
 
 1. [蓝凌J产品工程开发专用License](http://product.landray.com.cn/prod/scm/prod_scm_page_config/prodScmPageConfig.do?method=view&fdId=1399ad69919fc532f85b6ad4271a9d4d)
