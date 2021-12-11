@@ -1,12 +1,12 @@
 nav:
   home: 首页
-  about: 关于
   articles: 归档
-  projects: 项目
   tag: 标签
   category: 分类
-  search: 搜索
   bookmark: 书签
+  search: 搜索
+  about: 关于
+  projects: 项目
 
 footer:
   copyright: Copyright
