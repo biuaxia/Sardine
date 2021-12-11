@@ -10,13 +10,10 @@ direction: ltr
 # languages/*.yml
 nav:
   home: /
-  articles: /archives
-  tag: /tags
-  category: /categories
-  bookmark: /bookmark
   search: /search
-  sitemap: /sitemap.xml
-  RSS: /atom.xml
+  category: /categories
+  tag: /tags
+  bookmark: /bookmark
   projects: http://github.com/biuaxia/Sardine
 
 # Links to your social media accounts.
