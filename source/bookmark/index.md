@@ -306,6 +306,19 @@ go get github.com/golang/protobuf/protoc-gen-go
 - [x-SealBuilderTool: 印章生成工具，可快速生成各种样式印章](https://gitee.com/xwintop/x-SealBuilderTool)
 - [kekingcn/kkFileView: spring-boot打造文件文档在线预览项目](https://github.com/kekingcn/kkFileView)
 
+#### IDEA 插件开发
+
+idea plugin development learning materials
+
+1. [IntelliJ Platform SDK DevGuide](https://www.jetbrains.org/intellij/sdk/docs/welcome.html)
+2. [Jgraph Learning materials](https://jgraph.github.io/mxgraph/docs/tutorial.html)
+3. [Miglayout Learning materials](http://www.miglayout.com/whitepaper.html)
+4. [Java SWING Learning materials](https://docs.oracle.com/javase/tutorial/uiswing/components/table.html)
+5. [SDK build number](http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html)
+6. demo：https://github.com/xuan698400/compileflow_demo
+7. What can we learn from intelij idea? https://developer.aliyun.com/article/696827
+8. 10 years of programming experience: https://www.infoq.cn/article/YD-tGFJPdGMVluYIkcc0 
+
 #### 开发工具
 
 - [MybatisX 快速开发插件 | MyBatis-Plus](https://mp.baomidou.com/guide/mybatisx-idea-plugin.html)
