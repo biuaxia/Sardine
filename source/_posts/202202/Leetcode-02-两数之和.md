@@ -1,5 +1,5 @@
 title: Leetcode-02-两数之和
-date: 2022-02-12 22:23:00
+date: 2022-02-12 22:23:14
 toc: true
 category:
 - leetcode
@@ -28,7 +28,7 @@ func twoSum(nums []int, target int) []int {
 }
 ```
 
-![image.png](https://b3logfile.com/file/2022/02/image-11576454.png)
+![image.png](https://b3logfile.com/file/2022/02/image-51e4a586.png)
 
 **最坏情况下数组中任意两个数都要被匹配一次。**
 
