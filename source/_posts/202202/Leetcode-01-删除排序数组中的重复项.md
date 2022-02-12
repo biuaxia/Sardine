@@ -44,6 +44,10 @@ func removeDuplicates(nums []int) int {
 }
 ```
 
+## 结果
+
+![image.png](https://b3logfile.com/file/2022/02/image-05a9a15f.png)
+
 ## 参考资料
 
 - 原题地址：[26. 删除有序数组中的重复项 - 力扣（LeetCode）](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)
