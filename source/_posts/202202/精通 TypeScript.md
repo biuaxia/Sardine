@@ -1,0 +1,95 @@
+title: 精通 TypeScript
+date: 2022-02-17 14:09:14
+toc: true
+category:
+- typescript
+tags:
+- 极速
+- 上手
+- typescript
+---
+
+## 一等公民与高阶函数
+
+一等公民：变量类型、值(literal)、对象字段、函数参数、函数返回都可以是函数。
+
+高阶函数：函数返回和函数参数都是高阶函数，包裹一层算一阶。
+
+见代码：
+
+```typescript
+let a = [1, 2, 3, 4, 11, 22, 33, 44, 111, 222, 333, 444]
+a.sort()
+console.log(a)
+
+const comp = createCompare({
+    smallerFirst: true
+})
+
+function createCompare(p: { smallerFirst: boolean }) {
+    if (p.smallerFirst) {
+        return (a: number, b: number) => a - b
+    } else {
+        return (a: number, b: number) => b - a
+    }
+}
+
+function logCompare(comp: (a: number, b: number) => number) {
+    return (a: number, b: number) => {
+        console.log(`compareing ${a} ${b}`)
+        return comp(a, b)
+    }
+}
+
+a.sort(logCompare(comp))
+console.log(a)
+```
+
+运行结果：
+
+```text
+[LOG]: [1, 11, 111, 2, 22, 222, 3, 33, 333, 4, 44, 444] 
+[LOG]: "compareing 11 1" 
+[LOG]: "compareing 111 11" 
+[LOG]: "compareing 2 111" 
+[LOG]: "compareing 2 11" 
+[LOG]: "compareing 2 1" 
+[LOG]: "compareing 22 11" 
+[LOG]: "compareing 22 111" 
+[LOG]: "compareing 222 11" 
+[LOG]: "compareing 222 111" 
+[LOG]: "compareing 3 22" 
+[LOG]: "compareing 3 2" 
+[LOG]: "compareing 3 11" 
+[LOG]: "compareing 33 11" 
+[LOG]: "compareing 33 111" 
+[LOG]: "compareing 33 22" 
+[LOG]: "compareing 333 22" 
+[LOG]: "compareing 333 111" 
+[LOG]: "compareing 333 222" 
+[LOG]: "compareing 4 22" 
+[LOG]: "compareing 4 3" 
+[LOG]: "compareing 4 11" 
+[LOG]: "compareing 44 22" 
+[LOG]: "compareing 44 222" 
+[LOG]: "compareing 44 111" 
+[LOG]: "compareing 44 33" 
+[LOG]: "compareing 444 22" 
+[LOG]: "compareing 444 111" 
+[LOG]: "compareing 444 333" 
+[LOG]: [1, 2, 3, 4, 11, 22, 33, 44, 111, 222, 333, 444]
+```
+
+其中变量、函数和方法的类型分别为：
+
+```text
+let a: number[]
+
+const comp: (a: number, b: number) => number
+
+function createCompare(p: { smallerFirst: boolean }): (a: number, b: number) => number
+
+function logCompare(comp: (a: number, b: number) => number): (a: number, b: number) => number
+
+(method) Array<number>.sort(compareFn?: ((a: number, b: number) => number) | undefined): number[]
+```
