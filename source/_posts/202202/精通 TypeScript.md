@@ -1,11 +1,10 @@
 title: 精通 TypeScript
-date: 2022-02-17 14:09:14
+date: 2022-02-17 16:02:14
 toc: true
 category:
 - typescript
 tags:
-- 极速
-- 上手
+- 精通
 - typescript
 ---
 
