@@ -92,3 +92,6 @@ function logCompare(comp: (a: number, b: number) => number): (a: number, b: numb
 
 (method) Array<number>.sort(compareFn?: ((a: number, b: number) => number) | undefined): number[]
 ```
+
+## 闭包
+
