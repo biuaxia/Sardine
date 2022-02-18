@@ -95,3 +95,28 @@ function logCompare(comp: (a: number, b: number) => number): (a: number, b: numb
 
 ## 闭包
 
+见代码：
+
+```typescript
+const a = [1, 2, 3, 4, 11, 22, 33, 44, 111, 222, 333, 444, 5, 55, 555, 6, 66, 666]
+
+// config
+const GOOD_FACTOR = 2
+// config end
+
+function isGoodNum(goodFactor: number, v: number) {
+    return v % goodFactor == 0
+}
+
+function filterArray(a: number[], f: (v: number) => boolean) {
+    return a.filter(f)
+}
+
+console.log(filterArray(a, (v) => isGoodNum(GOOD_FACTOR, v)))
+```
+
+运行结果：
+
+```text
+[LOG]: [2, 4, 22, 44, 222, 444, 6, 66, 666] 
+```
