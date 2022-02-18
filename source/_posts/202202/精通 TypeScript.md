@@ -112,11 +112,17 @@ function filterArray(a: number[], f: (v: number) => boolean) {
     return a.filter(f)
 }
 
+function partiallyApply(f: (a: number, b: number) => boolean, a: number) {
+    return (b: number) => f(a, b)
+}
+
 console.log(filterArray(a, (v) => isGoodNum(GOOD_FACTOR, v)))
+console.log(filterArray(a, partiallyApply(isGoodNum, 3)))
 ```
 
 运行结果：
 
 ```text
 [LOG]: [2, 4, 22, 44, 222, 444, 6, 66, 666] 
+[LOG]: [3, 33, 111, 222, 333, 444, 555, 6, 66, 666] 
 ```
