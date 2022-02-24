@@ -305,6 +305,7 @@ go get github.com/golang/protobuf/protoc-gen-go
 - [Spring Boot 2 实战：使用 Flyway 管理你数据库的版本变更 - SegmentFault 思否](https://segmentfault.com/a/1190000020850220)
 - [x-SealBuilderTool: 印章生成工具，可快速生成各种样式印章](https://gitee.com/xwintop/x-SealBuilderTool)
 - [kekingcn/kkFileView: spring-boot打造文件文档在线预览项目](https://github.com/kekingcn/kkFileView)
+- [Welcome to JetBrains License Server!:)|qekang|jrebel](https://jrebel.qekang.com/)
 
 #### IDEA 插件开发
 
