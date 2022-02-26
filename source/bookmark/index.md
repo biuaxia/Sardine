@@ -95,16 +95,6 @@ toc: true
 
 - RedmiK40G解锁+Root：[magisk_for_k40g_and_n10p | modify_magisk_for_k40g](https://magisk.pages.dev/)
 
----
-
-### V2Ray订阅
-
-- <https://misakanode.cf/sub.txt>
-
-### Clash订阅
-
-- <https://misakanode.cf/Clash.yml>
-
 ## 学习
 
 ### 慕课
