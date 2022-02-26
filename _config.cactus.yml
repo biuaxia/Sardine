@@ -11,9 +11,11 @@ direction: ltr
 nav:
   home: /
   search: /search
-  category: /categories
+# 关闭分类入口
+#  category: /categories
   tag: /tags
   bookmark: /bookmark
+  links: /links
   projects: http://github.com/biuaxia/Sardine
 
 # Links to your social media accounts.
@@ -176,10 +178,10 @@ gravatar:
   hash: 4a3b7a9629335b71d2a8b99670748941
 
 # loads libraries and styles from CDN instead or relying on local files
-cdn:
-  enable: true
-  jquery: https://cdn.jsdelivr.net/gh/probberechts/hexo-theme-cactus/source/lib/jquery/jquery.min.js
-  clipboard: https://cdn.jsdelivr.net/gh/probberechts/hexo-theme-cactus/source/lib/clipboard/clipboard.min.js
-  font_awesome: https://cdn.jsdelivr.net/gh/probberechts/hexo-theme-cactus/source/lib/font-awesome/css/all.min.css
-  justified_gallery_css: https://cdn.jsdelivr.net/gh/probberechts/hexo-theme-cactus/source/lib/justified-gallery/css/justifiedGallery.min.css
-  justified_gallery_js: https://cdn.jsdelivr.net/gh/probberechts/hexo-theme-cactus/source/lib/justified-gallery/js/jquery.justifiedGallery.min.js
+# cdn:
+#   enable: false
+#   jquery: https://cdn.jsdelivr.net/gh/probberechts/hexo-theme-cactus/source/lib/jquery/jquery.min.js
+#   clipboard: https://cdn.jsdelivr.net/gh/probberechts/hexo-theme-cactus/source/lib/clipboard/clipboard.min.js
+#   font_awesome: https://cdn.jsdelivr.net/gh/probberechts/hexo-theme-cactus/source/lib/font-awesome/css/all.min.css
+#   justified_gallery_css: https://cdn.jsdelivr.net/gh/probberechts/hexo-theme-cactus/source/lib/justified-gallery/css/justifiedGallery.min.css
+#   justified_gallery_js: https://cdn.jsdelivr.net/gh/probberechts/hexo-theme-cactus/source/lib/justified-gallery/js/jquery.justifiedGallery.min.js
