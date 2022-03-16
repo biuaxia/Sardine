@@ -43,6 +43,10 @@ wget -O install.sh http://download.bt.cn/install/install_6.0.sh && bash install.
 
 宝塔工具箱**(包含下列绝大部分功能 直接ssh中执行bt命令 仅限6.x以上版本面板)**
 
+
+<!-- more -->
+
+
 ```
 bt
 ```
