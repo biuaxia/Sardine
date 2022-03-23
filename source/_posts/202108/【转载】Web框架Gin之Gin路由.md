@@ -25,10 +25,6 @@ Gin 是一个标准的 Web 服务框架，遵循 Restful API 接口规范，其�
 
 本节将从 Gin 路由开始，详细讲述各种路由场景下，如何通过 Gin 来实现。
 
-
-<!-- more -->
-
-
 ## 基本路由
 
 Gin 支持 GET、POST、PUT、PATCH、DELETE、OPTIONS 等请求类型。

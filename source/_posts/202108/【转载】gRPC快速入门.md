@@ -19,10 +19,6 @@ tags:
 
 RPC算是近些年比较火热的概念了，随着微服务架构的兴起，RPC的应用越来越广泛。本文介绍了RPC和gRPC的相关概念，并且通过详细的代码示例介绍了gRPC的基本使用。
 
-
-<!-- more -->
-
-
 # gRPC
 
 ## RPC是什么
@@ -96,7 +92,6 @@ gRPC是基于Protocol Buffers。
 syntax = "proto3"; // 版本声明，使用Protocol Buffers v3版本
 
 package pb; // 包名
-
 
 // 定义一个打招呼服务
 service Greeter {
@@ -273,7 +268,6 @@ import grpc
 import helloworld_pb2
 import helloworld_pb2_grpc
 
-
 def run():
     # 注意(gRPC Python Team): .close()方法在channel上是可用的。
     # 并且应该在with语句不符合代码需求的情况下使用。
@@ -281,7 +275,6 @@ def run():
         stub = helloworld_pb2_grpc.GreeterStub(channel)
         response = stub.SayHello(helloworld_pb2.HelloRequest(name='q1mi'))
     print("Greeter client received: {}!".format(response.message))
-
 
 if __name__ == '__main__':
     logging.basicConfig()

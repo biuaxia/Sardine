@@ -17,10 +17,6 @@ tags:
 * 普通用户提示符为 $，普通用户的家目录：/homt/用户名同名，lisi用户的家目录：/home/lisi
 [lisi[@](https://hu60.cn/q.php/bbs.topic.100995.html#)[localhost](https://hu60.cn/q.php/user.info.0.html) ~]$
 
-
-<!-- more -->
-
-
 ## Linux系统基本概念
 
 * Linux系统而言：
@@ -163,7 +159,6 @@ initial-setup-ks.cfg：文件名
 
 #以长格式显示目录所有内容，以人性化的方式显示详细的属性信息，包括隐藏的内容
 [root@localhost ~]# ls -lha
-
 
 #以长格式显示根目录下所有内容，包括详细的属性信息
 [root@localhost ~]# ls -l /
@@ -1067,7 +1062,6 @@ hello.hard  hello.soft	t1  test1  test.txt
    1	/usr/bin/cat
    1	/usr/bin/ls
 
-
 [root@localhost opt]# hash -r
 [root@localhost opt]# 
 [root@localhost opt]# hash
@@ -1606,7 +1600,6 @@ TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0 #发送时产生错�
 
 #只查看指定的网卡
 [root@localhost ~]# ifconfig ens32
-
 
 lo: 本地回环网卡，不是物理网卡，通过软件虚拟出来的一个网卡，127.0.0.1，用于测试本机的联通性
 [root@localhost ~]# ping 127.0.0.1
@@ -3108,7 +3101,6 @@ rm: 无法删除"kenji.txt": 权限不够
 touch: 无法创建"natasha.txt": 权限不够
 [natasha@localhost yunwei]$ vim kenji.txt 
 
-
 [root@localhost ~]# setfacl -m u:tom:rx /yunwei
 [root@localhost ~]# setfacl -m u:jack:rx /yunwei
 [root@localhost ~]# setfacl -m u:hary:rx /yunwei
@@ -4186,7 +4178,6 @@ UUID=ae55ec6b-973b-498e-a366-f35e14b3d153 /boot                   xfs     defaul
 #扩容逻辑卷
 [root@localhost ~]# lvextend -L +40G /dev/systemvg/mylv 
 
-
 [root@localhost ~]# lvs
   LV   VG       Attr       LSize   Pool Origin Data%  Meta%  Move Log Cpy%Sync Convert
   root centos   -wi-ao---- <17.00g                                                    
@@ -4603,7 +4594,6 @@ COMMAND：命令名/命令行
 [root@localhost ~]# pgrep -Ul lisi
 pgrep: invalid user name: l
 
-
 #查看系统所有终端用户
 [root@localhost ~]# who
 root     pts/0        2021-04-24 14:06 (192.168.0.1)
@@ -4941,7 +4931,6 @@ Description :      #描述信息
 vsftpd is a Very Secure FTP daemon. It was written completely from
 scratch.
 
-
 [root@localhost centos]# which ls
 alias ls='ls --color=auto'
 	/usr/sbin/ls
@@ -5139,7 +5128,6 @@ gcc-4.8.5-36.el7.x86_64
 local          local_centos                     4,021
 repolist: 4,021
 
-
 [root@localhost ~]# rpm -e vsftpd
 root@localhost ~]# yum -y install vsftpd
 Error downloading packages:
@@ -5244,7 +5232,6 @@ auto  CHANGES  CHANGES.ru  conf  configure  contrib  html  LICENSE  man  README 
   nginx http fastcgi temporary files: "fastcgi_temp"
   nginx http uwsgi temporary files: "uwsgi_temp"
   nginx http scgi temporary files: "scgi_temp"
-
 
 #make将源码包转换成二进制
 [root@localhost nginx-1.20.0]# make

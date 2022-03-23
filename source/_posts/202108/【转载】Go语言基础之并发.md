@@ -17,10 +17,6 @@ tags:
 
 并发是编程里面一个非常重要的概念，Go语言在语言层面天生支持并发，这也是Go语言流行的一个很重要的原因。
 
-
-<!-- more -->
-
-
 # Go语言中的并发编程
 
 ## 并发与并行
@@ -466,7 +462,6 @@ func worker(id int, jobs <-chan int, results chan<- int) {
 		results <- j * 2
 	}
 }
-
 
 func main() {
 	jobs := make(chan int, 100)

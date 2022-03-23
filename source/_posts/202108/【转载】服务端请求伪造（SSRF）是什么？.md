@@ -22,10 +22,6 @@ tags:
 > * 译者：[MoonBall](https://link.juejin.cn?target=https%3A%2F%2Fgithub.com%2FMoonBall "https://github.com/MoonBall")
 > * 校对者：[PassionPenguin](https://link.juejin.cn?target=https%3A%2F%2Fgithub.com%2FPassionPenguin "https://github.com/PassionPenguin")、[kamly](https://link.juejin.cn?target=https%3A%2F%2Fgithub.com%2Fkamly "https://github.com/kamly")
 
-
-<!-- more -->
-
-
 服务端请求伪造（SSRF）漏洞让攻击者从存在漏洞的应用程序的后端服务中发送恶意请求。攻击者通常使用 SSRF 攻击位于防火墙之后的内部系统，这些内部系统是不能从外部网络访问的。攻击者也可以利用 SSRF 访问通过服务器的环回接口（(127.0.0.1）可访问的服务。
 
 当攻击者可以完全控制或部分控制应用程序发送的请求时，SSRF 漏洞就出现了。常见的例子是攻击者能控制第三方服务的 URL，并且应用程序将发起该 URL 对应的请求。

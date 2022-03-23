@@ -1,6 +1,7 @@
 title: 自动续期蓝凌License
 date: 2022-03-23 15:34:00
 toc: true
+index_img: https://b3logfile.com/file/2022/03/Snipaste_2022-03-23_15-43-46-4d36dcf1.png
 category: 
 - Landray
 tags:
@@ -16,10 +17,6 @@ tags:
 见：[二开成果详情页](http://mall.landray.com.cn/core01/km/reuse/km_reuse_redevelop/kmReuseRedevelop.do?method=view&fdId=17fb0b664519c279b7c58d24d69a5c14)
 
 ![image.png](https://b3logfile.com/file/2022/03/image-6d6f53ca.png)
-
-
-<!-- more -->
-
 
 ## 定时任务
 

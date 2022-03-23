@@ -24,10 +24,6 @@ Google 也在国内架设了镜像站点：[https://golang.google.cn](https://go
 
 如果镜像站点下载 Golang 也比较慢，可以使用国内社区镜像加速：[https://studygolang.com/dl](https://studygolang.com/dl)。
 
-
-<!-- more -->
-
-
 ---
 
 安装完了还需要配置 Golang 默认的代理用于加速 `依赖包` 的下载。

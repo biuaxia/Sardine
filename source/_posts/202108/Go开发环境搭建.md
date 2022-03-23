@@ -31,10 +31,6 @@ tags:
 5. 验证git配置: `git clone git@git.zhlh6.cn:biuaxia/Sardine.git test/1`
 6. 删除git clone的文件夹: `rm -rf ~/test/`
 
-
-<!-- more -->
-
-
 ---
 
 ## dockers 和 docker-compose 安装

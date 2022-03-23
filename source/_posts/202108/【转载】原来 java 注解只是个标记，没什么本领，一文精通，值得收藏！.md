@@ -25,10 +25,6 @@ tags:
 # 前言
 
 java里有个神奇的存在，注解，就是那个天天@别人的家伙，它到底是何方神圣啊？
-
-
-<!-- more -->
-
 ---
 
 # 什么是注解
@@ -326,7 +322,6 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-
 /**
  * 测试注解
  *
@@ -357,7 +352,6 @@ import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
-
 
 /**
  * 测试注解
@@ -391,7 +385,6 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-
 /**
  * 测试注解
  *
@@ -423,7 +416,6 @@ import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
-
 
 /**
  * 测试注解

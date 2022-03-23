@@ -10,10 +10,6 @@ tags:
 
 在线恢复：<https://www.biuaxia.cn/OmegaOptions.bak>
 
-
-<!-- more -->
-
-
 编辑源代码：
 
 ```javascript

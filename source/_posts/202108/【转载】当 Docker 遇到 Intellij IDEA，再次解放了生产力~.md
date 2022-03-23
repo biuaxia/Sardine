@@ -16,11 +16,7 @@ tags:
 
 ---
 
-Idea是Java开发利器，springboot是Java生态中最流行的微服务框架，docker是时下最火的容器技术，那么它们结合在一起会产生什么化学反应呢？
-
-<!-- more -->
-
-## 开发前准备
+Idea是Java开发利器，springboot是Java生态中最流行的微服务框架，docker是时下最火的容器技术，那么它们结合在一起会产生什么化学反应呢？## 开发前准备
 
 ### Docker的安装可以参考https://docs.docker.com/install/
 

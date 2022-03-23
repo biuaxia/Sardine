@@ -21,10 +21,6 @@ base64:26个小写字母、26个大写字母、10个数字、/、+
 
 base58(区块链)：去掉6个容易混淆的，去掉0，大写的O、大写的I、小写的L、/、+/、+影响双击选择
 
-
-<!-- more -->
-
-
 ## go语言实现base64的编码与解码
 
 ### Base64编码原理
@@ -100,7 +96,6 @@ import (
 	"fmt"
 	"math/big"
 )
-
 
 var base58= []byte("123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz")
 

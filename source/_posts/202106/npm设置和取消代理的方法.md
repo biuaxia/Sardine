@@ -21,10 +21,6 @@ npm config set proxy=http://127.0.0.1:8087
 npm config set registry=http://registry.npmjs.org
 ```
 
-
-<!-- more -->
-
-
 ## 关于https
 
 经过上面设置使用了http开头的源，因此不需要设https_proxy了，否则还要增加一句:

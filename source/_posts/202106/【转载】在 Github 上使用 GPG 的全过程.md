@@ -22,10 +22,6 @@ tags:
 
 ![漂亮的 Verified 标记](https://b3logfile.com/file/2021/06/solo-fetchupload-5550046153599246802-c1fe7c64.webp)
 
-
-<!-- more -->
-
-
 点击这个标记，得知这一次 commit 是经过签名验证的（signed with a verified signature），因此，我便开始研究如何利用 GPG 对自己的每次 commit 进行签名验证。
 
 ## 什么是 GPG

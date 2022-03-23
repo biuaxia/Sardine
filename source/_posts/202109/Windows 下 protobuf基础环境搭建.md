@@ -24,10 +24,6 @@ tags:
 
 ![image.png](https://b3logfile.com/file/2021/09/image-65198a5d.png)
 
-
-<!-- more -->
-
-
 比如图片中放到了 `C:\Users\biuaxia\go\bin` 下面：
 
 ![image.png](https://b3logfile.com/file/2021/09/image-a8f9589c.png)

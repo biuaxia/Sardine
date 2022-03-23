@@ -38,10 +38,6 @@ tags:
 
 ![](https://b3logfile.com/file/2021/08/solo-fetchupload-3926770392394474232-785cdd23.webp)
 
-
-<!-- more -->
-
-
 ![](https://b3logfile.com/file/2021/08/solo-fetchupload-3983595921017405791-d5a9e375.webp)
 
 其中 `kmall-admin` 和 `kmall-api` 则是一个实际的应用项目，包含一个SpringBoot启动类

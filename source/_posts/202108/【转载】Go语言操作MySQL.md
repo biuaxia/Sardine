@@ -25,10 +25,6 @@ Go语言中的`database/sql`包提供了保证SQL或类SQL数据库的泛用接�
 
 我们常用的数据库基本上都有完整的第三方实现。例如：[MySQL驱动](https://github.com/go-sql-driver/mysql)
 
-
-<!-- more -->
-
-
 ### 下载依赖
 
 ```bash

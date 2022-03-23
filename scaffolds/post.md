@@ -7,9 +7,3 @@ category:
 tags:
  - 
 ---
-
-
-
-<!-- more -->
-
-

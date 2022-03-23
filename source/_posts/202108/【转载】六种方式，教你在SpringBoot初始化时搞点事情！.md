@@ -33,10 +33,6 @@ tags:
 
 ![](https://b3logfile.com/file/2021/08/solo-fetchupload-2037764617707682577-1ab4e238.webp)
 
-
-<!-- more -->
-
-
 ## 1、监听容器刷新完成扩展点 `ApplicationListener<ContextRefreshedEvent>`
 
 ApplicationContext事件机制是观察者设计模式实现的，通过ApplicationEvent和ApplicationListener这两个接口实现ApplicationContext的事件机制。

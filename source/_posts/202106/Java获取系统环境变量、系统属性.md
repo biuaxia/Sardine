@@ -14,10 +14,6 @@ tags:
 即配置在系统变量中的内容：
 
 ![image.png](https://b3logfile.com/file/2021/06/image-8c0990b5.png)
-
-
-<!-- more -->
-
 代码为：
 
 ```java

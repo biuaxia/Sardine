@@ -17,10 +17,6 @@ tags:
 
 Docker 是目前最流行的 Linux 容器解决方案，它解决了软件开发中环境配置的问题，因此在日常开发中得到了广泛的应用。 通常情况下，我们都会按照官网上的步骤下载 Docker 并安装，然后在终端执行 `docker run hello-world` 得到下面的输出就代表安装好了
 
-
-<!-- more -->
-
-
 ```bash
 klew@primary:~$ docker run hello-world
 

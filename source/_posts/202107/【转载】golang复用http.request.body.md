@@ -22,10 +22,6 @@ tags:
 
 业务当中有需要分发http.request.body的场景。比如微信回调消息只能指定一个地址，所以期望可以复制一份消息发给其他服务。由服务B和接收微信回调的服务A一起处理微信回调信息。
 
-
-<!-- more -->
-
-
 ## 解决思路
 
 最开始考虑的是直接转发http.request。使用[ReverseProxy](https://studygolang.com/static/pkgdoc/pkg/net_http_httputil.htm#ReverseProxy)直接将http.request由服务A转发给服务B。但是微信涉及到验证等问题，完全调整好非常麻烦。所以转换思路，打算将http.request.body的内容直接post给服务B。

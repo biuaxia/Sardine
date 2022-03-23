@@ -1,6 +1,7 @@
 title: Golang开发达梦数据库应用
 date: 2022-02-21 14:23:13
 toc: true
+index_img: https://b3logfile.com/file/2022/02/23a5526744174569ada00a90ca3167f3.png
 category:
 - Golang
 tags:

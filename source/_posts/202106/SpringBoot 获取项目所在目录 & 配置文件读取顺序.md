@@ -31,10 +31,6 @@ log.info("启动类所在目录: {}", ResourceUtils.
 
 项目目录如果是以 jar 启动则是 jar 所在目录，如果是用代码直接启动就在项目根目录下。
 
-
-<!-- more -->
-
-
 直接启动：
 
 ![image.png](https://b3logfile.com/file/2021/06/image-281541f9.png)

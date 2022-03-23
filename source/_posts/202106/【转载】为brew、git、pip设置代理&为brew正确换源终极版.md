@@ -24,10 +24,6 @@ tags:
 
 设置了brew通过socks5的代理后，会发现pip其实是不支持socks5的，只能通过http/https。
 
-
-<!-- more -->
-
-
 ## 首先获取端口
 
 * 点击状态栏的小火箭

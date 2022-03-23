@@ -23,10 +23,6 @@ tags:
 
 因为想要学习redis，因此在虚拟机中安装了redis，为了实现在物理机可以访问redis，弄了好久；因此记录下来，以免忘记。
 
-
-<!-- more -->
-
-
 ## 环境
 
 - 虚拟机：CentOS Linux release 7.4.1708 (Core)

@@ -21,10 +21,6 @@ tags:
 
 golang语言编写，设置windows桌面壁纸，图片来自于必应网站（cn.bing.com）
 
-
-<!-- more -->
-
-
 github源码地址：[https://github.com/tujiaw/gowallpaper](https://github.com/tujiaw/gowallpaper)
 有兴趣的Star一下吧
 

@@ -43,10 +43,6 @@ tags:
 ```
 
 这样会造成接口调用者的阅读困难。
-
-
-<!-- more -->
-
 翻阅官方文档后发现翻译的工作已经做过了，可以直接将错误信息修改为指定语言。
 
 但需要注意的是，目前 `go-playground/validator` 只支持了 13 种语言，具体参阅官方列出的目录：[validator/translations at master · go-playground/validator](https://github.com/go-playground/validator/tree/master/translations)

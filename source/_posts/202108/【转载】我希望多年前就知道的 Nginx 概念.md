@@ -20,10 +20,6 @@ tags:
 > * 本文永久链接：[github.com/xitu/gold-m…](https://link.juejin.cn?target=https%3A%2F%2Fgithub.com%2Fxitu%2Fgold-miner%2Fblob%2Fmaster%2Farticle%2F2021%2Fnginx-concepts-i-wish-i-knew-years-ago.md "https://github.com/xitu/gold-miner/blob/master/article/2021/nginx-concepts-i-wish-i-knew-years-ago.md")
 > * 译者：[joyking7](https://link.juejin.cn?target=https%3A%2F%2Fgithub.com%2Fjoyking7 "https://github.com/joyking7")
 > * 校对者：[PassionPenguin](https://link.juejin.cn?target=https%3A%2F%2Fgithub.com%2FPassionPenguin "https://github.com/PassionPenguin")、[ningzhy3](https://link.juejin.cn?target=https%3A%2F%2Fgithub.com%2Fningzhy3 "https://github.com/ningzhy3")
-
-
-<!-- more -->
-
 *Nginx 是一个遵循主从架构的 Web 服务器，可以用作反向代理、负载均衡器、邮件代理和 HTTP 缓存。*
 
 哇！复杂的术语和混乱的定义，里面充斥着大量令人困惑的词语，对吧？不用担心，我可以帮大家先了解 Nginx 的基本架构和术语，然后我们将安装并创建 **Nginx** 配置。

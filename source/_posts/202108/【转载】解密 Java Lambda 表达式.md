@@ -22,10 +22,6 @@ tags:
 > * 译者：[samyu2000](https://link.juejin.cn?target=https%3A%2F%2Fgithub.com%2Fsamyu2000 "https://github.com/samyu2000")
 > * 校对者：[Kimhooo](https://link.juejin.cn?target=https%3A%2F%2Fgithub.com%2FKimhooo "https://github.com/Kimhooo")，[1autodidact](https://link.juejin.cn?target=https%3A%2F%2Fgithub.com%2F1autodidact "https://github.com/1autodidact")
 
-
-<!-- more -->
-
-
 # 解密 Java Lambda 表达式
 
 我似乎花了很多时间讲解 Java 中的函数式编程。其实并没有什么深奥难懂的东西。为了使用某些函数的功能，你需要在函数中嵌套定义函数。为什么那样做？当你使用面向对象的方式进行开发，你已经使用了函数式编程的方法，只不过是以一种受控的方式使用。Java 中的多态就是通过保存若干个可以在子类中重写的函数实现的。这样，该类的其他函数可以调用被重写的函数，即使外部函数没有被重写，它的行为也发生了改变。

@@ -1,6 +1,7 @@
 title: 达梦8数据库Docker安装
 date: 2022-02-21 12:23:13
 toc: true
+index_img: https://b3logfile.com/file/2022/02/97cb01fffd7c44d39e951ba987618bae.jpeg
 category:
 - 达梦
 tags:

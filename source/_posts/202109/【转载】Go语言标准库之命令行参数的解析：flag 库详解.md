@@ -21,10 +21,6 @@ tags:
 
 在 [Golang]() 程序中有很多种方法来处理命令行参数。
 
-
-<!-- more -->
-
-
 简单的情况下可以不使用任何库，直接使用 `os.Args`
 
 ```go
@@ -284,7 +280,6 @@ func Var(value Value, name string, usage string) {
 ```go
 type sliceValue []string
 
-
 func newSliceValue(vals []string, p *[]string) *sliceValue {
     *p = vals
     return (*sliceValue)(p)
@@ -314,7 +309,6 @@ $ go run demo.go -members "Jack,Tom"
 var members []string
 type sliceValue []string
 
-
 func newSliceValue(vals []string, p *[]string) *sliceValue {
     *p = vals
     return (*sliceValue)(p)
@@ -325,7 +319,6 @@ func (s *sliceValue) Set(val string) error {
     *s = sliceValue(strings.Split(val, ","))
     return nil
 }
-
 
 func (s *sliceValue) String() string {
     return strings.Join([]string(*s), ",")

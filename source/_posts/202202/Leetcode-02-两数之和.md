@@ -1,6 +1,7 @@
 title: Leetcode-02-两数之和
 date: 2022-02-12 22:23:14
 toc: true
+index_img: https://b3logfile.com/file/2022/02/image-51e4a586.png
 category:
 - leetcode
 tags:
@@ -10,10 +11,6 @@ tags:
 ## 暴力枚举
 
 枚举数组中的每一个数 x，寻找数组中是否存在 target-x。
-
-
-<!-- more -->
-
 
 ```go
 func twoSum(nums []int, target int) []int {

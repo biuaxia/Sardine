@@ -22,11 +22,7 @@ tags:
 
 目前在使用这个项目搭建go代理的时候发现，GORPOXY变量设置为 https://goproxy.cn,direct 的话，golang.org 下的包不会走代理而是直连最终超时，而去掉direct的话就一切正常。以下是构建代理程序的代码，是我哪里搞错了吗？
 
-![Snipaste](https://b3logfile.com/file/2021/11/d8bc0dc251dc4f97a7a70eab660a0570.png)
-
-<!-- more -->
-
-`GOPROXY` 环境变量逗号列表的作用是，如果请求前一个时响应了 404 或 410 那么自动 fallback 到下一个，其中 `direct` 的作用是直接回源（源指的是比如 GitHub 这种代码托管服务）拉取代码。
+![Snipaste](https://b3logfile.com/file/2021/11/d8bc0dc251dc4f97a7a70eab660a0570.png)`GOPROXY` 环境变量逗号列表的作用是，如果请求前一个时响应了 404 或 410 那么自动 fallback 到下一个，其中 `direct` 的作用是直接回源（源指的是比如 GitHub 这种代码托管服务）拉取代码。
 
 如果你有公司内部的模块需要服务到，比如通过了 `GOPRIVATE` 等环境变量来指定，那么你是必须在 `GOPROXY` 中包含 `direct` 的，否则 `GOPRIVATE` 之类的不能正常工作。
 

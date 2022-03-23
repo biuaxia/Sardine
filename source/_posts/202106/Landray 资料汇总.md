@@ -18,10 +18,6 @@ tags:
 2. [蓝凌JAVA项目SVN管理规范与使用指引](http://product.landray.com.cn/prod/scm/prod_scm_page_config/prodScmPageConfig.do?method=view&fdId=15428d7e632f5cfe160f5124a39b81f3&s_css=default)
 3. [开发工具百宝箱](http://product.landray.com.cn/prod/scm/prod_scm_page_config/prodScmPageConfig.do?method=view&fdId=1435183e7cf4474a751a1224f45a19d8&s_css=default)
 
-
-<!-- more -->
-
-
 ## 📕 工程常用资料
 
 - [蓝凌实施100问1126（上传） - 维基知识库](https://java.landray.com.cn/kms/wiki/kms_wiki_main/kmsWikiMain.do?method=view&forwardStr=stylepage&fdId=17d5b201a4d1cb1dede9195482ab84cd&utm_source=mkpaas&lang=zh-cn)
@@ -50,7 +46,6 @@ tags:
 19. [2021年蓝凌软件二次开发管理制度（试行） - 规范制度](http://java.landray.com.cn/km/institution/km_institution_knowledge/kmInstitutionKnowledge.do?method=view&fdId=177fc4acbec58d6b39b74ee42bab413b&s_css=default)
 
 ## 📘 产品申请
-
 
 | 产品出库                                              | [项目 ](http://bmp.landray.com.cn/km/econtract/km_econtract_product_out/kmEcontractProductOut.do?method=add)[售前 / 试用 ](http://product.landray.com.cn/prod/scm/prod_scm_redirect/prod_scm_redirect_cd.jsp)[内部 / 其它](http://product.landray.com.cn/prod/scm/prod_scm_redirect/prod_scm_redirect_cd.jsp)                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |

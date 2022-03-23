@@ -17,10 +17,6 @@ tags:
 
 此时可以通过`127.0.0.1`直接连接MySQL
 
-
-<!-- more -->
-
-
 ## 方法二
 
 使用docker内网IP连接
@@ -40,5 +36,3 @@ docker0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
 ```
 
 `docker0` 网卡下的ip地址`172.17.0.1`就是宿主机在`docker内网的IP`，此时可以通过`172.17.0.1`连接
-
-

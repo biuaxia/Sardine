@@ -19,11 +19,7 @@ tags:
 
 那还想玩 LOL 手游就只有前往美服或者其他服游玩了。
 
-本教程就演示一下如何在 鸿蒙OS 下玩 `LoL手游`（非国服）。
-
-<!-- more -->
-
-## 安装加速器
+本教程就演示一下如何在 鸿蒙OS 下玩 `LoL手游`（非国服）。## 安装加速器
 
 首先你需要去 [biubiu加速器](https://m.biubiu001.com/) 官网下载 app，这里提供地址：[https://m.biubiu001.com/redirect-to-download?_pg=mobile_home_page_index](https://m.biubiu001.com/redirect-to-download?_pg=mobile_home_page_index)。
 

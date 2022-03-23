@@ -638,7 +638,6 @@ public class LicenseUtil {
 
 ### 其它调整
 
-
 1. 表 `sys_config_data` 中 `fd_key` 为 `` 调整为允许的在线数（待验证）
 
   ![Snipaste20211223115917.png](https://b3logfile.com/file/2021/12/Snipaste_2021-12-23_11-59-17-a740bc26.png)

@@ -55,10 +55,6 @@ appleList.add(apple2);
 appleList.add(apple3);
 ```
 
-
-<!-- more -->
-
-
 ## 分组
 
 List里面的对象元素，以某个属性来分组，例如，以id分组，将id相同的放在一起：

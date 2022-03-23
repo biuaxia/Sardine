@@ -31,27 +31,22 @@ tags:
 参考下表：
 
 标量消息字段可以具有以下类型之一–该表显示了文件中指定的类型，以及自动生成的类中相应的类型：`.proto`。
-
-
-<!-- more -->
-
-
-| .proto Type | Notes                                                                      | C++ Type | Java/Kotlin Type[^1] | Python Type[^3] | Go Type | Ruby Type                      | C# Type    | PHP Type           | Dart Type |
+| .proto Type | Notes                                                                      | C++ Type | Java/Kotlin Type | Python Type | Go Type | Ruby Type                      | C# Type    | PHP Type           | Dart Type |
 | ----------- | -------------------------------------------------------------------------- | -------- | -------------------- | --------------- | ------- | ------------------------------ | ---------- | ------------------ | --------- |
 | double      |                                                                            | double   | double               | float           | float64 | Float                          | double     | float              | double    |
 | float       |                                                                            | float    | float                | float           | float32 | Float                          | float      | float              | double    |
 | int32       | 使用可变长度编码。编码负数效率低下–如果您的字段可能有负值，请改用sint32。 | int32    | int                  | int             | int32   | Fixnum or Bignum (as required) | int        | integer            | int       |
-| int64       | 使用可变长度编码。编码负数效率低下–如果您的字段可能有负值，请改用sint64。 | int64    | long                 | int/long[^4]    | int64   | Bignum                         | long       | integer/string[^6] | Int64     |
-| uint32      | 使用可变长度编码。                                                         | uint32   | int[^2]              | int/long[^4]    | uint32  | Fixnum or Bignum (as required) | uint       | integer            | int       |
-| uint64      | 使用可变长度编码。                                                         | uint64   | long[^2]             | int/long[^4]    | uint64  | Bignum                         | ulong      | integer/string[^6] | Int64     |
+| int64       | 使用可变长度编码。编码负数效率低下–如果您的字段可能有负值，请改用sint64。 | int64    | long                 | int/long    | int64   | Bignum                         | long       | integer/string | Int64     |
+| uint32      | 使用可变长度编码。                                                         | uint32   | int              | int/long    | uint32  | Fixnum or Bignum (as required) | uint       | integer            | int       |
+| uint64      | 使用可变长度编码。                                                         | uint64   | long             | int/long    | uint64  | Bignum                         | ulong      | integer/string | Int64     |
 | sint32      | 使用可变长度编码。有符号整数值。它们比常规的int32s更有效地编码负数。       | int32    | int                  | int             | int32   | Fixnum or Bignum (as required) | int        | integer            | int       |
-| sint64      | 使用可变长度编码。有符号整数值。它们比常规的int64s更有效地编码负数。       | int64    | long                 | int/long[^4]    | int64   | Bignum                         | long       | integer/string[^6] | Int64     |
-| fixed32     | 总是四个字节。如果值通常大于2^28^，则比uint32更有效。                      | uint32   | int[^2]              | int/long[^4]    | uint32  | Fixnum or Bignum (as required) | uint       | integer            | int       |
-| fixed64     | 总是八个字节。如果值通常大于2^56^，则比uint64更有效。                      | uint64   | long[^2]             | int/long[^4]    | uint64  | Bignum                         | ulong      | integer/string[^6] | Int64     |
+| sint64      | 使用可变长度编码。有符号整数值。它们比常规的int64s更有效地编码负数。       | int64    | long                 | int/long    | int64   | Bignum                         | long       | integer/string | Int64     |
+| fixed32     | 总是四个字节。如果值通常大于2^28^，则比uint32更有效。                      | uint32   | int              | int/long    | uint32  | Fixnum or Bignum (as required) | uint       | integer            | int       |
+| fixed64     | 总是八个字节。如果值通常大于2^56^，则比uint64更有效。                      | uint64   | long             | int/long    | uint64  | Bignum                         | ulong      | integer/string | Int64     |
 | sfixed32    | 总是四个字节。                                                             | int32    | int                  | int             | int32   | Fixnum or Bignum (as required) | int        | integer            | int       |
-| sfixed64    | 总是八个字节。                                                             | int64    | long                 | int/long[^4]    | int64   | Bignum                         | long       | integer/string[^6] | Int64     |
+| sfixed64    | 总是八个字节。                                                             | int64    | long                 | int/long    | int64   | Bignum                         | long       | integer/string | Int64     |
 | bool        |                                                                            | bool     | boolean              | bool            | bool    | TrueClass/FalseClass           | bool       | boolean            | bool      |
-| string      | 字符串必须始终包含UTF-8编码或7位ASCII文本，且长度不能超过2^32^。           | string   | String               | str/unicode[^5] | string  | String (UTF-8)                 | string     | string             | String    |
+| string      | 字符串必须始终包含UTF-8编码或7位ASCII文本，且长度不能超过2^32^。           | string   | String               | str/unicode | string  | String (UTF-8)                 | string     | string             | String    |
 | bytes       | 可能包含任意顺序的字节数据，但不超过2^32^。                                | string   | ByteString           | str             | []byte  | String (ASCII-8BIT)            | ByteString | string             | List      |
 
 你可以在文章[Protocol Buffer 编码](https://developers.google.com/protocol-buffers/docs/encoding?hl=zh-cn)中，找到更多“序列化消息时各种类型如何编码”的信息。

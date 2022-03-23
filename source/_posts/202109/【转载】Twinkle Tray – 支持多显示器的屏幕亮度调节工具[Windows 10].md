@@ -24,10 +24,6 @@ tags:
 
 ![Twinkle Tray - 支持多显示器的屏幕亮度调节工具[Windows 10] 1](https://b3logfile.com/file/2021/09/solo-fetchupload-2879297711106386770-fb722709.jpeg)
 
-
-<!-- more -->
-
-
 来自 TG 群匿名用户推荐。
 
 一个尴尬的事情是，青小蛙并没有多显示器，只能…云测试了。

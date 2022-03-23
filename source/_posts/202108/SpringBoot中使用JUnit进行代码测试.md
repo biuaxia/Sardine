@@ -12,10 +12,6 @@ tags:
 
 Junit 是 Java 知名的测试框架，通过集成 Junit + SpringBoot Test 可以在测试程序中使用 SpringBoot 的依赖注入等 SpringBoot 特性。
 
-
-<!-- more -->
-
-
 ## 依赖
 
 ```xml

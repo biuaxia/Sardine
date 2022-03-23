@@ -19,12 +19,7 @@ tags:
 
 我们在工作或学习过程中，有许多时候会接触到 Linux，然后便想要自己亲自试试这个系统，但苦于没有系统学习过，所以想要打造自己的工作环境难免会遇到许多困难。为了防止大家踩我踩过的坑，才有了这篇博客。本博客将主要从 **系统设置、常用软件安装、开发环境搭建、系统美化** 几个方面着手，手把手教你如何从零打造自己的 Ubuntu （基于 Ubuntu 20.04.4 LTS ）工作环境。
 
-
-<!-- more -->
-
-
 先展示下我自己的工作环境：
-
 
 * 桌面
 
@@ -731,7 +726,6 @@ git clone --depth=1 https://gitee.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-~/
 ```
 # 主题
 ZSH_THEME="powerlevel10k/powerlevel10k"
-
 
 # 插件
 # git

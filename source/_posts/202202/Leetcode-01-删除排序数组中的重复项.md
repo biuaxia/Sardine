@@ -15,10 +15,6 @@ tags:
 
 **题干得知传入的数组 nums 是升序的。**
 
-
-<!-- more -->
-
-
 假设 nums 长度为 n，将快指针 fast 快指针由 1 遍历到 n-1，对于每个位置，
 
 如果 nums[fast] != nums[fast-1]，说明 nums[fast] 和上一元素不同，
