@@ -659,7 +659,6 @@ post:
     # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo | cusdis
     type: utterances
 
-
 #---------------------------
 # 评论插件
 # Comment plugins
