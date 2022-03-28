@@ -81,6 +81,16 @@ git clone https://github.com/happyfish100/fastdfs-nginx-module.git --depth 1
 cp /usr/local/src/fastdfs-nginx-module/src/mod_fastdfs.conf /etc/fdfs
 ```
 
+### `fastdfs-nginx` 配置
+
+```shell
+vim /etc/fdfs/mod_fastdfs.conf
+# 需要修改的内容如下
+tracker_server=192.168.10.13:22122  # tracker服务器IP和端口
+url_have_group_name=true
+store_path0=/www/apps/fastdfs
+```
+
 ### 使用宝塔自带 `Nginx`
 
 ```shell
@@ -120,16 +130,6 @@ make && make install
 /www/server/nginx/sbin/nginx -s stop    #这是停止
 /www/server/nginx/sbin/nginx            #这是启动
 /www/server/nginx/sbin/nginx -V
-```
-
-### `fastdfs-nginx` 配置
-
-```shell
-vim /etc/fdfs/mod_fastdfs.conf
-# 需要修改的内容如下
-tracker_server=192.168.10.13:22122  # tracker服务器IP和端口
-url_have_group_name=true
-store_path0=/www/apps/fastdfs
 ```
 
 ## 单机部署
@@ -985,6 +985,20 @@ location ~/group[0-9]/ {
 访问之前 `client` 测试得到的结果地址：[wKgKDWJBKieAFy55AAA1IWpVuRE893.png (364×278)](http://192.168.10.13:10001/group1/M00/00/00/wKgKDWJBKieAFy55AAA1IWpVuRE893.png)
 
 ![Snipaste20220328121016.png](https://b3logfile.com/file/2022/03/Snipaste_2022-03-28_12-10-16-665a7067.png)
+
+## FAQ
+
+### 配置好了无法通过浏览器访问上传结果
+
+检查 `fastdfs-nginx` 配置，然后重启 nginx。
+
+```shell
+vim /etc/fdfs/mod_fastdfs.conf
+
+/www/server/nginx/sbin/nginx -s stop
+/www/server/nginx/sbin/nginx -t
+/www/server/nginx/sbin/nginx
+```
 
 ## 参考资料
 
