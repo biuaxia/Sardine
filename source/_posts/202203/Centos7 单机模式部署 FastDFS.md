@@ -477,7 +477,6 @@ http.check_alive_uri = /status.html
 
 ```
 
-
 ### `storage` 配置
 
 ```shell
@@ -486,7 +485,7 @@ vim /etc/fdfs/storage.conf
 port=23000                          # storage服务端口（默认23000,一般不修改）
 base_path=/www/apps/fastdfs         # 数据和日志文件存储根目录
 store_path0=/www/apps/fastdfs       # 第一个存储目录
-tracker_server=192.168.10.13:22122   # tracker服务器IP和端口，不能填写 127.0.0.1 ！！！
+tracker_server=192.168.10.13:22122  # tracker服务器IP和端口，不能填写 127.0.0.1 ！！！
 http.server_port=18888              # http访问文件的端口(默认8888，看情况修改)
 ```
 
@@ -983,11 +982,11 @@ location ~/group[0-9]/ {
 #PROXY-END/
     ```
 
-访问之前 `client` 测试得到的结果地址：[wKgKDWJBNbWAJRF7AAA1IWpVuRE784.png (364×278)](http://192.168.10.13:10001/group1/M00/00/00/wKgKDWJBNbWAJRF7AAA1IWpVuRE784.png)
+访问之前 `client` 测试得到的结果地址：[wKgKDWJBKieAFy55AAA1IWpVuRE893.png (364×278)](http://192.168.10.13:10001/group1/M00/00/00/wKgKDWJBKieAFy55AAA1IWpVuRE893.png)
 
 ![Snipaste20220328121016.png](https://b3logfile.com/file/2022/03/Snipaste_2022-03-28_12-10-16-665a7067.png)
 
 ## 参考资料
 
 - [happyfish100/fastdfs Wiki](https://github.com/happyfish100/fastdfs/wiki)
-- [Centos7安装FASTDFS整合宝塔Nginx，配合nginx-fastdfs插件，实现文件上传 - 代码先锋网](https://www.codeleading.com/article/97515655967/)
+- [Centos7安装FASTDFS整合宝塔Nginx，配合nginx-fastdfs插件，实现文件上传](https://www.codeleading.com/article/97515655967/)
