@@ -4,6 +4,8 @@ toc: true
 password: dgr
 ---
 
+<div class="markdown-body">
+
 ## 【2023考研先导课】数学1022
 
 ### 【数学】基础先导2
@@ -19,3 +21,5 @@ password: dgr
 > 题2解：![Snipaste20220413101111.png](https://b3logfile.com/file/2022/04/Snipaste_2022-04-13_10-11-11-0b19b88d.png)
 
 ![不等式题2.png](https://b3logfile.com/file/2022/04/Snipaste_2022-04-13_10-05-35-e4082b13.png)
+
+</div>
