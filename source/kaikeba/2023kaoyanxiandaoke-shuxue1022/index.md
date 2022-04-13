@@ -6,9 +6,8 @@ password: dgr
 
 <div class="markdown-body">
 
-![Snipaste20220413174853.png](https://b3logfile.com/file/2022/04/Snipaste_2022-04-13_17-48-53-46ef9fab.png)
-
 ## 【2023考研先导课】数学1022
+
 
 ### 【数学】基础先导2
 
