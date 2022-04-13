@@ -97,6 +97,10 @@ toc: true
 
 ## 学习
 
+### 开课吧
+
+- [【2023考研先导课】数学1022](/kaikeba/2023kaoyanxiandaoke-shuxue1022)
+
 ### 慕课
 
 - [教辅资料-Go开发工程师-慕课网就业班](https://class.imooc.com/sc/108/material?utm_source=biuaxia.cn)
