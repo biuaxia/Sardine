@@ -6,9 +6,13 @@ password: dgr
 
 <div class="markdown-body">
 
+![Snipaste20220413174853.png](https://b3logfile.com/file/2022/04/Snipaste_2022-04-13_17-48-53-46ef9fab.png)
+
 ## 【2023考研先导课】数学1022
 
 ### 【数学】基础先导2
+
+> 初一初二内容。
 
 #### 不等式
 
@@ -52,8 +56,6 @@ password: dgr
 
 ![Snipaste20220413132346.png](https://b3logfile.com/file/2022/04/Snipaste_2022-04-13_13-23-46-b041b9ed.png)
 
-#### 二次函数
-
 ![Snipaste20220413132611.png](https://b3logfile.com/file/2022/04/Snipaste_2022-04-13_13-26-11-15de4de0.png)
 
 ![Snipaste20220413145142.png](https://b3logfile.com/file/2022/04/Snipaste_2022-04-13_14-51-42-4e5778f3.png)
@@ -61,5 +63,17 @@ password: dgr
 ![Snipaste20220413171938.png](https://b3logfile.com/file/2022/04/Snipaste_2022-04-13_17-19-38-599ca429.png)
 
 ![Snipaste20220413171947.png](https://b3logfile.com/file/2022/04/Snipaste_2022-04-13_17-19-47-76ac9f5f.png)
+
+![Snipaste20220413174834.png](https://b3logfile.com/file/2022/04/Snipaste_2022-04-13_17-48-34-568ddde3.png)
+
+![Snipaste20220413174906.png](https://b3logfile.com/file/2022/04/Snipaste_2022-04-13_17-49-06-5b45d469.png)
+
+> 高一高二内容。
+
+#### 指数函数
+
+![Snipaste20220413175706.png](https://b3logfile.com/file/2022/04/Snipaste_2022-04-13_17-57-06-dfefaf3c.png)
+
+![Snipaste20220413175904.png](https://b3logfile.com/file/2022/04/Snipaste_2022-04-13_17-59-04-db021c71.png)
   
 </div>
