@@ -60,6 +60,6 @@ password: dgr
 
 ![Snipaste20220413171938.png](https://b3logfile.com/file/2022/04/Snipaste_2022-04-13_17-19-38-599ca429.png)
 
-![Snipaste20220413171947.png](https://b3logfile.com/file/2022/04/Snipaste_2022-04-13_17-19-47-76ac9f5f.png) 
+![Snipaste20220413171947.png](https://b3logfile.com/file/2022/04/Snipaste_2022-04-13_17-19-47-76ac9f5f.png)
   
 </div>
