@@ -22,4 +22,8 @@ password: dgr
 
 ![不等式题2.png](https://b3logfile.com/file/2022/04/Snipaste_2022-04-13_10-05-35-e4082b13.png)
 
+> 题1解：![Snipaste20220413124936.png](https://b3logfile.com/file/2022/04/Snipaste_2022-04-13_12-49-36-bca08f1f.png)
+> 
+> 题2解：![Snipaste20220413125243.png](https://b3logfile.com/file/2022/04/Snipaste_2022-04-13_12-52-43-f0e3a926.png)
+
 </div>
