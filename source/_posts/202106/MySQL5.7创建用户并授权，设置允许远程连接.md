@@ -123,3 +123,10 @@ DROP USER 'username'@'host';
 ```mysql
 FLUSH PRIVILEGES;
 ```
+
+## 建库
+
+```mysql
+CREATE DATABASE IF NOT EXISTS 库名 DEFAULT CHARSET utf8 COLLATE utf8_general_ci;
+CREATE DATABASE IF NOT EXISTS 库名 DEFAULT CHARSET utf8mb4 COLLATE utf8mb4_general_ci;
+```
