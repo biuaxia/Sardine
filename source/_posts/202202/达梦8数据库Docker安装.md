@@ -58,7 +58,7 @@ docker images
 镜像导入后，使用 `docker run` 来启动容器，默认的端口 5236 默认的账号密码 ，启动命令如下：
 
 ```
-docker run -itd -p 5236:5236 --name dm8_01 dm8:v01 /bin/bash /startDm.sh
+sudo docker run -itd -p 5236:5236 --restart=always --name dm8_01 dm8:v01 /bin/bash /startDm.sh
 ```
 
 容器启动完成后，使用 `docker ps` 来查看镜像的启动情况，命令如下：
