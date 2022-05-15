@@ -97,6 +97,11 @@ toc: true
 
 ## 学习
 
+- [Redis命令中心（Redis commands） -- Redis中国用户组（CRUG）](http://redis.cn/commands.html)
+- [Go Web开发进阶实战（gin框架） - 网易云课堂](https://study.163.com/course/courseLearn.htm?courseId=1210171207#/learn/video?lessonId=1281590320&courseId=1210171207)
+- [所有最新贴子_妖火网](https://yaohuo.me/bbs/book_list.aspx?gettotal=2020&action=new)
+- [129.28.192.85:888 / localhost / bluebell / post | phpMyAdmin 5.0.4](http://129.28.192.85:888/phpmyadmin_5e8e88fca82c38a6/tbl_sql.php?db=bluebell&table=post)
+
 ### 开课吧
 
 - [【2023考研先导课】数学1022](/kaikeba/2023kaoyanxiandaoke-shuxue1022)
