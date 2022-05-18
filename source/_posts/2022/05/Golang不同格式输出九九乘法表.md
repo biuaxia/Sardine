@@ -21,7 +21,6 @@ import (
 	"strings"
 )
 
-// 从上到下，从左到右
 func style0() {
 	m := make(map[int][]string, 9)
 	for i := 1; i < 10; i++ {
