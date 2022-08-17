@@ -1,7 +1,7 @@
 title: TePass使用过程的坑！
 date: 2022-05-24 13:40:00
 toc: false
-index_img: http://api.btstu.cn/sjbz/?lx=m_dongman&cid=3
+index_img: http://api.btstu.cn/sjbz/?lx=m_dongman&cid=1
 category:
 - 技巧
 tags:

@@ -1,7 +1,7 @@
 title: Golang统计文本字符串中不同单词的出现频率并打印不止一次的单词及词频
 date: 2022-05-22 15:17:00
 toc: false
-index_img: http://api.btstu.cn/sjbz/?lx=m_dongman&cid=1
+index_img: https://b3logfile.com/file/2022/05/Snipaste_2022-05-22_15-42-36-a560234d.png
 category:
 - Go
 tags:
