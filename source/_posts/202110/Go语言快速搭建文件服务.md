@@ -20,7 +20,7 @@ tags:
 
 代码如下：
 
-```golang
+```go
 package main
 
 import "github.com/gogf/gf/frame/g"
