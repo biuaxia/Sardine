@@ -13,6 +13,17 @@ tags:
  - 创建
  - 用户
 ---
+
+## 示例
+
+创建允许远程访问的 root 账号，密码为 123456，且授予所有表的所有操作。
+
+```
+CREATE USER 'root'@'%' IDENTIFIED BY '123456';
+GRANT ALL ON *.* TO 'root'@'%';
+FLUSH PRIVILEGES;
+```
+
 ## 创建用户
 
 命令：
