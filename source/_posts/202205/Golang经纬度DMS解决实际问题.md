@@ -1,7 +1,7 @@
 title: Golang经纬度DMS解决实际问题
 date: 2022-05-30 10:53:00
 toc: false
-index_img: http://api.btstu.cn/sjbz/?lx=m_dongman&cid=7
+index_img: https://puep.qpic.cn/coral/Q3auHgzwzM4fgQ41VTF2rGpUMPpyPrsMm6TJcdtuTd00Qp3a7jkPEg/0
 category:
 - Go
 tags:

@@ -1,7 +1,7 @@
 title: 【转载】Golang编译优化之静态链接
 date: 2022-05-26 14:34:00
 toc: false
-index_img: http://api.btstu.cn/sjbz/?lx=m_dongman&cid=4
+index_img: https://puep.qpic.cn/coral/Q3auHgzwzM4fgQ41VTF2rAOrGvBASaprDnwukcq5GutBULkN9WJT9A/0
 category:
 - Go
 tags:

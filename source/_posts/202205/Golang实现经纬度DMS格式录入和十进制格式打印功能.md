@@ -1,7 +1,7 @@
 title: Golang实现经纬度DMS格式录入和十进制格式打印功能
 date: 2022-05-30 10:53:00
 toc: false
-index_img: http://api.btstu.cn/sjbz/?lx=m_dongman&cid=6
+index_img: https://puep.qpic.cn/coral/Q3auHgzwzM4fgQ41VTF2rPjKPe2MMQJnppZjNiaj9zdRZoYNibBRo1Xw/0
 category:
 - Go
 tags:
