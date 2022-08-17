@@ -41,7 +41,7 @@ tags:
 14. [Xmodel插件](http://product.landray.com.cn/prod/scm/prod_scm_page_config/prodScmPageConfig.do?method=view&fdId=14eaa52c1ea0bb4035e8e2b43c5a128f&s_css=default)
 15. [蓝凌JAVA项目SVN管理规范与使用指引V2.0](http://product.landray.com.cn/prod/scm/prod_scm_page_config/prodScmPageConfig.do?method=view&fdId=15428d7e632f5cfe160f5124a39b81f3&s_css=default)
 16. [临时许可下载（仅限蓝凌员工内部使用，请勿外传！）](http://product.landray.com.cn/prod/scm/downloadLicense.jsp)
-17. [蓝凌机器授权](http://product.landray.com.cn/moduleindex.jsp?nav=/prod/scm/tree.jsp&main=%2Fprod%2Fscm%2Fprod_scm_project%2FprodScmProject.do%3Fmethod%3Dlist%26myProd%3Dtrue%26s_path%3D!%7Bmessage(prod-scm%3AprodScmProject.myProd)%7D&j_module=true)
+17. [蓝凌机器授权](http://product.landray.com.cn/moduleindex.jsp?nav=/prod/scm/tree.jsp&main=%2Fprod%2Fscm%2Fprod_scm_project%2FprodScmProject.do%3Fmethod%3Dlist%26myProd%3Dtrue)
 18. [复用平台](http://mall.landray.com.cn/core01/km/reuse/km_reuse_redevelop/kmReuseRedevelop.do?method=goodsList)
 19. [2021年蓝凌软件二次开发管理制度（试行） - 规范制度](http://java.landray.com.cn/km/institution/km_institution_knowledge/kmInstitutionKnowledge.do?method=view&fdId=177fc4acbec58d6b39b74ee42bab413b&s_css=default)
 
@@ -77,7 +77,7 @@ tags:
 
 如何查询自己的项目是标准产品项目还是定制项目？请点击以下链接查看：
 
-[__http://product.landray.com.cn/prod/scm/prod_scm_page_config/prodScmPageConfig.do?method=view&fdId=158516dfc3e6dd070ad9ff447bfab750__](http://product.landray.com.cn/prod/scm/prod_scm_page_config/prodScmPageConfig.do?method=view&fdId=158516dfc3e6dd070ad9ff447bfab750)
+[http://product.landray.com.cn/prod/scm/prod_scm_page_config/prodScmPageConfig.do?method=view&fdId=158516dfc3e6dd070ad9ff447bfab750](http://product.landray.com.cn/prod/scm/prod_scm_page_config/prodScmPageConfig.do?method=view&fdId=158516dfc3e6dd070ad9ff447bfab750)
 
 升级步骤：
 
@@ -85,11 +85,17 @@ tags:
 2. 上传项目 SVN
 3. 签名部署代码
 
-（推荐）使用升级 ID 在线下载合并代码（只需要下载变更的代码，不需要全包下载）使用说明：[http://product.landray.com.cn/prod/scm/prod_scm_page_config/prodScmPageConfig.do?method=view&fdId=15861707edbff262e97b80e448ba33be](http://product.landray.com.cn/prod/scm/prod_scm_page_config/prodScmPageConfig.do?method=view&fdId=15861707edbff262e97b80e448ba33be)
+（推荐）使用升级 ID 在线下载合并代码（只需要下载变更的代码，不需要全包下载）使用说明：
 
-下载升级包进行合并代码使用说明：[http://product.landray.com.cn/prod/scm/prod_scm_page_config/prodScmPageConfig.do?method=view&fdId=158617923ce99740164d14e4682801ef](http://product.landray.com.cn/prod/scm/prod_scm_page_config/prodScmPageConfig.do?method=view&fdId=158617923ce99740164d14e4682801ef)
+[http://product.landray.com.cn/prod/scm/prod_scm_page_config/prodScmPageConfig.do?method=view&fdId=15861707edbff262e97b80e448ba33be](http://product.landray.com.cn/prod/scm/prod_scm_page_config/prodScmPageConfig.do?method=view&fdId=15861707edbff262e97b80e448ba33be)
 
-PS：签名功能使用说明：[http://product.landray.com.cn/prod/scm/prod_scm_page_config/prodScmPageConfig.do?method=view&fdId=14b72130d670406eb21919f48a0ab7d9](http://product.landray.com.cn/prod/scm/prod_scm_page_config/prodScmPageConfig.do?method=view&fdId=14b72130d670406eb21919f48a0ab7d9)
+下载升级包进行合并代码使用说明：
+
+[http://product.landray.com.cn/prod/scm/prod_scm_page_config/prodScmPageConfig.do?method=view&fdId=158617923ce99740164d14e4682801ef](http://product.landray.com.cn/prod/scm/prod_scm_page_config/prodScmPageConfig.do?method=view&fdId=158617923ce99740164d14e4682801ef)
+
+PS：签名功能使用说明：
+
+[http://product.landray.com.cn/prod/scm/prod_scm_page_config/prodScmPageConfig.do?method=view&fdId=14b72130d670406eb21919f48a0ab7d9](http://product.landray.com.cn/prod/scm/prod_scm_page_config/prodScmPageConfig.do?method=view&fdId=14b72130d670406eb21919f48a0ab7d9)
 
 ---
 
