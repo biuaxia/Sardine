@@ -10,7 +10,7 @@ tags:
 
 > 原文：[golang函数的参数 - Golang技术栈，Golang文章、教程、视频分享！](https://golang-tech-stack.com/tutorial/golang/go-function-args)，本站仅作保存记录及调整排版，不做盈利性质的商业行为。
 
-{tip type="success"}本文有提到指针传递的类型！{/tip}
+> 提示：本文有提到指针传递的类型！
 
 go语言函数可以有0或多个参数，参数需要指定 **数据类型** 。
 
