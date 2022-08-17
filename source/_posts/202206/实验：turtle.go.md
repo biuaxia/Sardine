@@ -1,7 +1,7 @@
 title: 实验：turtle.go
 date: 2022-06-19 20:21:00
 toc: false
-index_img: http://api.btstu.cn/sjbz/?lx=m_dongman&cid=3
+index_img: http://api.btstu.cn/sjbz/?lx=m_dongman&cid=5
 category:
 - Go
 tags:

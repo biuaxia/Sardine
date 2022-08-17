@@ -1,7 +1,7 @@
 title: 【转载】golang函数的参数
 date: 2022-06-17 16:58:00
 toc: false
-index_img: http://api.btstu.cn/sjbz/?lx=m_dongman&cid=3
+index_img: http://api.btstu.cn/sjbz/?lx=m_dongman&cid=4
 category:
 - Go
 tags:
