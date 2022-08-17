@@ -1,7 +1,7 @@
 title: 【转载】寶塔 Linux 面闆 7.7.0 企業版【紀念版】
 date: 2022-05-29 18:56:00
 toc: false
-index_img: http://api.btstu.cn/sjbz/?lx=m_dongman&cid=5
+index_img: http://api.btstu.cn/sjbz/?lx=m_dongman&cid=3
 category:
 - 技巧
 tags:
