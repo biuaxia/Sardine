@@ -1,6 +1,0 @@
-[submodule "themes/minima"]
-	path = themes/minima
-	url = git@git.zhlh6.cn:adisaktijrs/hexo-theme-minima.git
-[submodule "themes/cactus"]
-	path = themes/cactus
-	url = git@git.zhlh6.cn:probberechts/hexo-theme-cactus.git

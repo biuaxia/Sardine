@@ -3,18 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: biuaxia
+title: Hexo
 subtitle: ''
 description: ''
 keywords:
-author: biuaxia
-language: zh-CN
+author: John Doe
+language: en
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://www.biuaxia.cn
-permalink: :year/:month/:day/:hour/:minute/:second.html
+url: http://example.com
+permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -97,16 +97,9 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-# theme: landscape
-# theme: icarus
-# theme: aircloud
-# theme: minima
-# theme: cactus
-theme: fluid
+theme: landscape
 
-# Feed Atom
-# npm install hexo-generator-feed
-feed:
-  type: atom
-  path: atom.xml
-  limit: 30
+# Deployment
+## Docs: https://hexo.io/docs/one-command-deployment
+deploy:
+  type: ''
