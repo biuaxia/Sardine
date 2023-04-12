@@ -1,9 +1,5 @@
 ---
-title: {{ title }} 
-date: {{ date }} 
-toc: true
-category:
- - 
+title: {{ title }}
+date: {{ date }}
 tags:
- - 
 ---
