@@ -2,15 +2,15 @@
 
 ## 沙丁鱼
 
-沙丁鱼（Sardine）是硬骨鱼纲鲱形目鲱科沙丁鱼属、小沙丁鱼属和拟沙丁鱼属及鲱科某些食用鱼类的统称。也指制成油浸鱼罐头的普通鲱（Clupea harengus）以及其它小型的鲱或鲱状鱼。
+该仓库是一个基于Hexo博客框架构建的开源博客项目，旨在提供一个方便、高效、美观的博客搭建解决方案。我们将博客内容以markdown格式存储在该仓库中，并提供了定制化的主题样式，使得用户可以轻松地创建和发布自己的博客。
 
-分享个人学习过程中总结的笔记、知识等。
+作为一个开源项目，我们欢迎广大开发者共同参与其中，提交bug修复、功能改进、新特性实现等贡献。同时，我们也希望通过JetBrains的开源许可证，推动我们的项目更进一步的发展，让更多的人受益并加入到我们的社区中来。
 
 ## sardine
 
-Sardine (Sardine) is the collective name for certain food fish of the genus Sardine, small sardine, and sardine-like fish of the family Herring and Herringidae of the order Scleractinia. It also refers to common herring (Clupea harengus) and other small herring or herring-like fish made into canned fish in oil.
+该仓库是一个基于Hexo博客框架构建的开源博客项目，旨在提供一个方便、高效、美观的博客搭建解决方案。我们将博客内容以markdown格式存储在该仓库中，并提供了定制化的主题样式，使得用户可以轻松地创建和发布自己的博客。
 
-Share notes, knowledge, etc. summarized in the course of personal study.
+作为一个开源项目，我们欢迎广大开发者共同参与其中，提交bug修复、功能改进、新特性实现等贡献。同时，我们也希望通过JetBrains的开源许可证，推动我们的项目更进一步的发展，让更多的人受益并加入到我们的社区中来。
 
 ## TSponsorship list
 
