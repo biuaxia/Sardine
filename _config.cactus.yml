@@ -1,0 +1,187 @@
+##############################################################################
+# Content
+##############################################################################
+
+# Set the page direction to RTL or LTR. default is LTR. (if you set it 'rtl', the 'vazir' font will be loaded.)
+direction: ltr
+# Configure the navigation menu.
+# A pair 'Key: url' will result in a link to 'url' with the name 'Key' in the
+# navigation menu. Optionally, you can add translations for the 'Key' in
+# languages/*.yml
+nav:
+  home: /
+  search: /search
+# 关闭分类入口
+#  category: /categories
+  tag: /tags
+  bookmark: /bookmark
+  links: /links
+  projects: http://github.com/biuaxia/Sardine
+
+# Links to your social media accounts.
+# The keys should correspond to Fontawesome icon names
+# (see https://fontawesome.com/icons?d=gallery&s=brands);
+# only 'mail' is an exception.
+social_links:
+  github: http://github.com/biuaxia
+  mail: mailto:biuaxia@qq.com
+
+# Customize the overview with displaying a tagcloud on the index page.
+# Options: https://hexo.io/docs/helpers.html#tagcloud
+tags_overview: false
+
+# Customize the overview with the most recent blog posts on the index page.
+# Options:
+#   - show_all_posts: whether to show all available posts.
+#   - post_count: whether to show only the x most recent posts.
+#   - sort_updated: sort posts by last modification date instead of creation date.
+posts_overview:
+  show_all_posts: true
+  post_count: 10
+  sort_updated: false
+
+# Customize the archive view.
+# Options:
+#   - sort_updated: sort posts by last modification date instead of creation date.
+# Note: this does not work together with pagination, since the pagination
+# plugin will sort pages by date of creation.
+archive:
+  sort_updated: false
+
+# Customize the article view.
+# Options:
+#   - show_updated: show the last modification date.
+post:
+  show_updated: false
+
+# Customize the copyright years
+# Note: if start_year/end_year not provided, will use current year.
+copyright:
+  start_year: 2012
+  end_year:
+
+##############################################################################
+# Look and Feel
+##############################################################################
+
+# Customize the logo (i.e., the cactus) in the header.
+# Options:
+#   - enabled: whether to show (true) or hide (false) the logo.
+#   - width: width of the logo in pixel units
+#   - height: height of the logo in pixel units
+#   - url: where the logo can be found
+#   - gravatar: whether to use your Gravatar as the logo
+#   - grayout: whether to enable a hover effect on the logo
+logo:
+  enabled: true
+  width: 50
+  height: 50
+  url: /images/Icarus-logo.svg
+  gravatar: false
+  grayout: true
+
+# Customize the favicons.
+# Cactus supports a limited set of the three most important icons:
+#   - desktop: The classic favion.ico file.
+#   - android: A 192x192 PNG file.
+#   - apple:  A 180x180 PNG file.
+# These can be generated with http://realfavicongenerator.net/
+# Options:
+#   - url: where the icon can be found
+#   - gravatar: whether to create a favicon from your Gravatar
+favicon:
+  desktop:
+    url: /images/Icarus-logo.svg
+    gravatar: false
+  android:
+    url: /images/Icarus-logo.svg
+    gravatar: false
+  apple:
+    url: /images/Icarus-logo.svg
+    gravatar: false
+
+# The color scheme that should be used to highlight codeblocks.
+# See source/css/_highlight for a list of all available color schemes.
+# highlight: docco
+
+# Set the color scheme.
+# Available color schemes are 'dark', 'light', 'classic' and 'white'.
+# Alternatively, add your own custom color scheme to source/css/_colors.
+colorscheme: classic
+
+# Maximal width of the page in rem units.
+page_width: 48
+
+
+##############################################################################
+# Miscellaneous
+##############################################################################
+
+# Enable or disable the RSS feed.
+rss: false
+
+# Turn your web pages into graph objects (see http://ogp.me).
+open_graph:
+  fb_app_id:
+  fb_admins:
+  twitter_id:
+  google_plus:
+
+
+##############################################################################
+# Plugins
+##############################################################################
+
+# Enable MathJax support for Latex
+mathjax:
+  enabled: false
+  
+# Fill in your Disqus Comments Shortname to enable Disqus comments.
+disqus:
+  enabled: false
+  shortname: biuaxia-blog
+
+# Fill in your Utterances data to enable Utterances comments
+utterances:
+  enabled: true
+  repo: biuaxia/blog
+  issue_term: pathname
+  label: Comment
+  theme: github-light
+
+# Fill in your Google Analytics tracking ID to enable Google Analytics.
+google_analytics:
+  enabled: true
+  id: G-TEYY0ZMKSN
+
+# Fill in your Baidu Analytics tracking ID to enable Baidu Analytics.
+baidu_analytics:
+  enabled: true
+  id: ff77b69980a49f79d96bbd4fca95f64f
+
+# Fill in your Cloudflare Analytics tracking ID to enable Cloudflare Analytics.
+cloudflare_analytics:
+  enabled: false
+  id: 
+
+# Fill in your Umami Analytics tracking ID to enable Umami Analytics.
+umami_analytics:
+  enabled: false
+  id: 
+  host: 
+
+# Fill in you Gravatar email or hash if you want to use your gravatar as the
+# logo and/or favicons of you website.
+# To generate hash: `$ echo -n "name@email.com" | md5`.
+gravatar:
+  email: biuaxia@qq.com
+  hash: 4a3b7a9629335b71d2a8b99670748941
+
+# loads libraries and styles from CDN instead or relying on local files
+# cdn:
+#   enable: false
+#   jquery: https://cdn.jsdelivr.net/gh/probberechts/hexo-theme-cactus/source/lib/jquery/jquery.min.js
+#   clipboard: https://cdn.jsdelivr.net/gh/probberechts/hexo-theme-cactus/source/lib/clipboard/clipboard.min.js
+#   font_awesome: https://cdn.jsdelivr.net/gh/probberechts/hexo-theme-cactus/source/lib/font-awesome/css/all.min.css
+#   justified_gallery_css: https://cdn.jsdelivr.net/gh/probberechts/hexo-theme-cactus/source/lib/justified-gallery/css/justifiedGallery.min.css
+#   justified_gallery_js: https://cdn.jsdelivr.net/gh/probberechts/hexo-theme-cactus/source/lib/justified-gallery/js/jquery.justifiedGallery.min.js
